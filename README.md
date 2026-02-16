@@ -1,36 +1,157 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Super Easy FTP Static Blog
 
-## Getting Started
+A minimal blog in Markdown. Push your code → Website builds automatically and deploys via FTP. No Node.js required on the server.
 
-First, run the development server:
+## Quick Start (5 Min)
+
+### 1. Fork/clone this repo and develop locally
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm install
+pnpm dev  # http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Configure GitHub Secrets
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+See [AUTO_DEPLOYMENT.md](./AUTO_DEPLOYMENT.md) for detailed guide.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Quick: Add 3 secrets to `https://github.com/YOUR_USER/YOUR_REPO/settings/secrets/actions`:
+- `FTP_SERVER` → `ftp.your-hosting.com`
+- `FTP_USERNAME` → your-username
+- `FTP_PASSWORD` → your-password
 
-## Learn More
+### 3. Done! 🚀
 
-To learn more about Next.js, take a look at the following resources:
+From now on:
+```bash
+# Create a new post
+echo "---
+title: 'My Post'
+date: '2026-02-16'
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Hello!" > content/posts/my-post.md
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Push to git
+git add .
+git commit -m "New post"
+git push
+# → Builds & deploys automatically!
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Creating Blog Posts
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Create a Markdown file in `content/posts/`:
+
+```markdown
+---
+title: "My Post Title"
+date: "2026-02-16"
+---
+
+# Heading
+
+Your content here...
+
+- Markdown works
+- **bold**, *italic*, `code` etc.
+```
+
+**Important:**
+- Filename becomes URL: `my-post.md` → `/blog/my-post`
+- Date format: `YYYY-MM-DD`
+- Title and date in frontmatter required
+
+---
+
+## Local Development
+
+```bash
+# Install dependencies
+pnpm install
+
+# Start dev server
+pnpm dev
+
+# Open http://localhost:3000
+```
+
+---
+
+## Production Build
+
+```bash
+pnpm build
+# Creates static files in /out/
+```
+
+---
+
+## Project Structure
+
+```
+content/posts/          ← Your posts (Markdown)
+app/page.tsx            ← Home (post listing)
+app/blog/[slug]/        ← Blog detail pages
+lib/posts.ts            ← Post logic
+.github/workflows/      ← GitHub Actions (auto-deploy)
+```
+
+---
+
+## Options
+
+### Manual Deployment (without GitHub Actions)
+
+```bash
+pnpm build
+# Upload /out/ content via FTP
+```
+
+### Deploy only from specific branch
+
+Edit `.github/workflows/deploy.yml`:
+```yaml
+on:
+  push:
+    branches:
+      - main  # only main
+```
+
+### Apache .htaccess (pretty URLs)
+
+Copy `.htaccess.example` to `.htaccess` on your server.
+
+---
+
+## FAQ
+
+**Q: Can I use HTML/React in posts?**  
+A: No, Markdown only. Use Tailwind classes in `app/` components for custom styling.
+
+**Q: How many posts can I have?**  
+A: Unlimited. All built at build-time.
+
+**Q: Do I need Node.js on my server?**  
+A: No, everything is static. Just a regular web server (Apache, Nginx, etc.).
+
+**Q: Can I customize the styles?**  
+A: Yes, edit Tailwind classes in `app/page.tsx` and `app/blog/[slug]/page.tsx`.
+
+---
+
+## Tech Stack
+
+- **Next.js 16** - Framework
+- **Markdown** - Posts (gray-matter + remark)
+- **Tailwind CSS** - Styling
+- **GitHub Actions** - Auto-deploy via FTP
+
+---
+
+## License
+
+MIT
+
