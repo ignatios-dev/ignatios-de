@@ -16,6 +16,8 @@ FTP_USERNAME = your-username
 FTP_PASSWORD = your-password
 ```
 
+**Note:** Make sure your FTP credentials have write access to your web root directory!
+
 ### 2. Push code
 
 ```bash
