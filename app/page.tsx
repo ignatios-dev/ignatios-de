@@ -1,38 +1,57 @@
 import Link from "next/link";
-import { getSortedPosts } from "@/lib/posts";
+import { getCategories } from "@/lib/posts";
 
 export default function Home() {
-  const posts = getSortedPosts();
+  const categories = getCategories();
 
   return (
     <div className="min-h-screen bg-white py-12 px-4 sm:px-6 lg:px-8">
-      <div className="mx-auto max-w-2xl">
-        <h1 className="mb-12 text-4xl font-bold text-gray-900">Blog</h1>
+      <div className="mx-auto max-w-6xl">
+        <h1 className="mb-16 text-5xl font-black text-black text-center">Blog</h1>
 
-        {posts.length === 0 ? (
-          <p className="text-gray-500">No posts found.</p>
+        {categories.length === 0 ? (
+          <p className="text-gray-700 text-lg text-center">Keine Beiträge gefunden.</p>
         ) : (
-          <ul className="space-y-8">
-            {posts.map((post) => (
-              <li key={post.slug}>
-                <Link
-                  href={`/blog/${post.slug}`}
-                  className="group"
-                >
-                  <h2 className="text-2xl font-semibold text-gray-900 group-hover:text-blue-600">
-                    {post.title}
-                  </h2>
-                  <time className="block text-sm text-gray-500 mt-2">
-                    {new Date(post.date).toLocaleDateString("de-DE", {
-                      year: "numeric",
-                      month: "long",
-                      day: "numeric",
-                    })}
-                  </time>
-                </Link>
-              </li>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            {categories.map((category) => (
+              <Link
+                key={category.slug}
+                href={`/blog/category/${category.slug}`}
+                className="group"
+              >
+                {/* Minimalistisches Kästchen mit fetten Linien - keine Eckenrundung */}
+                <div className="border-4 border-black p-6 bg-white hover:bg-gray-50 transition-colors cursor-pointer shadow-md hover:shadow-lg h-64 flex flex-col justify-between">
+                  {/* Kategorie-Name - zentral & bold */}
+                  <div className="flex items-center justify-center flex-1">
+                    <h2 className="text-3xl font-black text-black text-center">
+                      {category.name}
+                    </h2>
+                  </div>
+
+                  {/* Trennlinie */}
+                  <div className="border-t-2 border-black my-4"></div>
+
+                  {/* Metadaten - unten */}
+                  <div className="space-y-2 text-center">
+                    <div className="text-sm font-bold text-black">
+                      {category.postCount}{" "}
+                      {category.postCount === 1 ? "Beitrag" : "Beiträge"}
+                    </div>
+                    <div className="text-xs text-gray-700 font-semibold">
+                      {new Date(category.latestDate).toLocaleDateString(
+                        "de-DE",
+                        {
+                          year: "numeric",
+                          month: "short",
+                          day: "numeric",
+                        }
+                      )}
+                    </div>
+                  </div>
+                </div>
+              </Link>
             ))}
-          </ul>
+          </div>
         )}
       </div>
     </div>
