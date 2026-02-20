@@ -15,18 +15,13 @@ export interface Post {
   category: string;
 }
 
-export interface PostMetadata {
+
+export interface PostCard {
   slug: string;
   title: string;
   date: string;
   category: string;
-}
-
-export interface CategoryInfo {
-  name: string;
-  slug: string;
-  postCount: number;
-  latestDate: string;
+  image?: string; // URL zum Bild, falls vorhanden
 }
 
 export async function getPostBySlug(slug: string): Promise<Post> {
@@ -54,55 +49,6 @@ export async function getPostBySlug(slug: string): Promise<Post> {
   };
 }
 
-export function getSortedPosts(): PostMetadata[] {
-  if (!fs.existsSync(postsDirectory)) {
-    return [];
-  }
-
-  const posts: PostMetadata[] = [];
-  const entries = fs.readdirSync(postsDirectory, { withFileTypes: true });
-
-  entries.forEach((entry) => {
-    if (entry.isDirectory()) {
-      // Es ist ein Kategorieordner
-      const categoryPath = path.join(postsDirectory, entry.name);
-      const fileNames = fs.readdirSync(categoryPath);
-
-      fileNames.forEach((fileName) => {
-        if (fileName.endsWith(".md")) {
-          const slug = `${entry.name}/${fileName.replace(/\.md$/, "")}`;
-          const fullPath = path.join(categoryPath, fileName);
-          const fileContents = fs.readFileSync(fullPath, "utf8");
-          const { data } = matter(fileContents);
-
-          posts.push({
-            slug,
-            title: data.title,
-            date: data.date,
-            category: entry.name,
-          });
-        }
-      });
-    } else if (entry.isFile() && entry.name.endsWith(".md")) {
-      // Datei direkt im posts Ordner (legacy support)
-      const slug = entry.name.replace(/\.md$/, "");
-      const fullPath = path.join(postsDirectory, entry.name);
-      const fileContents = fs.readFileSync(fullPath, "utf8");
-      const { data } = matter(fileContents);
-
-      posts.push({
-        slug,
-        title: data.title,
-        date: data.date,
-        category: "all",
-      });
-    }
-  });
-
-  return posts.sort((a, b) =>
-    new Date(b.date).getTime() - new Date(a.date).getTime()
-  );
-}
 
 export function getAllPostSlugs(): string[] {
   if (!fs.existsSync(postsDirectory)) {
@@ -130,78 +76,70 @@ export function getAllPostSlugs(): string[] {
   return slugs;
 }
 
-export function getCategories(): CategoryInfo[] {
+
+// Neue Funktion: Alle Beiträge als einzelne Karten mit Bildinformationen
+export function getPostCards(): PostCard[] {
   if (!fs.existsSync(postsDirectory)) {
     return [];
   }
 
-  const categories: CategoryInfo[] = [];
-  const allCategoryPosts: PostMetadata[] = [];
+  const cards: PostCard[] = [];
   const entries = fs.readdirSync(postsDirectory, { withFileTypes: true });
+
+  // Funktionshilfe: Bilder aus Markdown-Content extrahieren
+  function extractImageFromContent(content: string): string | undefined {
+    // Suche nach Markdown-Bildern: ![alt](path)
+    const markdownImageRegex = /!\[.*?]\((.*?)\)/;
+    const match = content.match(markdownImageRegex);
+    if (match && match[1]) {
+      return match[1];
+    }
+    return undefined;
+  }
 
   entries.forEach((entry) => {
     if (entry.isDirectory()) {
+      // Verarbeite Dateien im Ordner
       const categoryPath = path.join(postsDirectory, entry.name);
       const fileNames = fs.readdirSync(categoryPath);
-      const categoryPosts: PostMetadata[] = [];
 
       fileNames.forEach((fileName) => {
         if (fileName.endsWith(".md")) {
           const fullPath = path.join(categoryPath, fileName);
           const fileContents = fs.readFileSync(fullPath, "utf8");
-          const { data } = matter(fileContents);
+          const { data, content } = matter(fileContents);
 
-          categoryPosts.push({
+          const image = extractImageFromContent(content);
+
+          cards.push({
             slug: `${entry.name}/${fileName.replace(/\.md$/, "")}`,
             title: data.title,
             date: data.date,
             category: entry.name,
+            image,
           });
         }
       });
-
-      if (categoryPosts.length > 0) {
-        const sortedPosts = categoryPosts.sort((a, b) =>
-          new Date(b.date).getTime() - new Date(a.date).getTime()
-        );
-
-        categories.push({
-          name: entry.name.charAt(0).toUpperCase() + entry.name.slice(1),
-          slug: entry.name,
-          postCount: categoryPosts.length,
-          latestDate: sortedPosts[0].date,
-        });
-      }
     } else if (entry.isFile() && entry.name.endsWith(".md")) {
-      // Dateien direkt im posts Ordner
+      // Dateien direkt im posts-Ordner (Root-Ebene)
       const fullPath = path.join(postsDirectory, entry.name);
       const fileContents = fs.readFileSync(fullPath, "utf8");
-      const { data } = matter(fileContents);
+      const { data, content } = matter(fileContents);
 
-      allCategoryPosts.push({
+      const image = extractImageFromContent(content);
+
+      cards.push({
         slug: entry.name.replace(/\.md$/, ""),
         title: data.title,
         date: data.date,
-        category: "all",
+        category: "__root__", // Spezielle Kategorie für Root-Dateien
+        image,
       });
     }
   });
 
-  // Füge "all"-Kategorie hinzu, wenn es Dateien direkt im posts-Ordner gibt
-  if (allCategoryPosts.length > 0) {
-    const sortedPosts = allCategoryPosts.sort((a, b) =>
-      new Date(b.date).getTime() - new Date(a.date).getTime()
-    );
-
-    categories.push({
-      name: "All",
-      slug: "all",
-      postCount: allCategoryPosts.length,
-      latestDate: sortedPosts[0].date,
-    });
-  }
-
-  return categories.sort((a, b) =>
-    new Date(b.latestDate).getTime() - new Date(a.latestDate).getTime()
+  return cards.sort((a, b) =>
+    new Date(b.date).getTime() - new Date(a.date).getTime()
   );
 }
+

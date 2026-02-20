@@ -29,7 +29,7 @@ export default async function BlogPost({
     <div className="min-h-screen bg-white py-12 px-4 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-3xl">
         <Link
-          href={`/blog/category/${post.category}`}
+          href="/"
           className="text-blue-600 hover:text-blue-800 text-sm font-bold mb-8 inline-block"
         >
           ← {config.blog.backButton}
