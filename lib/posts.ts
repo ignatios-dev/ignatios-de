@@ -22,6 +22,10 @@ export interface PostCard {
   date: string;
   category: string;
   image?: string; // URL zum Bild, falls vorhanden
+  links?: Array<{
+    url: string;
+    title: string;
+  }>;
 }
 
 export async function getPostBySlug(slug: string): Promise<Post> {
@@ -110,6 +114,7 @@ export function getPostCards(): PostCard[] {
           const { data, content } = matter(fileContents);
 
           const image = extractImageFromContent(content);
+          const links = data.links || undefined;
 
           cards.push({
             slug: `${entry.name}/${fileName.replace(/\.md$/, "")}`,
@@ -117,6 +122,7 @@ export function getPostCards(): PostCard[] {
             date: data.date,
             category: entry.name,
             image,
+            links,
           });
         }
       });
@@ -127,6 +133,7 @@ export function getPostCards(): PostCard[] {
       const { data, content } = matter(fileContents);
 
       const image = extractImageFromContent(content);
+      const links = data.links || undefined;
 
       cards.push({
         slug: entry.name.replace(/\.md$/, ""),
@@ -134,6 +141,7 @@ export function getPostCards(): PostCard[] {
         date: data.date,
         category: "__root__", // Spezielle Kategorie für Root-Dateien
         image,
+        links,
       });
     }
   });

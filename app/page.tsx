@@ -1,21 +1,83 @@
 import Link from "next/link";
 import { getPostCards } from "@/lib/posts";
 import { getSiteConfig } from "@/lib/config";
+import { LinkThumbnail } from "@/components/LinkThumbnail";
+import { YouTubeVideo } from "@/components/YouTubeVideo";
 
 export default function Home() {
   const posts = getPostCards();
   const config = getSiteConfig();
+
+  // Flaches Array aller Kacheln (Posts + Links)
+  const tiles: Array<{
+    key: string;
+    type: "post" | "link" | "youtube";
+    post?: (typeof posts)[0];
+    link?: { url: string; title: string; date?: string };
+  }> = [];
+
+  posts.forEach((post) => {
+    if (post.links && post.links.length > 0) {
+      // Links von diesem Post hinzufügen
+      post.links.forEach((link, idx) => {
+        const isYouTube = link.url.includes("youtube.com") || link.url.includes("youtu.be");
+        tiles.push({
+          key: `${post.slug}-link-${idx}`,
+          type: isYouTube ? "youtube" : "link",
+          link: {
+            url: link.url,
+            title: link.title,
+            date: post.date,
+          },
+        });
+      });
+    } else {
+      // Post hinzufügen
+      tiles.push({
+        key: post.slug,
+        type: "post",
+        post,
+      });
+    }
+  });
 
   return (
     <div className="min-h-screen bg-white py-12 px-4 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-6xl">
         <h1 className="mb-16 text-5xl font-black text-black text-center">{config.home.heading}</h1>
 
-        {posts.length === 0 ? (
+        {tiles.length === 0 ? (
           <p className="text-gray-700 text-lg text-center">{config.home.emptyMessage}</p>
         ) : (
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 auto-rows-max">
-            {posts.map((post) => {
+            {tiles.map((tile) => {
+              if (tile.type === "youtube") {
+                return (
+                  <YouTubeVideo
+                    key={tile.key}
+                    url={tile.link!.url}
+                    title={tile.link!.title}
+                    date={tile.link!.date}
+                  />
+                );
+              }
+
+              if (tile.type === "link") {
+                return (
+                  <LinkThumbnail
+                    key={tile.key}
+                    link={{
+                      url: tile.link!.url,
+                      title: tile.link!.title,
+                      type: "generic",
+                      date: tile.link!.date,
+                    }}
+                  />
+                );
+              }
+
+              // Post rendern
+              const post = tile.post!;
               const hasImage = !!post.image;
               const categoryDisplay = post.category === "__root__"
                 ? "Allgemein"
@@ -23,7 +85,7 @@ export default function Home() {
 
               return (
                 <Link
-                  key={post.slug}
+                  key={tile.key}
                   href={`/blog/${post.slug}`}
                   className={`group ${hasImage ? "lg:col-span-2 lg:row-span-2" : ""}`}
                 >
