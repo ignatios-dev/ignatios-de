@@ -1,4 +1,5 @@
 import { getSortedPosts } from "@/lib/posts";
+import { getSiteConfig } from "@/lib/config";
 import Link from "next/link";
 
 export function generateStaticParams() {
@@ -17,13 +18,10 @@ export default async function CategoryPage({
 }) {
   const { slug } = await params;
   const posts = getSortedPosts().filter((post) => post.category === slug);
+  const config = getSiteConfig();
 
   const categoryName = slug.charAt(0).toUpperCase() + slug.slice(1);
 
-  // Überprüfe ob ein Beitrag nur ein Bild ist (Frontmatter mit "image" statt "content")
-  const isImagePost = (html: string) => {
-    return html.trim().startsWith('<img') || (html.trim().length < 100 && html.includes('<img'));
-  };
 
   return (
     <div className="min-h-screen bg-white py-12 px-4 sm:px-6 lg:px-8">
@@ -32,17 +30,17 @@ export default async function CategoryPage({
           href="/"
           className="text-blue-600 hover:text-blue-800 text-sm font-bold mb-8 inline-block hover:underline"
         >
-          ← Zurück zur Übersicht
+          ← {config.category.backToOverview}
         </Link>
 
         <h1 className="mb-2 text-5xl font-black text-black">{categoryName}</h1>
         <p className="text-gray-700 mb-12 text-lg font-bold">
-          {posts.length} {posts.length === 1 ? "Beitrag" : "Beiträge"}
+          {posts.length} {posts.length === 1 ? config.category.postCountSingular : config.category.postCountPlural}
         </p>
 
         {posts.length === 0 ? (
           <p className="text-gray-700 text-lg">
-            Keine Beiträge in dieser Kategorie.
+            {config.category.emptyMessage}
           </p>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -69,11 +67,10 @@ export default async function CategoryPage({
 
                     {/* Datum - unten */}
                     <div className="text-sm text-gray-700 font-bold">
-                      {new Date(post.date).toLocaleDateString("de-DE", {
-                        year: "numeric",
-                        month: "long",
-                        day: "numeric",
-                      })}
+                      {new Date(post.date).toLocaleDateString(
+                        config.dateFormat.locale,
+                        config.dateFormat.options as Intl.DateTimeFormatOptions
+                      )}
                     </div>
                   </div>
                 </Link>

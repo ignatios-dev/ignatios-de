@@ -136,6 +136,7 @@ export function getCategories(): CategoryInfo[] {
   }
 
   const categories: CategoryInfo[] = [];
+  const allCategoryPosts: PostMetadata[] = [];
   const entries = fs.readdirSync(postsDirectory, { withFileTypes: true });
 
   entries.forEach((entry) => {
@@ -171,8 +172,34 @@ export function getCategories(): CategoryInfo[] {
           latestDate: sortedPosts[0].date,
         });
       }
+    } else if (entry.isFile() && entry.name.endsWith(".md")) {
+      // Dateien direkt im posts Ordner
+      const fullPath = path.join(postsDirectory, entry.name);
+      const fileContents = fs.readFileSync(fullPath, "utf8");
+      const { data } = matter(fileContents);
+
+      allCategoryPosts.push({
+        slug: entry.name.replace(/\.md$/, ""),
+        title: data.title,
+        date: data.date,
+        category: "all",
+      });
     }
   });
+
+  // Füge "all"-Kategorie hinzu, wenn es Dateien direkt im posts-Ordner gibt
+  if (allCategoryPosts.length > 0) {
+    const sortedPosts = allCategoryPosts.sort((a, b) =>
+      new Date(b.date).getTime() - new Date(a.date).getTime()
+    );
+
+    categories.push({
+      name: "All",
+      slug: "all",
+      postCount: allCategoryPosts.length,
+      latestDate: sortedPosts[0].date,
+    });
+  }
 
   return categories.sort((a, b) =>
     new Date(b.latestDate).getTime() - new Date(a.latestDate).getTime()

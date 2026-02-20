@@ -89,6 +89,43 @@ pnpm build
 
 ---
 
+## Configuration
+
+You can customize all text labels and site settings without touching the code!
+
+### Using the Default Configuration
+
+By default, the site uses `config/site.default.json`. This file is in the repository.
+
+### Creating a Custom Configuration
+
+1. Copy the example file:
+   ```bash
+   cp config/site.json.example config/site.json
+   ```
+
+2. Edit `config/site.json` to customize your text labels:
+   ```json
+   {
+     "site": {
+       "title": "My Custom Blog Title",
+       "description": "My custom description"
+     },
+     "home": {
+       "heading": "Welcome to My Blog"
+     }
+   }
+   ```
+
+3. The custom config will be **merged** with the defaults - you only need to override what you want to change.
+
+**Important:**
+- `config/site.json` is **NOT** checked into git (it's in `.gitignore`)
+- But it **WILL** be deployed via FTP
+- See `config/README.md` for all available options
+
+---
+
 ## Project Structure
 
 ```

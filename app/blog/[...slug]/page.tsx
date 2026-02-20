@@ -1,4 +1,5 @@
 import { getAllPostSlugs, getPostBySlug } from "@/lib/posts";
+import { getSiteConfig } from "@/lib/config";
 import Link from "next/link";
 
 export function generateStaticParams() {
@@ -16,6 +17,7 @@ export default async function BlogPost({
   const { slug } = await params;
   const slugString = slug.join("/");
   const post = await getPostBySlug(slugString);
+  const config = getSiteConfig();
 
   // Überprüfe ob der Beitrag nur aus einem Bild besteht
   const htmlContent = post.html.trim();
@@ -30,7 +32,7 @@ export default async function BlogPost({
           href={`/blog/category/${post.category}`}
           className="text-blue-600 hover:text-blue-800 text-sm font-bold mb-8 inline-block"
         >
-          ← Zurück
+          ← {config.blog.backButton}
         </Link>
 
         {isImageOnlyPost ? (
@@ -42,11 +44,10 @@ export default async function BlogPost({
                 {post.title}
               </h1>
               <time className="text-lg font-bold text-gray-700">
-                {new Date(post.date).toLocaleDateString("de-DE", {
-                  year: "numeric",
-                  month: "long",
-                  day: "numeric",
-                })}
+                {new Date(post.date).toLocaleDateString(
+                  config.dateFormat.locale,
+                  config.dateFormat.options as Intl.DateTimeFormatOptions
+                )}
               </time>
             </header>
 
@@ -66,11 +67,10 @@ export default async function BlogPost({
                 {post.title}
               </h1>
               <time className="text-lg font-bold text-gray-700">
-                {new Date(post.date).toLocaleDateString("de-DE", {
-                  year: "numeric",
-                  month: "long",
-                  day: "numeric",
-                })}
+                {new Date(post.date).toLocaleDateString(
+                  config.dateFormat.locale,
+                  config.dateFormat.options as Intl.DateTimeFormatOptions
+                )}
               </time>
             </header>
 

@@ -1,0 +1,36 @@
+{
+  "site": {
+    "title": "Ignatios.de --- Blog",
+    "description": "Personal blog of Ignatios"
+  },
+  "home": {
+    "heading": "Ignatios.de --- Blog",
+    "emptyMessage": "Keine Beiträge gefunden."
+  },
+  "category": {
+    "backToOverview": "Zurück zur Übersicht",
+    "emptyMessage": "Keine Beiträge in dieser Kategorie.",
+    "postCountSingular": "Beitrag",
+    "postCountPlural": "Beiträge"
+  },
+  "blog": {
+    "backButton": "Zurück"
+  },
+  "dateFormat": {
+    "locale": "de-DE",
+    "options": {
+      "year": "numeric",
+      "month": "long",
+      "day": "numeric"
+    }
+  },
+  "dateFormatShort": {
+    "locale": "de-DE",
+    "options": {
+      "year": "numeric",
+      "month": "short",
+      "day": "numeric"
+    }
+  }
+}
+
