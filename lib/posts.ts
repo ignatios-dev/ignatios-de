@@ -21,7 +21,8 @@ export interface PostCard {
   title: string;
   date: string;
   category: string;
-  image?: string; // URL zum Bild, falls vorhanden
+  image?: string;
+  externalUrl?: string;
   links?: Array<{
     url: string;
     title: string;
@@ -122,6 +123,7 @@ export function getPostCards(): PostCard[] {
             date: data.date,
             category: entry.name,
             image,
+            externalUrl: data.externalUrl,
             links,
           });
         }
@@ -139,8 +141,9 @@ export function getPostCards(): PostCard[] {
         slug: entry.name.replace(/\.md$/, ""),
         title: data.title,
         date: data.date,
-        category: "__root__", // Spezielle Kategorie für Root-Dateien
+        category: "__root__",
         image,
+        externalUrl: data.externalUrl,
         links,
       });
     }

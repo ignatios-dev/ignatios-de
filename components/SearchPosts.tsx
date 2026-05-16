@@ -153,6 +153,7 @@ export function SearchPosts({ posts: allPosts, config }: SearchPostsProps) {
 
             const post = tile.post!;
             const hasImage = !!post.image;
+            const postHref = post.externalUrl || `/blog/${post.slug}`;
             const categoryDisplay =
               post.category === '__root__'
                 ? 'General'
@@ -161,7 +162,7 @@ export function SearchPosts({ posts: allPosts, config }: SearchPostsProps) {
             return (
               <Link
                 key={tile.key}
-                href={`/blog/${post.slug}`}
+                href={postHref}
                 className={`group ${hasImage ? 'lg:col-span-2 lg:row-span-2' : ''}`}
               >
                 {hasImage ? (
