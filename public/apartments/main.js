@@ -45,6 +45,146 @@ for (var i = 0; i < _k.length; i++) { WHATSAPP_NUMBER += _d[_k[i]]; }
     var groupLink = document.getElementById('group-link');
     if (groupLink) { groupLink.href = 'https://' + _gu; }
 
+    // --- Announcement Banner ---
+    var ADMIN_PW = 'oleander2026';
+    var STORAGE_KEY = 'oleander_periods';
+
+    var HARDCODED_PERIODS = [
+        { von: '2026-05-17', bis: '2026-06-14', note: '' }
+    ];
+
+    function getPeriods() {
+        var local = [];
+        try { local = JSON.parse(localStorage.getItem(STORAGE_KEY)) || []; }
+        catch (e) { local = []; }
+        return HARDCODED_PERIODS.concat(local).sort(function (a, b) { return a.von < b.von ? -1 : 1; });
+    }
+
+    function savePeriods(periods) {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(periods));
+    }
+
+    function formatDate(dateStr) {
+        var d = new Date(dateStr + 'T00:00:00');
+        return d.toLocaleDateString('de-DE', { day: 'numeric', month: 'long' });
+    }
+
+    function showBanner() {
+        var periods = getPeriods();
+        var today = new Date().toISOString().slice(0, 10);
+        var active = null;
+
+        for (var i = 0; i < periods.length; i++) {
+            if (periods[i].bis >= today) {
+                active = periods[i];
+                break;
+            }
+        }
+
+        var banner = document.getElementById('announcement');
+        var text = document.getElementById('announcement-text');
+
+        if (active) {
+            var msg = '📅 Iggy ist vom ' + formatDate(active.von) + ' bis ' + formatDate(active.bis) + ' vor Ort — komm vorbei und frag direkt an!';
+            if (active.note) msg += ' ' + active.note;
+            text.textContent = msg;
+            banner.hidden = false;
+        } else {
+            banner.hidden = true;
+        }
+    }
+
+    showBanner();
+
+    // --- Admin Panel ---
+    var adminOverlay = document.getElementById('admin-overlay');
+    var adminLogin = document.getElementById('admin-login');
+    var adminContent = document.getElementById('admin-content');
+    var adminLoggedIn = false;
+
+    document.addEventListener('keydown', function (e) {
+        if (e.shiftKey && e.key === 'A') {
+            adminOverlay.hidden = false;
+            if (adminLoggedIn) renderAdmin();
+        }
+    });
+
+    document.getElementById('admin-close').addEventListener('click', function () {
+        adminOverlay.hidden = true;
+    });
+
+    adminOverlay.addEventListener('click', function (e) {
+        if (e.target === adminOverlay) adminOverlay.hidden = true;
+    });
+
+    document.getElementById('admin-login-btn').addEventListener('click', doLogin);
+    document.getElementById('admin-pw').addEventListener('keydown', function (e) {
+        if (e.key === 'Enter') doLogin();
+    });
+
+    function doLogin() {
+        if (document.getElementById('admin-pw').value === ADMIN_PW) {
+            adminLoggedIn = true;
+            adminLogin.hidden = true;
+            adminContent.hidden = false;
+            renderAdmin();
+        } else {
+            document.getElementById('admin-pw').value = '';
+            document.getElementById('admin-pw').placeholder = 'Falsches Passwort';
+        }
+    }
+
+    function renderAdmin() {
+        var periods = getPeriods();
+        var today = new Date().toISOString().slice(0, 10);
+        var list = document.getElementById('admin-list');
+        list.innerHTML = '';
+
+        if (periods.length === 0) {
+            list.innerHTML = '<p style="opacity:0.5;font-size:0.9rem">Keine Zeiträume eingetragen.</p>';
+            return;
+        }
+
+        periods.forEach(function (p, idx) {
+            var isPast = p.bis < today;
+            var div = document.createElement('div');
+            div.className = 'admin-entry' + (isPast ? ' admin-entry-past' : '');
+            div.innerHTML = '<div><div class="admin-entry-info">' + formatDate(p.von) + ' – ' + formatDate(p.bis) + '</div>' + (p.note ? '<div class="admin-entry-note">' + p.note + '</div>' : '') + '</div><button class="admin-delete" data-idx="' + idx + '">×</button>';
+            list.appendChild(div);
+        });
+
+        list.querySelectorAll('.admin-delete').forEach(function (btn) {
+            btn.addEventListener('click', function () {
+                var idx = parseInt(this.getAttribute('data-idx'));
+                var periods = getPeriods();
+                periods.splice(idx, 1);
+                savePeriods(periods);
+                renderAdmin();
+                showBanner();
+            });
+        });
+    }
+
+    document.getElementById('admin-add-btn').addEventListener('click', function () {
+        var von = document.getElementById('admin-von').value;
+        var bis = document.getElementById('admin-bis').value;
+        var note = document.getElementById('admin-note').value.trim();
+
+        if (!von || !bis || bis < von) return;
+
+        var periods = getPeriods();
+        periods.push({ von: von, bis: bis, note: note });
+        periods.sort(function (a, b) { return a.von < b.von ? -1 : 1; });
+        savePeriods(periods);
+
+        document.getElementById('admin-von').value = '';
+        document.getElementById('admin-bis').value = '';
+        document.getElementById('admin-note').value = '';
+
+        renderAdmin();
+        showBanner();
+    });
+
     // --- Lightbox ---
     const lightbox = document.getElementById('lightbox');
     const lightboxImg = lightbox.querySelector('.lightbox-img');

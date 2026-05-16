@@ -12,6 +12,39 @@
 </head>
 <body>
 
+<!-- ANNOUNCEMENT BANNER -->
+<div class="announcement" id="announcement" hidden>
+    <p id="announcement-text"></p>
+    <a href="#kontakt" class="announcement-cta">Jetzt anfragen</a>
+</div>
+
+<!-- ADMIN PANEL -->
+<div class="admin-overlay" id="admin-overlay" hidden>
+    <div class="admin-panel">
+        <div class="admin-header">
+            <h3>Admin · Zeiträume verwalten</h3>
+            <button class="admin-close" id="admin-close">&times;</button>
+        </div>
+        <div id="admin-login">
+            <input type="password" id="admin-pw" placeholder="Passwort" autocomplete="off">
+            <button class="btn admin-btn" id="admin-login-btn">Einloggen</button>
+        </div>
+        <div id="admin-content" hidden>
+            <div id="admin-list"></div>
+            <div class="admin-add">
+                <h4>Neuen Zeitraum hinzufügen</h4>
+                <div class="admin-row">
+                    <input type="date" id="admin-von">
+                    <span>→</span>
+                    <input type="date" id="admin-bis">
+                </div>
+                <input type="text" id="admin-note" placeholder="Zusatztext (optional)">
+                <button class="btn admin-btn" id="admin-add-btn">Hinzufügen</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- HERO: Fullscreen Video -->
 <section class="hero" id="hero">
     <video class="hero-video" autoplay muted loop playsinline poster="img/PXL_20230824_164607075-EFFECTS.jpg">
