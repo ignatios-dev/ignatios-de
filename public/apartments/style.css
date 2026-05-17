@@ -442,6 +442,54 @@ h1, h2 {
 }
 
 
+/* TRAVEL */
+.travel {
+    padding: 2.5rem 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.travel-inner {
+    max-width: 560px;
+    text-align: center;
+}
+
+.travel h2 {
+    font-size: 1.6rem;
+    margin-bottom: 0.75rem;
+}
+
+.travel p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    opacity: 0.85;
+    margin-bottom: 1.25rem;
+}
+
+.travel-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.btn-small {
+    padding: 0.6rem 1.5rem;
+    font-size: 0.85rem;
+}
+
+.travel-link {
+    font-size: 0.9rem;
+    color: var(--secondary);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.travel-link:hover {
+    text-decoration: underline;
+}
+
 /* Honeypot */
 .honeypot {
     position: absolute;
