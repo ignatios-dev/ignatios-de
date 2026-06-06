@@ -91,6 +91,7 @@ export default async function BlogPost({
                   [&_li]:my-2 [&_li]:text-gray-800
                   [&_blockquote]:border-l-4 [&_blockquote]:border-black [&_blockquote]:pl-4 [&_blockquote]:italic [&_blockquote]:my-4 [&_blockquote]:text-gray-700
                   [&_a]:text-blue-600 [&_a]:font-bold [&_a]:underline hover:[&_a]:text-blue-800
+                  [&_img]:w-full [&_img]:my-8 [&_img]:border-2 [&_img]:border-black [&_img]:shadow-md
                 "
                 dangerouslySetInnerHTML={{ __html: post.html }}
               />
