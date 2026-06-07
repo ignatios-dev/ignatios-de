@@ -185,6 +185,39 @@ for (var i = 0; i < _k.length; i++) { WHATSAPP_NUMBER += _d[_k[i]]; }
         showBanner();
     });
 
+    // --- Article Modals ---
+    document.querySelectorAll('.article-card[data-modal]').forEach(function (card) {
+        card.addEventListener('click', function () {
+            var modalId = this.getAttribute('data-modal');
+            var modal = document.getElementById(modalId);
+            if (modal) {
+                modal.hidden = false;
+                document.body.style.overflow = 'hidden';
+            }
+        });
+    });
+
+    document.querySelectorAll('.article-modal').forEach(function (modal) {
+        modal.querySelector('.article-modal-close').addEventListener('click', function () {
+            modal.hidden = true;
+            document.body.style.overflow = '';
+        });
+
+        modal.querySelector('.article-modal-backdrop').addEventListener('click', function () {
+            modal.hidden = true;
+            document.body.style.overflow = '';
+        });
+    });
+
+    document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') {
+            document.querySelectorAll('.article-modal:not([hidden])').forEach(function (m) {
+                m.hidden = true;
+                document.body.style.overflow = '';
+            });
+        }
+    });
+
     // --- Lightbox ---
     const lightbox = document.getElementById('lightbox');
     const lightboxImg = lightbox.querySelector('.lightbox-img');
