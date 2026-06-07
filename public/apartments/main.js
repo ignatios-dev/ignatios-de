@@ -225,6 +225,7 @@ for (var i = 0; i < _k.length; i++) { WHATSAPP_NUMBER += _d[_k[i]]; }
     document.querySelectorAll('.impression-item').forEach(function (item) {
         item.addEventListener('click', function () {
             const img = this.querySelector('img');
+            if (!img) return;
             lightboxImg.src = img.src;
             lightboxImg.alt = img.alt;
             lightbox.hidden = false;
