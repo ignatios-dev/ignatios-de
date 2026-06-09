@@ -560,7 +560,7 @@ h1, h2 {
     max-width: 540px;
     width: 100%;
     max-height: 85vh;
-    overflow-y: auto;
+    overflow: hidden auto;
     padding: 2rem;
     box-shadow: 0 12px 48px rgba(0, 0, 0, 0.3);
     animation: modal-slide 0.25s ease;
@@ -590,7 +590,9 @@ h1, h2 {
 }
 
 .article-modal-img {
+    display: block;
     width: 100%;
+    max-width: 100%;
     border-radius: 4px;
     margin-bottom: 1.25rem;
     max-height: 300px;
