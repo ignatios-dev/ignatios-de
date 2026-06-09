@@ -313,7 +313,7 @@
         <h2><span class="icon">📲</span> Kontakt</h2>
         <p>Bei Fragen oder Problemen rund um das Apartment — schreib uns einfach per WhatsApp. Wir antworten in der Regel <strong>innerhalb eines Tages</strong>.</p>
         <div class="contact-box">
-            <p class="phone">+49 151 7000 5476</p>
+            <p class="phone" data-p="1"></p>
             <table class="info-table" style="max-width: 280px; margin: 0.75rem auto;">
                 <tr><td>Instagram</td><td><a href="https://instagram.com/oleander.vafios" target="_blank" rel="noopener">@oleander.vafios</a></td></tr>
                 <tr><td>Website</td><td><a href="/apartments/">ignatios.de/apartments</a></td></tr>
@@ -612,7 +612,7 @@
         <h2><span class="icon">📲</span> Contact</h2>
         <p>For any questions or problems regarding the apartment — just send us a WhatsApp. We usually reply <strong>within a day</strong>.</p>
         <div class="contact-box">
-            <p class="phone">+49 151 7000 5476</p>
+            <p class="phone" data-p="1"></p>
             <table class="info-table" style="max-width: 280px; margin: 0.75rem auto;">
                 <tr><td>Instagram</td><td><a href="https://instagram.com/oleander.vafios" target="_blank" rel="noopener">@oleander.vafios</a></td></tr>
                 <tr><td>Website</td><td><a href="/apartments/">ignatios.de/apartments</a></td></tr>
@@ -911,7 +911,7 @@
         <h2><span class="icon">📲</span> Επικοινωνία</h2>
         <p>Για οποιαδήποτε ερώτηση ή πρόβλημα σχετικά με το διαμέρισμα — στείλτε μας WhatsApp. Απαντάμε συνήθως <strong>μέσα σε μία μέρα</strong>.</p>
         <div class="contact-box">
-            <p class="phone">+49 151 7000 5476</p>
+            <p class="phone" data-p="1"></p>
             <table class="info-table" style="max-width: 280px; margin: 0.75rem auto;">
                 <tr><td>Instagram</td><td><a href="https://instagram.com/oleander.vafios" target="_blank" rel="noopener">@oleander.vafios</a></td></tr>
                 <tr><td>Ιστοσελίδα</td><td><a href="/apartments/">ignatios.de/apartments</a></td></tr>
@@ -932,6 +932,9 @@
 </footer>
 
 <script>
+// Phone number (obfuscated)
+(function(){var _d=['4','7','9','0','0','4','0','7','6','1','5','1','5'];var _k=[5,2,9,12,11,1,4,3,6,10,0,7,8];var n='';for(var i=0;i<_k.length;i++){n+=_d[_k[i]];}document.querySelectorAll('[data-p]').forEach(function(el){el.textContent='+'+n.slice(0,2)+' '+n.slice(2,5)+' '+n.slice(5,9)+' '+n.slice(9);});})();
+
 // Language toggle
 document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.addEventListener('click', () => {
