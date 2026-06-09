@@ -29,6 +29,12 @@
         <button class="cat-btn" data-cat="smalltalk">Smalltalk</button>
     </div>
 
+    <!-- Mode Toggle -->
+    <div class="mode-toggle" id="mode-toggle">
+        <button class="mode-btn active" data-mode="words">Wörter</button>
+        <button class="mode-btn" data-mode="sentences">Sätze</button>
+    </div>
+
     <!-- Progress -->
     <div class="progress-bar">
         <div class="progress-fill" id="progress-fill"></div>
@@ -40,10 +46,17 @@
         <div class="card-direction" id="card-direction"></div>
         <div class="card-word" id="card-word"></div>
         <div class="card-phonetic" id="card-phonetic"></div>
+        <div class="card-hint" id="card-hint" hidden></div>
         <button class="speak-btn" id="speak-btn" aria-label="Aussprechen">
             <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
         </button>
     </div>
+
+    <!-- Conjugation (verbs only) -->
+    <details class="conj-section" id="conj-section" hidden>
+        <summary class="conj-toggle">Konjugation anzeigen</summary>
+        <div class="conj-tables" id="conj-tables"></div>
+    </details>
 
     <!-- Answer Area -->
     <div class="answer-area">

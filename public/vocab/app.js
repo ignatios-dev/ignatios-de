@@ -114,10 +114,155 @@ var WORDS = [
     { gr: 'Ela!', el: 'Έλα!', de: 'Komm! / Hey!', cat: 'smalltalk' },
     { gr: 'Siga siga', el: 'Σιγά σιγά', de: 'Langsam langsam', cat: 'smalltalk' },
     { gr: 'Opa!', el: 'Ωπα!', de: 'Opa! (Ausruf der Freude)', cat: 'smalltalk' },
+
+    // VERBEN
+    { gr: 'Ime', el: 'Είμαι', de: 'sein', cat: 'alltag', verb: true, conj: {
+        present: ['είμαι','είσαι','είναι','είμαστε','είστε','είναι'],
+        past: ['ήμουν','ήσουν','ήταν','ήμασταν','ήσασταν','ήταν'],
+        future: ['θα είμαι','θα είσαι','θα είναι','θα είμαστε','θα είστε','θα είναι']
+    }},
+    { gr: 'Echo', el: 'Έχω', de: 'haben', cat: 'alltag', verb: true, conj: {
+        present: ['έχω','έχεις','έχει','έχουμε','έχετε','έχουν'],
+        past: ['είχα','είχες','είχε','είχαμε','είχατε','είχαν'],
+        future: ['θα έχω','θα έχεις','θα έχει','θα έχουμε','θα έχετε','θα έχουν']
+    }},
+    { gr: 'Thelo', el: 'Θέλω', de: 'wollen', cat: 'alltag', verb: true, conj: {
+        present: ['θέλω','θέλεις','θέλει','θέλουμε','θέλετε','θέλουν'],
+        past: ['ήθελα','ήθελες','ήθελε','θέλαμε','θέλατε','ήθελαν'],
+        future: ['θα θέλω','θα θέλεις','θα θέλει','θα θέλουμε','θα θέλετε','θα θέλουν']
+    }},
+    { gr: 'Boro', el: 'Μπορώ', de: 'können', cat: 'alltag', verb: true, conj: {
+        present: ['μπορώ','μπορείς','μπορεί','μπορούμε','μπορείτε','μπορούν'],
+        past: ['μπορούσα','μπορούσες','μπορούσε','μπορούσαμε','μπορούσατε','μπορούσαν'],
+        future: ['θα μπορώ','θα μπορείς','θα μπορεί','θα μπορούμε','θα μπορείτε','θα μπορούν']
+    }},
+    { gr: 'Pao', el: 'Πάω', de: 'gehen', cat: 'reise', verb: true, conj: {
+        present: ['πάω','πας','πάει','πάμε','πάτε','πάνε'],
+        past: ['πήγα','πήγες','πήγε','πήγαμε','πήγατε','πήγαν'],
+        future: ['θα πάω','θα πας','θα πάει','θα πάμε','θα πάτε','θα πάνε']
+    }},
+    { gr: 'Erchomai', el: 'Έρχομαι', de: 'kommen', cat: 'reise', verb: true, conj: {
+        present: ['έρχομαι','έρχεσαι','έρχεται','ερχόμαστε','έρχεστε','έρχονται'],
+        past: ['ήρθα','ήρθες','ήρθε','ήρθαμε','ήρθατε','ήρθαν'],
+        future: ['θα έρθω','θα έρθεις','θα έρθει','θα έρθουμε','θα έρθετε','θα έρθουν']
+    }},
+    { gr: 'Troo', el: 'Τρώω', de: 'essen', cat: 'essen', verb: true, conj: {
+        present: ['τρώω','τρως','τρώει','τρώμε','τρώτε','τρώνε'],
+        past: ['έφαγα','έφαγες','έφαγε','φάγαμε','φάγατε','έφαγαν'],
+        future: ['θα φάω','θα φας','θα φάει','θα φάμε','θα φάτε','θα φάνε']
+    }},
+    { gr: 'Pino', el: 'Πίνω', de: 'trinken', cat: 'essen', verb: true, conj: {
+        present: ['πίνω','πίνεις','πίνει','πίνουμε','πίνετε','πίνουν'],
+        past: ['ήπια','ήπιες','ήπιε','ήπιαμε','ήπιατε','ήπιαν'],
+        future: ['θα πιω','θα πιεις','θα πιει','θα πιούμε','θα πιείτε','θα πιουν']
+    }},
+    { gr: 'Milao', el: 'Μιλάω', de: 'sprechen', cat: 'smalltalk', verb: true, conj: {
+        present: ['μιλάω','μιλάς','μιλάει','μιλάμε','μιλάτε','μιλάνε'],
+        past: ['μίλησα','μίλησες','μίλησε','μιλήσαμε','μιλήσατε','μίλησαν'],
+        future: ['θα μιλήσω','θα μιλήσεις','θα μιλήσει','θα μιλήσουμε','θα μιλήσετε','θα μιλήσουν']
+    }},
+    { gr: 'Katalaveno', el: 'Καταλαβαίνω', de: 'verstehen', cat: 'smalltalk', verb: true, conj: {
+        present: ['καταλαβαίνω','καταλαβαίνεις','καταλαβαίνει','καταλαβαίνουμε','καταλαβαίνετε','καταλαβαίνουν'],
+        past: ['κατάλαβα','κατάλαβες','κατάλαβε','καταλάβαμε','καταλάβατε','κατάλαβαν'],
+        future: ['θα καταλάβω','θα καταλάβεις','θα καταλάβει','θα καταλάβουμε','θα καταλάβετε','θα καταλάβουν']
+    }},
+    { gr: 'Agapo', el: 'Αγαπώ', de: 'lieben', cat: 'smalltalk', verb: true, conj: {
+        present: ['αγαπώ','αγαπάς','αγαπάει','αγαπάμε','αγαπάτε','αγαπάνε'],
+        past: ['αγάπησα','αγάπησες','αγάπησε','αγαπήσαμε','αγαπήσατε','αγάπησαν'],
+        future: ['θα αγαπήσω','θα αγαπήσεις','θα αγαπήσει','θα αγαπήσουμε','θα αγαπήσετε','θα αγαπήσουν']
+    }},
+    { gr: 'Doulévo', el: 'Δουλεύω', de: 'arbeiten', cat: 'alltag', verb: true, conj: {
+        present: ['δουλεύω','δουλεύεις','δουλεύει','δουλεύουμε','δουλεύετε','δουλεύουν'],
+        past: ['δούλεψα','δούλεψες','δούλεψε','δουλέψαμε','δουλέψατε','δούλεψαν'],
+        future: ['θα δουλέψω','θα δουλέψεις','θα δουλέψει','θα δουλέψουμε','θα δουλέψετε','θα δουλέψουν']
+    }},
+    { gr: 'Kano', el: 'Κάνω', de: 'machen / tun', cat: 'alltag', verb: true, conj: {
+        present: ['κάνω','κάνεις','κάνει','κάνουμε','κάνετε','κάνουν'],
+        past: ['έκανα','έκανες','έκανε','κάναμε','κάνατε','έκαναν'],
+        future: ['θα κάνω','θα κάνεις','θα κάνει','θα κάνουμε','θα κάνετε','θα κάνουν']
+    }},
+    { gr: 'Vlepo', el: 'Βλέπω', de: 'sehen', cat: 'alltag', verb: true, conj: {
+        present: ['βλέπω','βλέπεις','βλέπει','βλέπουμε','βλέπετε','βλέπουν'],
+        past: ['είδα','είδες','είδε','είδαμε','είδατε','είδαν'],
+        future: ['θα δω','θα δεις','θα δει','θα δούμε','θα δείτε','θα δουν']
+    }},
+    { gr: 'Akouo', el: 'Ακούω', de: 'hören', cat: 'alltag', verb: true, conj: {
+        present: ['ακούω','ακούς','ακούει','ακούμε','ακούτε','ακούνε'],
+        past: ['άκουσα','άκουσες','άκουσε','ακούσαμε','ακούσατε','άκουσαν'],
+        future: ['θα ακούσω','θα ακούσεις','θα ακούσει','θα ακούσουμε','θα ακούσετε','θα ακούσουν']
+    }},
+    { gr: 'Xero', el: 'Ξέρω', de: 'wissen', cat: 'alltag', verb: true, conj: {
+        present: ['ξέρω','ξέρεις','ξέρει','ξέρουμε','ξέρετε','ξέρουν'],
+        past: ['ήξερα','ήξερες','ήξερε','ξέραμε','ξέρατε','ήξεραν'],
+        future: ['θα ξέρω','θα ξέρεις','θα ξέρει','θα ξέρουμε','θα ξέρετε','θα ξέρουν']
+    }},
+    { gr: 'Magirevo', el: 'Μαγειρεύω', de: 'kochen', cat: 'essen', verb: true, conj: {
+        present: ['μαγειρεύω','μαγειρεύεις','μαγειρεύει','μαγειρεύουμε','μαγειρεύετε','μαγειρεύουν'],
+        past: ['μαγείρεψα','μαγείρεψες','μαγείρεψε','μαγειρέψαμε','μαγειρέψατε','μαγείρεψαν'],
+        future: ['θα μαγειρέψω','θα μαγειρέψεις','θα μαγειρέψει','θα μαγειρέψουμε','θα μαγειρέψετε','θα μαγειρέψουν']
+    }},
+];
+
+// ── Sentences ──
+var SENTENCES = [
+    // ALLTAG
+    { de: 'Guten Morgen, wie geht es dir?', el: 'Καλημέρα, τι κάνεις;', gr: 'Kalimera, ti kanis?', hint: 'Καλημέρα + Τι κάνεις', cat: 'alltag' },
+    { de: 'Danke, mir geht es gut.', el: 'Ευχαριστώ, καλά είμαι.', gr: 'Efcharisto, kala ime.', hint: 'Ευχαριστώ + Καλά', cat: 'alltag' },
+    { de: 'Ja, das Haus ist sehr groß.', el: 'Ναι, το σπίτι είναι πολύ μεγάλο.', gr: 'Ne, to spiti ine poli megalo.', hint: 'Ναι + Σπίτι + Πολύ + Μεγάλο', cat: 'alltag' },
+    { de: 'Entschuldigung, wo ist die Straße?', el: 'Συγγνώμη, πού είναι ο δρόμος;', gr: 'Signomi, pou ine o dromos?', hint: 'Συγγνώμη + Δρόμος', cat: 'alltag' },
+    { de: 'Heute ist es sehr heiß.', el: 'Σήμερα είναι πολύ ζέστη.', gr: 'Simera ine poli zesti.', hint: 'Σήμερα + Πολύ + Ζέστη', cat: 'alltag' },
+    { de: 'Morgen will ich arbeiten.', el: 'Αύριο θέλω να δουλέψω.', gr: 'Avrio thelo na doulepso.', hint: 'Αύριο + Θέλω + Δουλεύω', cat: 'alltag' },
+    { de: 'Die Kinder sind meine Freunde.', el: 'Τα παιδιά είναι φίλοι μου.', gr: 'Ta pedia ine filoi mou.', hint: 'Παιδιά + Φίλοι', cat: 'alltag' },
+    { de: 'Ich habe kein Geld.', el: 'Δεν έχω λεφτά.', gr: 'Den echo lefta.', hint: 'Έχω + Λεφτά', cat: 'alltag' },
+    { de: 'Ich kann das nicht machen.', el: 'Δεν μπορώ να το κάνω.', gr: 'Den boro na to kano.', hint: 'Μπορώ + Κάνω', cat: 'alltag' },
+    { de: 'Ich weiß es nicht.', el: 'Δεν ξέρω.', gr: 'Den xero.', hint: 'Ξέρω', cat: 'alltag' },
+    { de: 'Gestern war es kalt.', el: 'Χθες ήταν κρύο.', gr: 'Chthes itan krio.', hint: 'Χθες + Κρύο', cat: 'alltag' },
+
+    // ESSEN
+    { de: 'Ich möchte Brot und Käse, bitte.', el: 'Θέλω ψωμί και τυρί, παρακαλώ.', gr: 'Thelo psomi ke tiri, parakalo.', hint: 'Θέλω + Ψωμί + Τυρί + Παρακαλώ', cat: 'essen' },
+    { de: 'Der Kaffee ist sehr gut.', el: 'Ο καφές είναι πολύ καλός.', gr: 'O kafes ine poli kalos.', hint: 'Καφές + Πολύ + Καλό', cat: 'essen' },
+    { de: 'Kann ich Wasser trinken?', el: 'Μπορώ να πιω νερό;', gr: 'Boro na pio nero?', hint: 'Μπορώ + Πίνω + Νερό', cat: 'essen' },
+    { de: 'Die Tomaten und die Oliven sind frisch.', el: 'Οι ντομάτες και οι ελιές είναι φρέσκες.', gr: 'I domates ke i elies ine freskes.', hint: 'Ντομάτες + Ελιές', cat: 'essen' },
+    { de: 'Wir essen Fisch mit Salat.', el: 'Τρώμε ψάρι με σαλάτα.', gr: 'Trome psari me salata.', hint: 'Τρώω + Ψάρι + Σαλάτα', cat: 'essen' },
+    { de: 'Auf unsere Gesundheit!', el: 'Στην υγεία μας!', gr: 'Stin ijia mas!', hint: 'Στην υγεία μας', cat: 'essen' },
+    { de: 'Ich koche mit Olivenöl und Knoblauch.', el: 'Μαγειρεύω με λάδι και σκόρδο.', gr: 'Magirevo me ladi ke skordo.', hint: 'Μαγειρεύω + Λάδι + Σκόρδο', cat: 'essen' },
+    { de: 'Die Rechnung, bitte.', el: 'Τον λογαριασμό, παρακαλώ.', gr: 'Ton logariasmo, parakalo.', hint: 'Λογαριασμό + Παρακαλώ', cat: 'essen' },
+    { de: 'Das Hähnchen mit Kartoffeln ist gut.', el: 'Το κοτόπουλο με πατάτες είναι καλό.', gr: 'To kotopoulo me patates ine kalo.', hint: 'Κοτόπουλο + Πατάτες + Καλό', cat: 'essen' },
+    { de: 'Ich trinke Wein und esse Bauernsalat.', el: 'Πίνω κρασί και τρώω χωριάτικη.', gr: 'Pino krasi ke troo horiatiki.', hint: 'Πίνω + Κρασί + Τρώω + Χωριάτικη', cat: 'essen' },
+
+    // REISE
+    { de: 'Wo ist der Strand?', el: 'Πού είναι η παραλία;', gr: 'Pou ine i paralia?', hint: 'Πού είναι + Παραλία', cat: 'reise' },
+    { de: 'Der Hafen ist links.', el: 'Το λιμάνι είναι αριστερά.', gr: 'To limani ine aristera.', hint: 'Λιμάνι + Αριστερά', cat: 'reise' },
+    { de: 'Wie viel kostet das Ticket?', el: 'Πόσο κάνει το εισιτήριο;', gr: 'Poso kani to eisitirio?', hint: 'Πόσο κάνει + Εισιτήριο', cat: 'reise' },
+    { de: 'Die Apotheke ist nah, geradeaus.', el: 'Το φαρμακείο είναι κοντά, ευθεία.', gr: 'To farmakio ine konda, efthia.', hint: 'Φαρμακείο + Κοντά + Ευθεία', cat: 'reise' },
+    { de: 'Ich gehe zum Meer.', el: 'Πάω στη θάλασσα.', gr: 'Pao sti thalassa.', hint: 'Πάω + Θάλασσα', cat: 'reise' },
+    { de: 'Das Hotel ist weit.', el: 'Το ξενοδοχείο είναι μακριά.', gr: 'To xenodochio ine makria.', hint: 'Ξενοδοχείο + Μακριά', cat: 'reise' },
+    { de: 'Zwei Zimmer, bitte.', el: 'Δύο δωμάτια, παρακαλώ.', gr: 'Dio domatia, parakalo.', hint: 'Δύο + Δωμάτιο + Παρακαλώ', cat: 'reise' },
+    { de: 'Wir kommen morgen zum Flughafen.', el: 'Ερχόμαστε αύριο στο αεροδρόμιο.', gr: 'Erchomaste avrio sto aerodromio.', hint: 'Έρχομαι + Αύριο + Αεροδρόμιο', cat: 'reise' },
+
+    // NATUR
+    { de: 'Die Sonne und das Meer sind schön.', el: 'Ο ήλιος και η θάλασσα είναι ωραία.', gr: 'O ilios ke i thalassa ine oraia.', hint: 'Ήλιος + Θάλασσα + Ωραία', cat: 'natur' },
+    { de: 'Die Ziege ist unter dem Olivenbaum.', el: 'Η κατσίκα είναι κάτω από την ελιά.', gr: 'I katsika ine kato apo tin elia.', hint: 'Κατσίκα + Ελιά', cat: 'natur' },
+    { de: 'Ich sehe die Sterne und den Mond.', el: 'Βλέπω τα αστέρια και το φεγγάρι.', gr: 'Vlepo ta asteria ke to fengari.', hint: 'Βλέπω + Αστέρια + Φεγγάρι', cat: 'natur' },
+    { de: 'Der Wind ist heute stark.', el: 'Ο άνεμος είναι σήμερα δυνατός.', gr: 'O anemos ine simera dinatos.', hint: 'Άνεμος + Σήμερα', cat: 'natur' },
+    { de: 'Das Dorf ist auf dem Berg.', el: 'Το χωριό είναι στο βουνό.', gr: 'To chorio ine sto vouno.', hint: 'Χωριό + Βουνό', cat: 'natur' },
+    { de: 'Die Insel hat viele Blumen und Bäume.', el: 'Το νησί έχει πολλά λουλούδια και δέντρα.', gr: 'To nisi echi polla louloudia ke dentra.', hint: 'Νησί + Έχω + Λουλούδι + Δέντρο', cat: 'natur' },
+    { de: 'Die Katze und der Hund schlafen.', el: 'Η γάτα και ο σκύλος κοιμούνται.', gr: 'I gata ke o skilos kimounte.', hint: 'Γάτα + Σκύλος', cat: 'natur' },
+
+    // SMALLTALK
+    { de: 'Wie heißt du? Ich heiße Ignatios.', el: 'Πως σε λένε; Με λένε Ιγνάτιος.', gr: 'Pos se lene? Me lene Ignatios.', hint: 'Πως σε λένε + Με λένε', cat: 'smalltalk' },
+    { de: 'Ich komme aus Deutschland.', el: 'Είμαι από τη Γερμανία.', gr: 'Ime apo ti Germania.', hint: 'Είμαι + Γερμανία', cat: 'smalltalk' },
+    { de: 'Ich verstehe nicht, sprechen Sie Deutsch?', el: 'Δεν καταλαβαίνω, μιλάτε γερμανικά;', gr: 'Den katalaveno, milate germanika?', hint: 'Καταλαβαίνω + Μιλάω', cat: 'smalltalk' },
+    { de: 'Alles okay, langsam langsam.', el: 'Εντάξει, σιγά σιγά.', gr: 'Endaxi, siga siga.', hint: 'Εντάξει + Σιγά σιγά', cat: 'smalltalk' },
+    { de: 'Komm, es ist schön hier!', el: 'Έλα, είναι ωραία εδώ!', gr: 'Ela, ine oraia edo!', hint: 'Έλα + Ωραία', cat: 'smalltalk' },
+    { de: 'Prost! Ich liebe Griechenland.', el: 'Γεια μας! Αγαπώ την Ελλάδα.', gr: 'Jamas! Agapo tin Ellada.', hint: 'Γεια μας + Αγαπώ', cat: 'smalltalk' },
+    { de: 'Guten Abend, wie geht es Ihnen?', el: 'Καλησπέρα, τι κάνετε;', gr: 'Kalispera, ti kanete?', hint: 'Καλησπέρα + Κάνω', cat: 'smalltalk' },
+    { de: 'Gute Nacht, bis morgen.', el: 'Καληνύχτα, τα λέμε αύριο.', gr: 'Kalinichta, ta leme avrio.', hint: 'Καληνύχτα + Αύριο', cat: 'smalltalk' },
 ];
 
 // ── State ──
 var STORAGE_KEY = 'vocab_progress';
+var currentMode = 'words'; // 'words' or 'sentences'
 var currentCat = 'all';
 var currentWord = null;
 var currentDirection = null; // 'gr2de' or 'de2gr'
@@ -140,35 +285,48 @@ function saveProgress() {
     localStorage.setItem(STORAGE_KEY, JSON.stringify({ stats: stats, mastered: mastered }));
 }
 
-// ── Filtered words ──
+// ── Filtered items ──
 function getFilteredWords() {
-    if (currentCat === 'all') return WORDS;
-    return WORDS.filter(function (w) { return w.cat === currentCat; });
+    var source = currentMode === 'sentences' ? SENTENCES : WORDS;
+    if (currentCat === 'all') return source;
+    return source.filter(function (w) { return w.cat === currentCat; });
 }
 
 function getWordIndex(word) {
-    return WORDS.indexOf(word);
+    var source = currentMode === 'sentences' ? SENTENCES : WORDS;
+    return source.indexOf(word);
+}
+
+function getMasteryKey(word) {
+    var prefix = currentMode === 'sentences' ? 's_' : 'w_';
+    var source = currentMode === 'sentences' ? SENTENCES : WORDS;
+    return prefix + source.indexOf(word);
 }
 
 // ── Pick next word ──
 function pickWord() {
     var pool = getFilteredWords();
-    // Prefer words not yet mastered (< 3 correct)
+    // Prefer items not yet mastered (< 3 correct)
     var unmastered = pool.filter(function (w) {
-        var idx = getWordIndex(w);
-        return !mastered[idx] || mastered[idx] < 3;
+        var key = getMasteryKey(w);
+        return !mastered[key] || mastered[key] < 3;
     });
 
     var source = unmastered.length > 0 ? unmastered : pool;
     var word = source[Math.floor(Math.random() * source.length)];
 
-    // Avoid repeating the same word
+    // Avoid repeating the same item
     if (source.length > 1 && word === currentWord) {
         return pickWord();
     }
 
     currentWord = word;
-    currentDirection = Math.random() < 0.5 ? 'gr2de' : 'de2gr';
+    // Sentences always show de→gr direction
+    if (currentMode === 'sentences') {
+        currentDirection = Math.random() < 0.5 ? 'gr2de' : 'de2gr';
+    } else {
+        currentDirection = Math.random() < 0.5 ? 'gr2de' : 'de2gr';
+    }
     answered = false;
     render();
 }
@@ -178,21 +336,38 @@ function render() {
     var dirEl = document.getElementById('card-direction');
     var wordEl = document.getElementById('card-word');
     var phoneticEl = document.getElementById('card-phonetic');
+    var hintEl = document.getElementById('card-hint');
+    var cardEl = document.getElementById('card');
     var input = document.getElementById('answer-input');
     var feedback = document.getElementById('feedback');
     var nextBtn = document.getElementById('next-btn');
     var checkBtn = document.getElementById('check-btn');
 
+    // Sentence mode styling
+    if (currentMode === 'sentences') {
+        cardEl.classList.add('sentence-mode');
+    } else {
+        cardEl.classList.remove('sentence-mode');
+    }
+
     if (currentDirection === 'gr2de') {
-        dirEl.textContent = 'Griechisch → Deutsch';
+        dirEl.textContent = currentMode === 'sentences' ? 'Übersetze ins Deutsche' : 'Griechisch → Deutsch';
         wordEl.textContent = currentWord.el;
         phoneticEl.textContent = currentWord.gr;
         input.placeholder = 'Deutsche Übersetzung...';
     } else {
-        dirEl.textContent = 'Deutsch → Griechisch';
+        dirEl.textContent = currentMode === 'sentences' ? 'Übersetze ins Griechische' : 'Deutsch → Griechisch';
         wordEl.textContent = currentWord.de;
         phoneticEl.textContent = '';
-        input.placeholder = 'Griechisch (Lautschrift okay)...';
+        input.placeholder = currentMode === 'sentences' ? 'Griechische Übersetzung...' : 'Griechisch (Lautschrift okay)...';
+    }
+
+    // Show hint for sentences
+    if (currentMode === 'sentences' && currentWord.hint) {
+        hintEl.textContent = 'Vokabeln: ' + currentWord.hint;
+        hintEl.hidden = false;
+    } else {
+        hintEl.hidden = true;
     }
 
     input.value = '';
@@ -201,23 +376,64 @@ function render() {
     feedback.hidden = true;
     feedback.className = 'feedback';
     nextBtn.hidden = true;
+    nextBtn.innerHTML = currentMode === 'sentences' ? 'Nächster Satz &rarr;' : 'Nächstes Wort &rarr;';
     checkBtn.hidden = false;
     input.focus();
 
+    // Conjugation section (only in word mode)
+    renderConjugation();
+
     updateProgress();
+}
+
+var PERSONS = ['εγώ', 'εσύ', 'αυτός/ή/ό', 'εμείς', 'εσείς', 'αυτοί/ές/ά'];
+var TENSE_LABELS = { present: 'Ενεστώτας (Präsens)', past: 'Αόριστος (Vergangenheit)', future: 'Μέλλοντας (Zukunft)' };
+
+function renderConjugation() {
+    var section = document.getElementById('conj-section');
+    var tables = document.getElementById('conj-tables');
+
+    if (!currentWord || !currentWord.verb || !currentWord.conj) {
+        section.hidden = true;
+        section.removeAttribute('open');
+        return;
+    }
+
+    section.hidden = false;
+    section.removeAttribute('open');
+
+    var html = '';
+    var tenses = ['present', 'past', 'future'];
+    for (var t = 0; t < tenses.length; t++) {
+        var tense = tenses[t];
+        var forms = currentWord.conj[tense];
+        if (!forms) continue;
+
+        html += '<div class="conj-tense">';
+        html += '<div class="conj-tense-label">' + TENSE_LABELS[tense] + '</div>';
+        html += '<div class="conj-grid">';
+        for (var p = 0; p < PERSONS.length; p++) {
+            html += '<span class="conj-person">' + PERSONS[p] + '</span>';
+            html += '<span class="conj-form">' + forms[p] + '</span>';
+        }
+        html += '</div></div>';
+    }
+
+    tables.innerHTML = html;
 }
 
 function updateProgress() {
     var pool = getFilteredWords();
     var done = 0;
     pool.forEach(function (w) {
-        var idx = getWordIndex(w);
-        if (mastered[idx] && mastered[idx] >= 3) done++;
+        var key = getMasteryKey(w);
+        if (mastered[key] && mastered[key] >= 3) done++;
     });
 
     var pct = pool.length > 0 ? (done / pool.length) * 100 : 0;
     document.getElementById('progress-fill').style.width = pct + '%';
-    document.getElementById('progress-text').textContent = done + ' / ' + pool.length + ' gelernt';
+    var label = currentMode === 'sentences' ? ' Sätze gelernt' : ' gelernt';
+    document.getElementById('progress-text').textContent = done + ' / ' + pool.length + label;
 }
 
 function updateStats() {
@@ -246,7 +462,16 @@ function checkAnswer() {
     var correct;
     var expected;
 
-    if (currentDirection === 'gr2de') {
+    if (currentMode === 'sentences') {
+        if (currentDirection === 'gr2de') {
+            expected = currentWord.de;
+            correct = isSentenceMatch(guess, expected);
+        } else {
+            expected = currentWord.el;
+            correct = isSentenceMatch(guess, currentWord.el) || isSentenceMatch(guess, currentWord.gr);
+            if (!correct) expected = currentWord.el + '\n(' + currentWord.gr + ')';
+        }
+    } else if (currentDirection === 'gr2de') {
         expected = currentWord.de;
         correct = isMatch(guess, expected);
     } else {
@@ -262,6 +487,8 @@ function checkAnswer() {
     var checkBtn = document.getElementById('check-btn');
     var nextBtn = document.getElementById('next-btn');
 
+    var key = getMasteryKey(currentWord);
+
     if (correct) {
         input.className = 'correct';
         feedback.className = 'feedback is-correct';
@@ -271,8 +498,7 @@ function checkAnswer() {
         stats.correct++;
         stats.streak++;
 
-        var idx = getWordIndex(currentWord);
-        mastered[idx] = (mastered[idx] || 0) + 1;
+        mastered[key] = (mastered[key] || 0) + 1;
     } else {
         input.className = 'wrong';
         feedback.className = 'feedback is-wrong';
@@ -283,8 +509,7 @@ function checkAnswer() {
         stats.streak = 0;
 
         // Reset mastery on wrong
-        var idx2 = getWordIndex(currentWord);
-        if (mastered[idx2]) mastered[idx2] = Math.max(0, mastered[idx2] - 1);
+        if (mastered[key]) mastered[key] = Math.max(0, mastered[key] - 1);
     }
 
     feedback.hidden = false;
@@ -320,6 +545,19 @@ function isMatch(guess, answer) {
     // Levenshtein for close matches (allow 1 char off for words > 4 chars)
     if (g.length > 4 && levenshtein(g, a) <= 1) return true;
     if (g.length > 4 && levenshtein(g, normalize(core)) <= 1) return true;
+
+    return false;
+}
+
+function isSentenceMatch(guess, answer) {
+    var g = normalize(guess);
+    var a = normalize(answer);
+
+    if (g === a) return true;
+
+    // Allow proportional typo tolerance: 1 error per 10 chars, minimum 2
+    var maxDist = Math.max(2, Math.floor(a.length / 10));
+    if (levenshtein(g, a) <= maxDist) return true;
 
     return false;
 }
@@ -433,6 +671,17 @@ function startListening() {
             window.speechSynthesis.getVoices();
         };
     }
+
+    // Mode toggle
+    document.getElementById('mode-toggle').addEventListener('click', function (e) {
+        var btn = e.target.closest('.mode-btn');
+        if (!btn) return;
+
+        document.querySelectorAll('.mode-btn').forEach(function (b) { b.classList.remove('active'); });
+        btn.classList.add('active');
+        currentMode = btn.getAttribute('data-mode');
+        pickWord();
+    });
 
     // Categories
     document.getElementById('categories').addEventListener('click', function (e) {
