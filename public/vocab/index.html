@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Griechisch Vokabeltrainer — ignatios.de</title>
+    <meta name="description" content="Lerne griechische Vokabeln mit Aussprache. Alltag, Essen, Reise — alles was du auf Lesbos brauchst.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <a href="/" class="back-link">&larr; ignatios.de</a>
+    <h1>Griechisch</h1>
+    <p class="subtitle">Vokabeltrainer</p>
+</header>
+
+<main class="trainer">
+    <!-- Category Filter -->
+    <div class="categories" id="categories">
+        <button class="cat-btn active" data-cat="all">Alle</button>
+        <button class="cat-btn" data-cat="alltag">Alltag</button>
+        <button class="cat-btn" data-cat="essen">Essen</button>
+        <button class="cat-btn" data-cat="reise">Reise</button>
+        <button class="cat-btn" data-cat="natur">Natur</button>
+        <button class="cat-btn" data-cat="smalltalk">Smalltalk</button>
+    </div>
+
+    <!-- Progress -->
+    <div class="progress-bar">
+        <div class="progress-fill" id="progress-fill"></div>
+    </div>
+    <p class="progress-text" id="progress-text">0 / 0</p>
+
+    <!-- Card -->
+    <div class="card" id="card">
+        <div class="card-direction" id="card-direction"></div>
+        <div class="card-word" id="card-word"></div>
+        <div class="card-phonetic" id="card-phonetic"></div>
+        <button class="speak-btn" id="speak-btn" aria-label="Aussprechen">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
+        </button>
+    </div>
+
+    <!-- Answer Area -->
+    <div class="answer-area">
+        <div class="input-row">
+            <input type="text" id="answer-input" placeholder="Antwort eingeben..." autocomplete="off" autocapitalize="off" spellcheck="false">
+            <button class="mic-btn" id="mic-btn" aria-label="Spracheingabe">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+            </button>
+        </div>
+        <button class="check-btn" id="check-btn">Prüfen</button>
+    </div>
+
+    <!-- Feedback -->
+    <div class="feedback" id="feedback" hidden>
+        <div class="feedback-icon" id="feedback-icon"></div>
+        <div class="feedback-text" id="feedback-text"></div>
+        <div class="feedback-correct" id="feedback-correct"></div>
+    </div>
+
+    <!-- Next -->
+    <button class="next-btn" id="next-btn" hidden>Nächstes Wort &rarr;</button>
+
+    <!-- Stats -->
+    <div class="stats" id="stats">
+        <div class="stat">
+            <span class="stat-num" id="stat-correct">0</span>
+            <span class="stat-label">Richtig</span>
+        </div>
+        <div class="stat">
+            <span class="stat-num" id="stat-wrong">0</span>
+            <span class="stat-label">Falsch</span>
+        </div>
+        <div class="stat">
+            <span class="stat-num" id="stat-streak">0</span>
+            <span class="stat-label">Serie</span>
+        </div>
+    </div>
+
+    <button class="reset-btn" id="reset-btn">Fortschritt zurücksetzen</button>
+</main>
+
+<footer class="footer">
+    <p><a href="/">ignatios.de</a></p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
