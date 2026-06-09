@@ -18,6 +18,36 @@ const config = getSiteConfig();
 export const metadata: Metadata = {
   title: config.site.title,
   description: config.site.description,
+  metadataBase: new URL("https://ignatios.de"),
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    type: "website",
+    title: config.site.title,
+    description: config.site.description,
+    url: "https://ignatios.de/",
+    siteName: "ignatios.de",
+    locale: "de_DE",
+    images: [
+      {
+        url: "/images/oleander.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Oleander Apartments — Vafios, Lesbos",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: config.site.title,
+    description: config.site.description,
+    images: ["/images/oleander.jpg"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({

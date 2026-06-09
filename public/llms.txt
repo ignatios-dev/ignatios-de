@@ -1,0 +1,23 @@
+# ignatios.de
+
+> Personal website of Ignatios Waffenschmidt — Lesbos, Greece & Germany.
+
+## Oleander Apartments — Vafios, Lesbos
+URL: https://ignatios.de/apartments/
+Three family-run holiday apartments in the mountain village of Vafios on Lesbos, Greece. Located above Molyvos with sea views, surrounded by olive groves. Each apartment has a kitchen and access to a large shared veranda. Fast WiFi. 10 minutes by car or scooter to the beaches and Molyvos. Ideal for longer stays, remote workers, and friends of the family. Contact via WhatsApp.
+
+## Guest Guide — Oleander Apartments
+URL: https://ignatios.de/apartments/guide/
+Practical information for guests: check-in, WiFi, nearby beaches, restaurants, transport tips for Lesbos.
+
+## Greek Vocabulary Trainer
+URL: https://ignatios.de/vocab/
+Interactive Greek vocabulary trainer with 120+ words and 44 practice sentences. Categories: everyday, food, travel, nature, smalltalk. Features text-to-speech pronunciation, speech recognition input, verb conjugation tables (present, past, future), and a word/sentence practice mode. Runs entirely in the browser, no account needed.
+
+## Blog
+URL: https://ignatios.de/
+German-language blog about life on Lesbos: agriculture, olive oil, recipes, and island culture.
+
+### Blog Post: Landwirtschaft auf Lesbos
+URL: https://ignatios.de/blog/landwirtschaft-lesbos
+About olive farming, goat herding, ouzo production, and fishing on Lesbos. Covers Kolovi olives, Ladotyri cheese, Kalloni sardines, and the challenges of rural depopulation and climate change.

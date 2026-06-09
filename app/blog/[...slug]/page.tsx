@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { getAllPostSlugs, getPostBySlug } from "@/lib/posts";
 import { getSiteConfig } from "@/lib/config";
 import Link from "next/link";
@@ -7,6 +8,33 @@ export function generateStaticParams() {
   return slugs.map((slug) => ({
     slug: slug.split("/"),
   }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string[] }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const slugString = slug.join("/");
+  const post = await getPostBySlug(slugString);
+
+  return {
+    title: `${post.title} — ignatios.de`,
+    description: post.content.replace(/!\[.*?\]\(.*?\)/g, "").slice(0, 155).trim(),
+    alternates: {
+      canonical: `/blog/${slugString}`,
+    },
+    openGraph: {
+      type: "article",
+      title: post.title,
+      description: post.content.replace(/!\[.*?\]\(.*?\)/g, "").slice(0, 155).trim(),
+      url: `https://ignatios.de/blog/${slugString}`,
+      publishedTime: post.date,
+      locale: "de_DE",
+      siteName: "ignatios.de",
+    },
+  };
 }
 
 export default async function BlogPost({
@@ -25,8 +53,29 @@ export default async function BlogPost({
                           htmlContent.split('<img').length - 1 === 1 &&
                           htmlContent.split('</p>').length <= 2;
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: post.title,
+    datePublished: post.date,
+    author: {
+      "@type": "Person",
+      name: "Ignatios Waffenschmidt",
+      url: "https://ignatios.de/",
+    },
+    publisher: {
+      "@type": "Person",
+      name: "Ignatios Waffenschmidt",
+    },
+    mainEntityOfPage: `https://ignatios.de/blog/${slugString}`,
+  };
+
   return (
     <div className="min-h-screen bg-white py-12 px-4 sm:px-6 lg:px-8">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div className="mx-auto max-w-3xl">
         <Link
           href="/"
