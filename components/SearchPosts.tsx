@@ -89,12 +89,12 @@ export function SearchPosts({ posts: allPosts, config }: SearchPostsProps) {
         <div className="relative">
           <input
             type="text"
-            placeholder="Search posts..."
+            placeholder="Beiträge durchsuchen..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            className="w-full px-6 py-3 border-4 border-black text-lg font-semibold
-                       bg-white text-black placeholder-gray-500
-                       focus:outline-none focus:ring-4 focus:ring-black focus:ring-offset-2
+            className="w-full px-5 py-3 border border-gray-200 rounded-xl text-base
+                       bg-gray-50 text-gray-900 placeholder-gray-400
+                       focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent focus:bg-white
                        transition-all"
           />
           {searchQuery && (
@@ -109,15 +109,15 @@ export function SearchPosts({ posts: allPosts, config }: SearchPostsProps) {
         </div>
         {searchQuery && (
           <p className="text-sm text-gray-600 mt-2">
-            {tiles.length} {tiles.length === 1 ? 'result' : 'results'}
+            {tiles.length} {tiles.length === 1 ? 'Ergebnis' : 'Ergebnisse'}
           </p>
         )}
       </div>
 
       {/* Posts Grid */}
       {tiles.length === 0 && searchQuery ? (
-        <p className="text-gray-700 dark:text-gray-300 text-lg text-center">
-          No posts found
+        <p className="text-gray-700 text-lg text-center">
+          Keine Ergebnisse gefunden
         </p>
       ) : tiles.length === 0 ? (
         <p className="text-gray-700 dark:text-gray-300 text-lg text-center">
@@ -166,21 +166,21 @@ export function SearchPosts({ posts: allPosts, config }: SearchPostsProps) {
                 className={`group ${hasImage ? 'lg:col-span-2 lg:row-span-2' : ''}`}
               >
                 {hasImage ? (
-                  <div className="relative border-4 border-black overflow-hidden bg-gray-100 hover:shadow-lg transition-shadow cursor-pointer h-96 lg:h-full flex flex-col justify-between">
+                  <div className="relative rounded-2xl overflow-hidden bg-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 cursor-pointer h-96 lg:h-full flex flex-col justify-between">
                     <div
-                      className="absolute inset-0 bg-cover bg-center"
+                      className="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-transform duration-500"
                       style={{ backgroundImage: `url(${post.image})` }}
                     />
-                    <div className="absolute inset-0 bg-linear-to-b from-black/60 via-transparent to-black/80" />
-                    <div className="relative p-4 flex flex-col justify-between h-full">
-                      <div className="text-xs font-bold text-white uppercase tracking-wider">
+                    <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/70" />
+                    <div className="relative p-5 flex flex-col justify-between h-full">
+                      <div className="text-[11px] font-semibold text-white/80 uppercase tracking-widest">
                         {categoryDisplay}
                       </div>
                       <div className="space-y-2">
-                        <h2 className="text-xl lg:text-2xl font-black text-white leading-tight">
+                        <h2 className="text-xl lg:text-2xl font-bold text-white leading-tight">
                           {post.title}
                         </h2>
-                        <div className="text-xs text-gray-200 font-semibold">
+                        <div className="text-xs text-white/60">
                           {new Date(post.date).toLocaleDateString(
                             config.dateFormatShort.locale,
                             config.dateFormatShort.options as Intl.DateTimeFormatOptions
@@ -190,17 +190,16 @@ export function SearchPosts({ posts: allPosts, config }: SearchPostsProps) {
                     </div>
                   </div>
                 ) : (
-                  <div className="border-4 border-black p-4 bg-white hover:bg-gray-50 transition-colors cursor-pointer shadow-md hover:shadow-lg h-64 flex flex-col justify-between">
-                    <div className="text-xs font-bold text-gray-600 uppercase tracking-wider mb-2">
+                  <div className="rounded-2xl p-5 bg-white border border-gray-100 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 cursor-pointer h-64 flex flex-col justify-between">
+                    <div className="text-[11px] font-semibold text-gray-400 uppercase tracking-widest">
                       {categoryDisplay}
                     </div>
                     <div className="flex items-center justify-center flex-1">
-                      <h2 className="text-lg font-black text-black text-center">
+                      <h2 className="text-lg font-bold text-gray-900 text-center leading-snug">
                         {post.title}
                       </h2>
                     </div>
-                    <div className="border-t-2 border-black my-4"></div>
-                    <div className="text-xs text-gray-700 font-semibold text-center">
+                    <div className="text-xs text-gray-400 text-center pt-4 border-t border-gray-100">
                       {new Date(post.date).toLocaleDateString(
                         config.dateFormatShort.locale,
                         config.dateFormatShort.options as Intl.DateTimeFormatOptions

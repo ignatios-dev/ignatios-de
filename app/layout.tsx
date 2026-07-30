@@ -29,20 +29,11 @@ export const metadata: Metadata = {
     url: "https://ignatios.de/",
     siteName: "ignatios.de",
     locale: "de_DE",
-    images: [
-      {
-        url: "/images/oleander.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Oleander Apartments — Vafios, Lesbos",
-      },
-    ],
   },
   twitter: {
-    card: "summary_large_image",
+    card: "summary",
     title: config.site.title,
     description: config.site.description,
-    images: ["/images/oleander.jpg"],
   },
   robots: {
     index: true,

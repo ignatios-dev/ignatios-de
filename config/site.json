@@ -1,10 +1,10 @@
 {
   "site": {
-    "title": "ignatios.de — Lesbos, Vafios & Griechisches Leben",
-    "description": "Blog von Ignatios Waffenschmidt: Oleander Apartments in Vafios auf Lesbos, griechische Rezepte, Landwirtschaft und Inselkultur."
+    "title": "Ignatios Waffenschmidt — Software-Entwickler & Fullstack Engineer",
+    "description": "Software Engineer mit über 10 Jahren Erfahrung. Individuelle Softwarelösungen für kleine Unternehmen. Kotlin, PHP/Symfony, React. Ferienwohnungen auf Lesbos."
   },
   "home": {
-    "heading": "Ignatios.de --- Blog",
+    "heading": "Blog",
     "emptyMessage": "Keine Beiträge gefunden."
   },
   "category": {

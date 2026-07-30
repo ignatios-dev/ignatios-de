@@ -23,6 +23,8 @@ export interface PostCard {
   category: string;
   image?: string;
   externalUrl?: string;
+  type?: string;
+  description?: string;
   links?: Array<{
     url: string;
     title: string;
@@ -124,6 +126,8 @@ export function getPostCards(): PostCard[] {
             category: entry.name,
             image,
             externalUrl: data.externalUrl,
+            type: data.type,
+            description: data.description,
             links,
           });
         }
@@ -144,6 +148,8 @@ export function getPostCards(): PostCard[] {
         category: "__root__",
         image,
         externalUrl: data.externalUrl,
+        type: data.type,
+        description: data.description,
         links,
       });
     }
