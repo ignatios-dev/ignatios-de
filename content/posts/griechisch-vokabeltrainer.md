@@ -1,7 +1,7 @@
 ---
 title: "Griechisch Vokabeltrainer"
 date: "2026-06-09"
-externalUrl: "/vocab/index.html"
+externalUrl: "/vocab/"
 type: "project"
 description: "Lerne die wichtigsten griechischen Vokabeln mit Aussprache — direkt im Browser."
 ---

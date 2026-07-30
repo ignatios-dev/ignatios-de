@@ -1,7 +1,7 @@
 ---
 title: "Oleander Apartments"
 date: "2026-05-16"
-externalUrl: "/apartments/index.html"
+externalUrl: "/apartments/"
 type: "project"
 description: "Unsere Familienanlage im Bergdorf Vafios auf Lesbos — drei Apartments zwischen Olivenhainen."
 ---
