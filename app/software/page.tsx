@@ -1,211 +1,80 @@
 import { Navigation } from "@/components/Navigation";
-import { ContactSection } from "@/components/ContactSection";
+import { Footer } from "@/components/Footer";
+import { ObfuscatedEmail } from "@/components/ObfuscatedEmail";
+import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Software — Ignatios Waffenschmidt",
   description:
-    "Individuelle Softwarelösungen für kleine Unternehmen. Kein Baukasten, keine Agentur — direkt vom Entwickler.",
+    "Individuelle Softwarelösungen für kleine Unternehmen. Fullstack-Entwicklung mit Kotlin, PHP/Symfony und React.",
 };
-
-const problems = [
-  {
-    question: "Aufträge in Excel, Termine per WhatsApp?",
-    answer: "Eine zentrale Lösung, die zu Ihrem Ablauf passt.",
-  },
-  {
-    question: "Standard-Software passt nicht zu Ihrem Workflow?",
-    answer: "Software, die sich nach Ihnen richtet — nicht umgekehrt.",
-  },
-  {
-    question: "Zu viel Handarbeit, zu viele Fehlerquellen?",
-    answer: "Automatisierung, die Ihnen Zeit und Nerven spart.",
-  },
-];
-
-const steps = [
-  {
-    num: "1",
-    title: "Erstgespräch",
-    text: "Wir sprechen über Ihr Problem. Kostenlos, unverbindlich, 30 Minuten.",
-  },
-  {
-    num: "2",
-    title: "Angebot",
-    text: "Sie erhalten ein konkretes Angebot mit festem Preis und Zeitrahmen.",
-  },
-  {
-    num: "3",
-    title: "Umsetzung",
-    text: "In Tagen statt Monaten. Sie sehen regelmäßig den Fortschritt.",
-  },
-  {
-    num: "4",
-    title: "Übergabe",
-    text: "Ihre Software läuft. Einweisung und Support inklusive.",
-  },
-];
-
-const useCases = [
-  "Auftragsverwaltung",
-  "Lagerverwaltung",
-  "Dashboards & Reporting",
-  "Automatisierung",
-  "Kundenverwaltung",
-];
 
 export default function Software() {
   return (
-    <div className="min-h-screen bg-white text-gray-900">
+    <div className="min-h-screen bg-background text-foreground">
       <Navigation />
 
-      {/* Hero */}
-      <section className="pt-28 pb-16 md:pt-40 md:pb-20 px-4">
-        <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-3xl md:text-5xl font-bold tracking-tight bg-gradient-to-r from-gray-900 via-gray-700 to-gray-900 bg-clip-text text-transparent">
-            Individuelle Software für Ihr Unternehmen
-          </h1>
-          <p className="mt-6 text-lg text-gray-500 max-w-2xl mx-auto leading-relaxed">
-            Kein Baukasten, keine Agentur. Ich entwickle als erfahrener
-            Software-Entwickler maßgeschneiderte Lösungen — schnell und zum
-            fairen Preis.
-          </p>
-          <a
-            href="#kontakt"
-            className="mt-8 inline-block px-8 py-3.5 bg-gray-900 text-white font-semibold rounded-full hover:bg-gray-800 hover:shadow-lg transition-all duration-300"
-          >
-            Kostenloses Erstgespräch
-          </a>
-        </div>
-      </section>
+      <main className="max-w-[1100px] mx-auto px-6 py-16 md:px-12 md:py-[100px]">
+        <div className="font-mono text-[13px] tracking-[0.08em] text-accent uppercase mb-5">Software</div>
+        <h1 className="text-[30px] md:text-[52px] font-bold tracking-[-0.02em] mb-5 md:mb-7 max-w-[800px]">
+          Individuelle Softwarelösungen für kleine Unternehmen.
+        </h1>
+        <p className="text-[18px] leading-[1.7] text-secondary max-w-[680px] mb-[60px]">
+          Als freiberuflicher Fullstack-Entwickler baue ich Web-Anwendungen und interne Tools, die genau auf euren Betrieb zugeschnitten sind — von der ersten Idee bis zum laufenden Support.
+        </p>
 
-      {/* Problem / Lösung */}
-      <section className="py-16 px-4 bg-gray-50">
-        <div className="max-w-5xl mx-auto">
-          <h2 className="text-xl font-bold text-center mb-10">
-            Kennen Sie das?
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {problems.map((p) => (
-              <div key={p.question} className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow duration-300">
-                <p className="font-semibold text-gray-900 mb-3">
-                  {p.question}
-                </p>
-                <p className="text-sm text-gray-500 leading-relaxed">{p.answer}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Ablauf */}
-      <section className="py-16 px-4">
-        <div className="max-w-5xl mx-auto">
-          <h2 className="text-xl font-bold text-center mb-10">
-            So läuft es ab
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {steps.map((s, i) => (
-              <div key={s.num} className="text-center group">
-                <div className="w-11 h-11 bg-gradient-to-br from-gray-800 to-gray-950 text-white rounded-full flex items-center justify-center font-bold mx-auto mb-4 shadow-sm group-hover:scale-110 transition-transform duration-300">
-                  {s.num}
-                </div>
-                <div className="font-semibold text-gray-900 mb-2">
-                  {s.title}
-                </div>
-                <p className="text-sm text-gray-500 leading-relaxed">{s.text}</p>
-                {i < steps.length - 1 && (
-                  <div className="hidden lg:block absolute right-0 top-5 w-8 h-px bg-gray-200" />
-                )}
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Use-Cases */}
-      <section className="py-16 px-4 bg-gray-50">
-        <div className="max-w-5xl mx-auto">
-          <h2 className="text-xl font-bold text-center mb-10">
-            Beispiel-Projekte
-          </h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
-            {useCases.map((uc) => (
-              <div
-                key={uc}
-                className="bg-white rounded-2xl p-5 text-center border border-gray-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-300"
-              >
-                <div className="text-sm font-semibold text-gray-900">{uc}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Vertrauen */}
-      <section className="py-16 px-4">
-        <div className="max-w-5xl mx-auto">
-          <div className="bg-gray-50 rounded-2xl p-8 md:p-12 text-center border border-gray-100">
-            <h2 className="text-xl font-bold mb-4">
-              Direkter Kontakt, kein Vermittler
-            </h2>
-            <p className="text-gray-500 max-w-2xl mx-auto leading-relaxed">
-              Über 10 Jahre Berufserfahrung als Software-Entwickler in
-              professionellen SaaS-Teams. Sie arbeiten direkt mit mir — kein
-              Freelancer-Vermittler, keine Agentur dazwischen.
-            </p>
-            <div className="mt-6 flex flex-wrap justify-center gap-3">
-              {[
-                "Kotlin/Spring Boot",
-                "PHP/Symfony",
-                "React",
-                "PostgreSQL",
-              ].map((t) => (
-                <span
-                  key={t}
-                  className="px-4 py-2 bg-white border border-gray-200 rounded-full text-sm font-medium text-gray-600 shadow-sm"
-                >
-                  {t}
-                </span>
-              ))}
+        {/* Tech Stack */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-[10px] md:gap-3 mb-14 md:mb-20">
+          {['Kotlin', 'PHP / Symfony', 'React', 'PostgreSQL'].map((tech) => (
+            <div key={tech} className="border border-border p-[18px] font-mono text-[14px] font-medium text-center">
+              {tech}
             </div>
+          ))}
+        </div>
+
+        {/* Leistungen */}
+        <div className="mb-20">
+          <h2 className="text-[28px] font-bold mb-8">Leistungen</h2>
+          <div className="flex flex-col">
+            {[
+              { num: '01', title: 'Individuelle Web-Anwendungen', desc: 'Von Konzept über Architektur bis zum Deployment.' },
+              { num: '02', title: 'Interne Tools & Automatisierung', desc: 'Prozesse digitalisieren, die aktuell noch per Excel laufen.' },
+              { num: '03', title: 'Wartung & Beratung', desc: 'Langfristige Betreuung bestehender Systeme.' },
+            ].map((item, i, arr) => (
+              <div
+                key={item.num}
+                className={`flex gap-7 py-6 border-t border-border ${i === arr.length - 1 ? 'border-b' : ''}`}
+              >
+                <div className="font-mono text-accent font-semibold">{item.num}</div>
+                <div>
+                  <div className="font-semibold text-[17px] mb-[6px]">{item.title}</div>
+                  <div className="text-secondary text-[15px]">{item.desc}</div>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
-      </section>
 
-      {/* Kontakt */}
-      <section id="kontakt" className="py-20 px-4 bg-gray-50 scroll-mt-16">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-4">
-            Projekt anfragen
-          </h2>
-          <p className="text-gray-500 text-center mb-12 max-w-xl mx-auto">
-            Beschreiben Sie kurz Ihr Vorhaben — ich melde mich innerhalb von
-            24 Stunden.
-          </p>
-          <ContactSection />
-        </div>
-      </section>
-
-      {/* Footer */}
-      <footer className="py-8 px-4 border-t border-gray-200">
-        <div className="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-gray-500">
-          <span>
-            &copy; {new Date().getFullYear()} Ignatios Waffenschmidt
-          </span>
-          <div className="flex gap-6">
-            <a
-              href="/impressum"
-              className="hover:text-gray-900 transition-colors"
-            >
-              Impressum
-            </a>
-            <a href="/" className="hover:text-gray-900 transition-colors">
-              Startseite
-            </a>
+        {/* Featured Project */}
+        <div className="border border-border p-7 md:p-11 flex flex-col md:flex-row md:justify-between md:items-center gap-4 md:gap-6 flex-wrap mb-14 md:mb-20">
+          <div>
+            <div className="font-mono text-[12px] text-accent uppercase tracking-[0.05em] mb-2">Projekt</div>
+            <h3 className="text-[24px] font-bold mb-2">Griechisch Vokabeltrainer</h3>
+            <p className="text-secondary text-[15px] m-0 max-w-[480px]">Eine kleine Web-App zum Lernen griechischer Vokabeln mit Aussprache, direkt im Browser.</p>
           </div>
+          <Link href="/vocab/" className="font-semibold text-[14px] whitespace-nowrap no-underline text-foreground hover:text-foreground">Ansehen →</Link>
         </div>
-      </footer>
+
+        {/* Dark CTA */}
+        <div className="bg-dark text-white p-9 md:p-14 text-center">
+          <h2 className="text-[24px] md:text-[30px] font-bold mb-3 md:mb-[14px]">Ihr habt ein Projekt im Kopf?</h2>
+          <p className="text-[oklch(0.8_0.01_255)] mb-7">Schreibt mir — ich melde mich innerhalb von zwei Werktagen.</p>
+          <ObfuscatedEmail className="inline-block bg-accent text-white px-8 py-4 font-semibold no-underline hover:text-white" />
+        </div>
+      </main>
+
+      <Footer />
     </div>
   );
 }

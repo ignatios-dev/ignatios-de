@@ -1,28 +1,42 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-background: oklch(0.99 0.003 250);
+  --color-foreground: oklch(0.16 0.01 255);
+  --color-secondary: oklch(0.42 0.015 255);
+  --color-accent: oklch(0.52 0.19 258);
+  --color-accent-hover: oklch(0.4 0.19 258);
+  --color-light-blue: oklch(0.96 0.02 258);
+  --color-border: oklch(0.9 0.006 255);
+  --color-dark: oklch(0.16 0.01 255);
+  --color-body-text: oklch(0.28 0.012 255);
+  --font-sans: var(--font-space-grotesk);
+  --font-mono: var(--font-ibm-plex-mono);
 }
 
-html {
-  scroll-behavior: smooth;
-}
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
-}
+  body {
+    margin: 0;
+    background: oklch(0.99 0.003 250);
+    color: oklch(0.16 0.01 255);
+    font-family: var(--font-space-grotesk), sans-serif;
+  }
 
-::selection {
-  background: #171717;
-  color: #ffffff;
+  ::selection {
+    background: oklch(0.52 0.19 258);
+    color: white;
+  }
+
+  a {
+    color: oklch(0.52 0.19 258);
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: oklch(0.4 0.19 258);
+  }
 }
