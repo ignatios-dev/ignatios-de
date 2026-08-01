@@ -31,26 +31,6 @@ export default function UeberMich() {
           </div>
         </div>
 
-        {/* Werdegang */}
-        <div className="mb-20">
-          <h2 className="text-[26px] font-bold mb-8">Werdegang</h2>
-          <div className="flex flex-col">
-            {[
-              { period: '2016–heute', text: 'Freiberuflicher Fullstack-Entwickler für kleine Unternehmen' },
-              { period: '2013–2016', text: 'Backend-Entwicklung bei einem Freiburger Softwarehaus' },
-              { period: 'Sommer', text: 'Olivenernte und Apartment-Betrieb in Vafios, Lesbos' },
-            ].map((item, i, arr) => (
-              <div
-                key={item.period}
-                className={`flex gap-7 py-5 border-t border-border ${i === arr.length - 1 ? 'border-b' : ''}`}
-              >
-                <div className="font-mono text-accent font-semibold w-[90px] shrink-0">{item.period}</div>
-                <div className="text-[15px]">{item.text}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-
         {/* Contact Row */}
         <div className="border border-border p-7 md:p-10 flex flex-col items-start gap-4 md:flex-row md:justify-between md:items-center md:gap-6 md:flex-wrap">
           <div className="text-[16px]">Fragen, Projektideen oder einfach Hallo sagen?</div>
