@@ -1,7 +1,9 @@
 import { getPostCards } from "@/lib/posts";
 import { getSiteConfig } from "@/lib/config";
+import { projects } from "@/lib/projects";
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
+import { ProjectCard } from "@/components/ProjectCard";
 import Link from "next/link";
 
 export default function Home() {
@@ -74,44 +76,9 @@ export default function Home() {
           Dinge, an denen ich arbeite
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-7">
-          {/* Agora */}
-          <a href="https://agora-production-aae4.up.railway.app/" className="border border-border p-9 flex flex-col gap-4 no-underline text-foreground hover:text-foreground md:col-span-2">
-            <div className="w-full h-[200px] overflow-hidden">
-              <img src="/images/agora-screenshot.png" alt="Agora — Marketing-Tool für Kleinstunternehmen" className="w-full h-full object-cover object-top" />
-            </div>
-            <div className="font-mono text-[12px] text-accent uppercase tracking-[0.05em]">SaaS — Marketing-Tool</div>
-            <h3 className="text-[22px] font-bold m-0">Agora</h3>
-            <p className="text-[15px] text-secondary leading-[1.6] m-0">Multi-Kanal Marketing für Kleinstunternehmen — Kundenliste importieren, personalisierte Kampagnen per E-Mail oder WhatsApp versenden. Ohne Umwege, ohne CRM-Zwang.</p>
-            <div className="flex flex-wrap gap-2 mt-1">
-              <span className="font-mono text-[11px] bg-[#eef2ff] text-[#4f46e5] px-2 py-0.5 rounded">Laravel</span>
-              <span className="font-mono text-[11px] bg-[#eef2ff] text-[#4f46e5] px-2 py-0.5 rounded">CSV-Import</span>
-              <span className="font-mono text-[11px] bg-[#eef2ff] text-[#4f46e5] px-2 py-0.5 rounded">Serienbriefe</span>
-              <span className="font-mono text-[11px] bg-[#eef2ff] text-[#4f46e5] px-2 py-0.5 rounded">DSGVO</span>
-            </div>
-            <span className="font-semibold text-[14px] text-foreground">Demo ansehen →</span>
-          </a>
-
-          {/* Vokabeltrainer */}
-          <Link href="/vocab/" className="border border-border p-9 flex flex-col gap-4 no-underline text-foreground hover:text-foreground">
-            <div className="w-full h-[160px] overflow-hidden">
-              <img src="/images/vokabeltrainer-screenshot.png" alt="Griechisch Vokabeltrainer App" className="w-full h-full object-cover object-top" />
-            </div>
-            <div className="font-mono text-[12px] text-accent uppercase tracking-[0.05em]">Web-App</div>
-            <h3 className="text-[22px] font-bold m-0">Griechisch Vokabeltrainer</h3>
-            <p className="text-[15px] text-secondary leading-[1.6] m-0">Lerne die wichtigsten griechischen Vokabeln mit Aussprache — direkt im Browser.</p>
-            <span className="font-semibold text-[14px] text-foreground">Ansehen →</span>
-          </Link>
-
-          {/* Oleander Apartments */}
-          <a href="/apartments/index.html" className="border border-border p-9 flex flex-col gap-4 no-underline text-foreground hover:text-foreground">
-            <div className="w-full h-[160px] overflow-hidden">
-              <img src="/images/oleander.jpg" alt="Oleander Apartments — Sonnenuntergang über Olivenhain" className="w-full h-full object-cover" />
-            </div>
-            <div className="font-mono text-[12px] text-accent uppercase tracking-[0.05em]">Ferienwohnungen</div>
-            <h3 className="text-[22px] font-bold m-0">Oleander Apartments</h3>
-            <p className="text-[15px] text-secondary leading-[1.6] m-0">Unsere Familienanlage im Bergdorf Vafios auf Lesbos — drei Apartments zwischen Olivenhainen.</p>
-            <span className="font-semibold text-[14px] text-foreground">Ansehen →</span>
-          </a>
+          {projects.map((project) => (
+            <ProjectCard key={project.slug} project={project} />
+          ))}
         </div>
       </section>
 

@@ -1,7 +1,8 @@
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import { ObfuscatedEmail } from "@/components/ObfuscatedEmail";
-import Link from "next/link";
+import { ProjectCard } from "@/components/ProjectCard";
+import { projects } from "@/lib/projects";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -56,14 +57,14 @@ export default function Software() {
           </div>
         </div>
 
-        {/* Featured Project */}
-        <div className="border border-border p-7 md:p-11 flex flex-col md:flex-row md:justify-between md:items-center gap-4 md:gap-6 flex-wrap mb-14 md:mb-20">
-          <div>
-            <div className="font-mono text-[12px] text-accent uppercase tracking-[0.05em] mb-2">Projekt</div>
-            <h3 className="text-[24px] font-bold mb-2">Griechisch Vokabeltrainer</h3>
-            <p className="text-secondary text-[15px] m-0 max-w-[480px]">Eine kleine Web-App zum Lernen griechischer Vokabeln mit Aussprache, direkt im Browser.</p>
+        {/* Projekte */}
+        <div className="mb-14 md:mb-20">
+          <h2 className="text-[28px] font-bold mb-8">Projekte</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-7">
+            {projects.map((project) => (
+              <ProjectCard key={project.slug} project={project} />
+            ))}
           </div>
-          <Link href="/vocab/" className="font-semibold text-[14px] whitespace-nowrap no-underline text-foreground hover:text-foreground">Ansehen →</Link>
         </div>
 
         {/* Dark CTA */}
