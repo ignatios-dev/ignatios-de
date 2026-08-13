@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f1420"/>
+      <stop offset="100%" stop-color="#1a2133"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <circle cx="640" cy="120" r="140" fill="#ff6b35" opacity="0.08"/>
+  <circle cx="120" cy="360" r="160" fill="#4f46e5" opacity="0.10"/>
+  <text x="60" y="220" font-family="ui-monospace, Menlo, monospace" font-size="44" font-weight="700" fill="#f5f6fa">Uther Party</text>
+  <text x="60" y="260" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18" fill="#9aa3b2">Mini-Games &amp; Highscores mit Freunden</text>
+  <rect x="60" y="300" width="150" height="34" rx="17" fill="#ff6b35" opacity="0.15"/>
+  <text x="135" y="323" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="13" font-weight="600" letter-spacing="1" fill="#ff6b35">IN ENTWICKLUNG</text>
+</svg>

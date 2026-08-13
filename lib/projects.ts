@@ -29,6 +29,19 @@ export const projects: Project[] = [
     large: true,
   },
   {
+    slug: "uther-party",
+    href: "https://uther-party-production.up.railway.app/",
+    external: true,
+    image: "/images/uther-party-placeholder.svg",
+    imageAlt: "Uther Party — Mini-Games mit Highscore",
+    category: "Web-Game — In Entwicklung",
+    title: "Uther Party",
+    description:
+      "Mario-Party-artige Minispielsammlung nach Vorbild der Warcraft-3-Mod, mit Highscore-Board zum Verewigen unter Freunden. Aktuell mit dem ersten Minispiel im Aufbau.",
+    tags: ["React", "Vite", "Firebase"],
+    cta: "Ausprobieren →",
+  },
+  {
     slug: "vokabeltrainer",
     href: "/vocab/",
     image: "/images/vokabeltrainer-screenshot.png",
