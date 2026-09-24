@@ -4,11 +4,11 @@ import type { Project } from "@/lib/projects";
 export function ProjectCard({ project }: { project: Project }) {
   const content = (
     <>
-      <div className={`w-full ${project.large ? "h-[200px]" : "h-[160px]"} overflow-hidden`}>
+      <div className={`w-full ${project.large ? "h-[200px]" : "h-[160px]"} overflow-hidden nb-border rounded-xl`}>
         <img
           src={project.image}
           alt={project.imageAlt}
-          className={`w-full h-full object-cover ${project.imagePosition === "center" ? "object-center" : "object-top"}`}
+          className={`w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105 ${project.imagePosition === "center" ? "object-center" : "object-top"}`}
         />
       </div>
       <div className="font-mono text-[12px] text-accent uppercase tracking-[0.05em]">
@@ -21,29 +21,31 @@ export function ProjectCard({ project }: { project: Project }) {
           {project.tags.map((tag) => (
             <span
               key={tag}
-              className="font-mono text-[11px] bg-[#eef2ff] text-[#4f46e5] px-2 py-0.5 rounded"
+              className="nb-hop font-mono text-[11px] bg-light-blue text-accent border-2 border-foreground rounded-full px-2.5 py-0.5"
             >
               {tag}
             </span>
           ))}
         </div>
       )}
-      <span className="font-semibold text-[14px] text-foreground">{project.cta}</span>
+      <span className="self-start bg-foreground text-background rounded-lg font-bold text-[14px] px-3 py-1.5 mt-1 transition-colors duration-200 group-hover:bg-accent">
+        {project.cta}
+      </span>
     </>
   );
 
-  const className = `border border-border p-9 flex flex-col gap-4 no-underline text-foreground hover:text-foreground ${project.large ? "md:col-span-2" : ""}`;
+  const className = `group bg-background nb-border nb-shadow nb-press rounded-2xl p-6 md:p-8 flex flex-col gap-4 no-underline text-foreground hover:text-foreground ${project.large ? "md:col-span-2" : ""}`;
 
   if (project.external) {
     return (
-      <a href={project.href} className={className}>
+      <a href={project.href} className={className} data-reveal>
         {content}
       </a>
     );
   }
 
   return (
-    <Link href={project.href} className={className}>
+    <Link href={project.href} className={className} data-reveal>
       {content}
     </Link>
   );

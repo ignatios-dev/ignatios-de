@@ -40,3 +40,214 @@
     color: oklch(0.4 0.19 258);
   }
 }
+
+/* Neo-Brutalismus: dicke Rahmen, harte Schatten, runde Ecken, gleiche Farbpalette */
+@utility nb-border {
+  border: 3px solid var(--color-foreground);
+}
+
+@utility nb-shadow {
+  box-shadow: 6px 6px 0 0 var(--color-foreground);
+}
+
+@utility nb-shadow-sm {
+  box-shadow: 4px 4px 0 0 var(--color-foreground);
+}
+
+@utility nb-press {
+  transition: transform 160ms cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 160ms ease;
+
+  &:hover {
+    transform: translate(-3px, -3px);
+    box-shadow: 9px 9px 0 0 var(--color-foreground);
+  }
+
+  &:active {
+    transform: translate(4px, 4px);
+    box-shadow: 0 0 0 0 var(--color-foreground);
+    transition-duration: 60ms;
+  }
+}
+
+@utility nb-dots {
+  background-image: radial-gradient(var(--color-border) 1.5px, transparent 1.5px);
+  background-size: 22px 22px;
+}
+
+/* Kleiner Hover-Hüpfer für Tags, Chips, Stack-Kacheln */
+@utility nb-hop {
+  transition: transform 180ms cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  &:hover {
+    transform: translateY(-3px) rotate(-2deg);
+  }
+}
+
+/* Unterstrich, der beim Hover von links reinwächst */
+@utility nb-underline {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-size: 0% 2px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 220ms ease;
+
+  &:hover {
+    background-size: 100% 2px;
+  }
+}
+
+/* nutzt "translate" statt "transform", damit Hover-Effekte danach weiter funktionieren */
+@keyframes nb-rise {
+  from { opacity: 0; translate: 0 24px; }
+  to { opacity: 1; translate: 0 0; }
+}
+
+@keyframes nb-wiggle {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(-4deg) scale(1.03); }
+  75% { transform: rotate(3deg) scale(1.03); }
+}
+
+@keyframes nb-pulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.35); opacity: 0.7; }
+}
+
+@keyframes nb-float {
+  0%, 100% { transform: translateY(0) rotate(-1deg); }
+  50% { transform: translateY(-6px) rotate(1deg); }
+}
+
+/* Gestaffeltes Einblenden beim Laden (Hero-Bereiche) */
+.nb-intro > * {
+  animation: nb-rise 600ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+.nb-intro > *:nth-child(2) { animation-delay: 90ms; }
+.nb-intro > *:nth-child(3) { animation-delay: 180ms; }
+.nb-intro > *:nth-child(4) { animation-delay: 270ms; }
+.nb-intro > *:nth-child(5) { animation-delay: 360ms; }
+
+.nb-wiggle:hover {
+  animation: nb-wiggle 450ms ease-in-out;
+}
+
+.nb-pulse {
+  animation: nb-pulse 2.2s ease-in-out infinite;
+}
+
+.nb-float {
+  animation: nb-float 4s ease-in-out infinite;
+}
+
+/* Einblenden beim Scrollen – ohne JS, Browser ohne Support zeigen einfach alles */
+@supports (animation-timeline: view()) {
+  [data-reveal] {
+    animation: nb-rise linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 35%;
+  }
+}
+
+/* Lesefortschritt oben auf Blogposts */
+.nb-progress {
+  display: none;
+}
+
+@keyframes nb-grow {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+
+@supports (animation-timeline: scroll()) {
+  .nb-progress {
+    display: block;
+    animation: nb-grow linear both;
+    animation-timeline: scroll(root);
+  }
+}
+
+/* Glauki, die Eule */
+@keyframes owl-bob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-3px); }
+}
+
+@keyframes owl-step {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+@keyframes owl-blink {
+  0%, 92%, 100% { transform: scaleY(1); }
+  95% { transform: scaleY(0.1); }
+}
+
+@keyframes owl-wave {
+  0%, 100% { transform: rotate(0deg); }
+  50% { transform: rotate(-35deg); }
+}
+
+@keyframes owl-jump {
+  0%, 100% { transform: translateY(0) scale(1, 1); }
+  20% { transform: translateY(0) scale(1.1, 0.9); }
+  50% { transform: translateY(-18px) scale(0.95, 1.05); }
+  80% { transform: translateY(0) scale(1.05, 0.95); }
+}
+
+@keyframes bubble-pop {
+  from { opacity: 0; transform: translateY(8px) scale(0.9); }
+  60% { transform: translateY(-2px) scale(1.02); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.owl svg * {
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.owl .owl-eyes {
+  animation: owl-blink 4.5s infinite;
+}
+
+.owl .owl-pupils {
+  transition: transform 120ms ease-out;
+}
+
+.owl.walking svg {
+  animation: owl-bob 0.45s ease-in-out infinite;
+}
+
+.owl.walking .owl-foot-l {
+  animation: owl-step 0.45s ease-in-out infinite;
+}
+
+.owl.walking .owl-foot-r {
+  animation: owl-step 0.45s ease-in-out infinite 0.225s;
+}
+
+.owl.talking .owl-wing-r {
+  transform-origin: top center;
+  animation: owl-wave 0.5s ease-in-out 3;
+}
+
+.owl.startled svg {
+  animation: owl-jump 550ms ease-out;
+}
+
+.owl.startled .owl-eyes {
+  animation: none;
+  transform: scale(1.15);
+}
+
+.owl-bubble {
+  animation: bubble-pop 260ms cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

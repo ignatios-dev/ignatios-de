@@ -78,24 +78,33 @@ export default async function BlogPost({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
+      <div aria-hidden className="nb-progress fixed top-0 left-0 right-0 h-[5px] bg-accent z-[60] origin-left" />
+
       <main className="max-w-[720px] mx-auto px-6 py-16 md:px-12 md:py-[100px]">
-        <Link
-          href="/blog/"
-          className="font-mono text-[13px] text-accent mb-6 inline-block no-underline"
-        >
-          ← Zurück zum Blog
-        </Link>
+        <div className="nb-intro">
+          <Link
+            href="/blog/"
+            className="group inline-flex items-center gap-2 bg-background border-2 border-foreground rounded-full shadow-[3px_3px_0_0_var(--color-foreground)] font-mono text-[13px] text-foreground px-4 py-1.5 mb-8 no-underline transition-[transform,box-shadow] duration-150 hover:text-foreground hover:-translate-y-0.5 hover:shadow-[4px_5px_0_0_var(--color-foreground)] active:translate-y-0.5 active:shadow-none"
+          >
+            <span className="inline-block transition-transform duration-200 group-hover:-translate-x-1">←</span> Zurück zum Blog
+          </Link>
 
-        <div className="font-mono text-[13px] text-secondary mb-3">
-          {categoryDisplay} · {new Date(post.date).toLocaleDateString(
-            config.dateFormat.locale,
-            config.dateFormat.options as Intl.DateTimeFormatOptions
-          )}
+          <div className="flex flex-wrap gap-2 mb-4 font-mono text-[12px]">
+            <span className="bg-light-blue text-accent border-2 border-foreground rounded-full px-3 py-0.5 uppercase tracking-[0.05em]">
+              {categoryDisplay}
+            </span>
+            <span className="bg-foreground text-background rounded-full px-3 py-0.5">
+              {new Date(post.date).toLocaleDateString(
+                config.dateFormat.locale,
+                config.dateFormat.options as Intl.DateTimeFormatOptions
+              )}
+            </span>
+          </div>
+
+          <h1 className="text-[26px] md:text-[40px] font-bold tracking-[-0.02em] leading-[1.2] md:leading-[1.15] mb-7 md:mb-10">
+            {post.title}
+          </h1>
         </div>
-
-        <h1 className="text-[26px] md:text-[40px] font-bold tracking-[-0.02em] leading-[1.2] md:leading-[1.15] mb-7 md:mb-10">
-          {post.title}
-        </h1>
 
         <div
           className="text-[17px] leading-[1.8] text-body-text
@@ -105,14 +114,14 @@ export default async function BlogPost({
             [&_p]:my-5
             [&_strong]:font-bold [&_strong]:text-foreground
             [&_em]:italic
-            [&_code]:bg-light-blue [&_code]:px-2 [&_code]:py-0.5 [&_code]:font-mono [&_code]:text-[14px]
-            [&_pre]:bg-dark [&_pre]:text-white [&_pre]:p-5 [&_pre]:overflow-x-auto [&_pre]:my-6
+            [&_code]:bg-light-blue [&_code]:rounded-md [&_code]:px-2 [&_code]:py-0.5 [&_code]:font-mono [&_code]:text-[14px]
+            [&_pre]:bg-dark [&_pre]:text-white [&_pre]:rounded-2xl [&_pre]:border-[3px] [&_pre]:border-foreground [&_pre]:shadow-[5px_5px_0_0_var(--color-accent)] [&_pre]:p-5 [&_pre_code]:bg-transparent [&_pre_code]:p-0 [&_pre]:overflow-x-auto [&_pre]:my-6
             [&_ul]:list-disc [&_ul]:ml-6 [&_ul]:my-4
             [&_ol]:list-decimal [&_ol]:ml-6 [&_ol]:my-4
             [&_li]:my-2
-            [&_blockquote]:border-l-2 [&_blockquote]:border-accent [&_blockquote]:pl-5 [&_blockquote]:italic [&_blockquote]:my-6 [&_blockquote]:text-secondary
-            [&_a]:text-accent [&_a]:font-semibold [&_a]:underline hover:[&_a]:text-accent-hover
-            [&_img]:w-full [&_img]:my-8
+            [&_blockquote]:bg-light-blue [&_blockquote]:border-[3px] [&_blockquote]:border-foreground [&_blockquote]:rounded-2xl [&_blockquote]:shadow-[5px_5px_0_0_var(--color-foreground)] [&_blockquote]:px-6 [&_blockquote]:py-1 [&_blockquote]:italic [&_blockquote]:my-8 [&_blockquote]:text-body-text
+            [&_a]:text-accent [&_a]:font-semibold [&_a]:underline [&_a]:decoration-2 [&_a]:underline-offset-4 [&_a]:transition-colors hover:[&_a]:bg-light-blue hover:[&_a]:text-accent-hover
+            [&_img]:w-full [&_img]:my-8 [&_img]:rounded-2xl [&_img]:border-[3px] [&_img]:border-foreground [&_img]:shadow-[6px_6px_0_0_var(--color-foreground)]
           "
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
