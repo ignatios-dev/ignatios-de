@@ -6,6 +6,8 @@ import { Footer } from "@/components/Footer";
 import { ProjectCard } from "@/components/ProjectCard";
 import { SectionLabel } from "@/components/SectionLabel";
 import { PostListItem } from "@/components/PostListItem";
+import { FilmPosterCard } from "@/components/FilmPosterCard";
+import { getFilms } from "@/lib/films";
 import Link from "next/link";
 
 export default function Home() {
@@ -14,6 +16,7 @@ export default function Home() {
 
   const blogPosts = allPosts.filter((p) => p.type !== "project");
   const latestPost = blogPosts[0];
+  const latestFilms = getFilms().slice(0, 4);
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -94,6 +97,31 @@ export default function Home() {
           ))}
         </div>
       </section>
+
+      {/* Filme */}
+      {latestFilms.length > 0 && (
+        <section className="border-t-[3px] border-foreground px-6 py-16 md:px-12 md:py-[100px]">
+          <div className="max-w-[1100px] mx-auto">
+            <SectionLabel>Filme</SectionLabel>
+            <div className="flex flex-wrap items-end justify-between gap-4 mb-7 md:mb-12">
+              <h2 className="text-[26px] md:text-[38px] font-bold tracking-[-0.02em] m-0">
+                Zuletzt gesehen
+              </h2>
+              <Link
+                href="/filme/"
+                className="group bg-foreground text-background rounded-lg font-bold text-[14px] px-3 py-1.5 no-underline transition-colors duration-200 hover:bg-accent hover:text-background"
+              >
+                Alle Filme <span className="inline-block transition-transform duration-200 group-hover:translate-x-1">→</span>
+              </Link>
+            </div>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-x-5 gap-y-9 md:gap-x-7">
+              {latestFilms.map((film) => (
+                <FilmPosterCard key={film.id} film={film} />
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Blog Teaser */}
       {latestPost && (

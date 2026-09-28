@@ -5,6 +5,17 @@ on:
     branches:
       - main
       - master
+  # Holt täglich neue Filme von Letterboxd (04:00 UTC)
+  schedule:
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+permissions:
+  contents: write
 
 jobs:
   deploy:
@@ -12,21 +23,51 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
-          node-version: '20'
+          node-version: '22'
+          cache: pnpm
 
       - name: Install dependencies
-        run: npm install -g pnpm && pnpm install
+        run: pnpm install --frozen-lockfile
 
+      - name: Sync films from Letterboxd
+        id: films
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: |
+          pnpm sync:films
+          if git diff --quiet -- data/films.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
 
+      - name: Commit film data
+        if: steps.films.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/films.json
+          git commit -m "Update films from Letterboxd"
+          git pull --rebase
+          git push
+
+      # Beim täglichen Lauf nur bauen und deployen, wenn neue Filme dazugekommen sind
       - name: Build
+        if: github.event_name != 'schedule' || steps.films.outputs.changed == 'true'
         run: pnpm build
 
       - name: Deploy to FTP
+        if: github.event_name != 'schedule' || steps.films.outputs.changed == 'true'
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.FTP_SERVER }}
@@ -35,4 +76,3 @@ jobs:
           local-dir: ./out/
           server-dir: ./
           dangerous-clean-slate: false
-

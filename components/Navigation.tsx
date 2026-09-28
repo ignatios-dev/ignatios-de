@@ -8,13 +8,14 @@ const navLinks = [
   { href: '/apartments/index.html', label: 'Griechenland', external: true },
   { href: '/ueber-mich/', label: 'Über mich' },
   { href: '/blog/', label: 'Blog' },
+  { href: '/filme/', label: 'Filme' },
 ];
 
 export function Navigation() {
   const pathname = usePathname();
 
   function isActive(href: string) {
-    if (href === '/blog/') return pathname === '/blog' || pathname === '/blog/' || pathname.startsWith('/blog/');
+    if (href === '/blog/' || href === '/filme/') return pathname.startsWith(href.replace(/\/$/, ''));
     return pathname === href || pathname === href.replace(/\/$/, '');
   }
 
