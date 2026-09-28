@@ -13,7 +13,33 @@
     "letterboxdUrl": "https://letterboxd.com/grenzdebil/film/prisoners/",
     "letterboxdPoster": "https://a.ltrbxd.com/resized/sm/upload/iw/eg/4g/nm/3w79tTsv6tmlT8Jww6snyPrgVok-0-600-0-900-crop.jpg?v=778c7ae8b8",
     "tmdbId": 146233,
-    "tmdb": null
+    "tmdb": {
+      "title": "Prisoners",
+      "originalTitle": "Prisoners",
+      "overview": "Keller Dover ist ein bibeltreuer Kriegsveteran. Der harte Kerl steht mit beiden Beinen fest im Leben. Dovers Welt gerät jedoch aus den Fugen, als seine sechsjährige Tochter Anna und deren Freundin Joy an Thanksgiving entführt werden. Es beginnt eine fieberhafte Suche, die von dem jungen und ambitionierten Detektiv Loki angeführt wird, dessen primäres Ziel es jedoch ist, endlich der Kleinstadt zu entfliehen und in eine Großstadt versetzt zu werden. Alle Spuren zu der Entführung verlaufen im Nichts. Auch den einzigen Verdächtigen, den geistig zurückgebliebenen Alex Jones, muss Loki aus Mangel an Beweisen wieder laufen lassen. Familienvater Dover fasst daraufhin einen folgenschweren Entschluss: Er will die Wahrheit auf eigene Faust herausfinden und begibt sich auf einen verhängnisvollen und gnadenlosen Weg der Selbstjustiz um die beiden kleinen Mädchen vielleicht doch noch zu finden.",
+      "tagline": "Jeder Augenblick zählt.",
+      "runtime": 146,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Krimi"
+      ],
+      "directors": [
+        "Denis Villeneuve"
+      ],
+      "cast": [
+        "Hugh Jackman",
+        "Jake Gyllenhaal",
+        "Viola Davis",
+        "Maria Bello",
+        "Terrence Howard",
+        "Melissa Leo"
+      ],
+      "posterPath": "/d7DS20nwYT6WzbN2IvTvXvKPWjT.jpg",
+      "backdropPath": "/3RFmTz5h2UuFWEV4oH00XICBR9y.jpg",
+      "voteAverage": 8.106,
+      "trailerKey": "yVjJjSwvqYY"
+    }
   },
   {
     "id": "letterboxd-review-1510445892",
@@ -29,7 +55,33 @@
     "letterboxdUrl": "https://letterboxd.com/grenzdebil/film/resident-evil-2026/",
     "letterboxdPoster": "https://a.ltrbxd.com/resized/film-poster/1/3/0/2/7/1/7/1302717-untitled-resident-evil-reboot-0-600-0-900-crop.jpg?v=a688bf1bc7",
     "tmdbId": 1423191,
-    "tmdb": null
+    "tmdb": {
+      "title": "Resident Evil",
+      "originalTitle": "Resident Evil",
+      "overview": "Der Kurierfahrer Bryan nimmt einen scheinbar harmlosen Auftrag an: die Lieferung eines biomedizinischen Pakets. Was wie ein gewöhnlicher Arbeitstag beginnt, wird zur Hölle auf Erden. Eine Nacht, kein Ausweg – und ein Horror, der alles verschlingt.",
+      "tagline": null,
+      "runtime": 95,
+      "genres": [
+        "Horror",
+        "Science Fiction",
+        "Abenteuer"
+      ],
+      "directors": [
+        "Zach Cregger"
+      ],
+      "cast": [
+        "Austin Abrams",
+        "Paul Walter Hauser",
+        "Kali Reis",
+        "Zach Cherry",
+        "Johnno Wilson",
+        "Shaun W. Loeser"
+      ],
+      "posterPath": "/nSezFz6jH9MTiPakXP06ZQLNLqC.jpg",
+      "backdropPath": "/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
+      "voteAverage": 7.3,
+      "trailerKey": "KoRLG1qLE5E"
+    }
   },
   {
     "id": "letterboxd-review-1492009482",
@@ -45,7 +97,33 @@
     "letterboxdUrl": "https://letterboxd.com/grenzdebil/film/teenage-sex-and-death-at-camp-miasma/",
     "letterboxdPoster": "https://a.ltrbxd.com/resized/film-poster/1/1/2/3/8/6/7/1123867-teenage-sex-and-death-at-camp-miasma-0-600-0-900-crop.jpg?v=f6059120f8",
     "tmdbId": 1240889,
-    "tmdb": null
+    "tmdb": {
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "originalTitle": "Teenage Sex and Death at Camp Miasma",
+      "overview": "Nach Jahren liebloser Fortsetzungen und schwindender Fanbasis wird das Slasher-Franchise Camp Miasma einer ambitionierten jungen Regisseurin zur Wiederbelebung überlassen. Als sie den einstigen Star der Originalfilme besucht, eine mittlerweile zurückgezogen lebende Schauspielerin, die von Geheimnissen umgeben ist, geraten die beiden Frauen in eine blutgetränkte Welt voller Begehren, Angst und Wahnvorstellungen.",
+      "tagline": null,
+      "runtime": 106,
+      "genres": [
+        "Komödie",
+        "Horror",
+        "Liebesfilm"
+      ],
+      "directors": [
+        "Jane Schoenbrun"
+      ],
+      "cast": [
+        "Hannah Einbinder",
+        "Gillian Anderson",
+        "Amanda Fix",
+        "Arthur Conti",
+        "Eva Victor",
+        "Zach Cherry"
+      ],
+      "posterPath": "/bg5hTWIbMeiYgn5BJudWz9HUT3B.jpg",
+      "backdropPath": "/d1n2ySWSanU34eEsluRjfrjRq52.jpg",
+      "voteAverage": 6.4,
+      "trailerKey": "1kDVF_bkDtY"
+    }
   },
   {
     "id": "letterboxd-review-1482603829",
@@ -61,7 +139,32 @@
     "letterboxdUrl": "https://letterboxd.com/grenzdebil/film/lee-cronins-the-mummy/",
     "letterboxdPoster": "https://a.ltrbxd.com/resized/film-poster/1/1/8/6/3/1/8/1186318-lee-cronins-the-mummy-0-600-0-900-crop.jpg?v=75239f90de",
     "tmdbId": 1304313,
-    "tmdb": null
+    "tmdb": {
+      "title": "Lee Cronin's The Mummy",
+      "originalTitle": "Lee Cronin's The Mummy",
+      "overview": "Die junge Tochter eines Journalisten verschwindet spurlos in der Wüste. Die zerrüttete Familie ist fassungslos, als das Mädchen acht Jahre später plötzlich wieder bei ihnen auftaucht. Doch was eigentlich ein freudiges Wiedersehen sein sollte, verwandelt sich schnell in einen wahren Albtraum.",
+      "tagline": "Manche Dinge sollten besser begraben bleiben.",
+      "runtime": 134,
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "directors": [
+        "Lee Cronin"
+      ],
+      "cast": [
+        "Jack Reynor",
+        "Laia Costa",
+        "May Calamawy",
+        "Natalie Grace",
+        "Shylo Molina",
+        "Billie Roy"
+      ],
+      "posterPath": "/u3NeLsif2Zn6KKALxfc4f6rA11n.jpg",
+      "backdropPath": "/xugEpZk9YQ0DIz1aFvH5HGkqpZK.jpg",
+      "voteAverage": 7.852,
+      "trailerKey": "aRej4ZMs57A"
+    }
   },
   {
     "id": "letterboxd-review-1044041842",
@@ -77,6 +180,30 @@
     "letterboxdUrl": "https://letterboxd.com/grenzdebil/film/the-conjuring-last-rites/",
     "letterboxdPoster": "https://a.ltrbxd.com/resized/film-poster/9/3/6/0/6/5/936065-the-conjuring-last-rites-0-600-0-900-crop.jpg?v=597eedcd06",
     "tmdbId": 1038392,
-    "tmdb": null
+    "tmdb": {
+      "title": "Conjuring 4: Das letzte Kapitel",
+      "originalTitle": "The Conjuring: Last Rites",
+      "overview": "Ed und Lorraine Warren nehmen einen besonders verstörenden Fall an: Jack (Elliot Cowan) und Janet Smurl ziehen 1976 mit ihren Kindern in ein neues Haus in Pennsylvania. Sie erfüllen sich damit ihren schon lange gehegten Traum vom Eigenheim. Doch schon bald häufen sich unerklärliche Vorkommnisse. Bis zum Jahr 1985 werden die Phänomene immer bedrohlicher, die Familie gerät immer näher an ihre Belastungsgrenze. In ihrer Not wenden sich die Smurls schließlich an die erfahrenen Ermittler für paranormale Erscheinungen, als die Ed und Lorraine Warren bekannt sind. Aus dem Ruhestand zurückgekehrt, stoßen die Warrens vor Ort auf ein Artefakt, das mit der Geburt ihrer Tochter Judy  in Verbindung steht und Erinnerungen an ihren allerersten Fall weckt. Die Ereignisse spitzen sich zu – es kommt zu einer letzten Konfrontation mit einem Dämon, der sie seit Jahrzehnten verfolgt.",
+      "tagline": "Mach dich bereit für das Ende.",
+      "runtime": 135,
+      "genres": [
+        "Horror"
+      ],
+      "directors": [
+        "Michael Chaves"
+      ],
+      "cast": [
+        "Patrick Wilson",
+        "Vera Farmiga",
+        "Mia Tomlinson",
+        "Ben Hardy",
+        "Rebecca Calder",
+        "Tilly Walker"
+      ],
+      "posterPath": "/1znowvqAYATIKezg7A7l1sPNj9M.jpg",
+      "backdropPath": "/i8MupUe4xgmYXoRNAQMYvuoexSU.jpg",
+      "voteAverage": 6.944,
+      "trailerKey": "o7uGibxPWdU"
+    }
   }
 ]
