@@ -1,5 +1,47 @@
 [
   {
+    "id": "letterboxd-review-1529692449",
+    "slug": "eddington-2026-10-09",
+    "title": "Eddington",
+    "year": 2025,
+    "watchedDate": "2026-10-09",
+    "rating": 3.5,
+    "rewatch": false,
+    "liked": true,
+    "reviewHtml": "<p>A perspective of how weird the situation in 2020 was and still is, felt a bit too long.</p>",
+    "containsSpoilers": false,
+    "letterboxdUrl": "https://letterboxd.com/grenzdebil/film/eddington/",
+    "letterboxdPoster": "https://a.ltrbxd.com/resized/film-poster/5/7/4/5/9/5/574595-eddington-0-600-0-900-crop.jpg?v=925abc6d9b",
+    "tmdbId": 648878,
+    "tmdb": {
+      "title": "Eddington",
+      "originalTitle": "Eddington",
+      "overview": "Frühling 2020 in New Mexico. Die Pandemie hat auch die verschlafene Kleinstadt Eddington im Griff. Dort stehen sich der Sheriff Joe Cross und der Bürgermeister Ted Garcia in einem Kampf gegenüber, der die Stadt zu zerreißen droht. Als ein Mord die fragile Ordnung erschüttert, nimmt die Gewalt ihren Lauf.",
+      "tagline": null,
+      "runtime": 145,
+      "genres": [
+        "Western",
+        "Komödie",
+        "Krimi"
+      ],
+      "directors": [
+        "Ari Aster"
+      ],
+      "cast": [
+        "Joaquin Phoenix",
+        "Deirdre O'Connell",
+        "Emma Stone",
+        "Micheal Ward",
+        "Pedro Pascal",
+        "Cameron Mann"
+      ],
+      "posterPath": "/biqNDGvpBXPa4kDIu2uDZ9CGhXW.jpg",
+      "backdropPath": "/znr3SYHph3FtTLpcFTeuMAAJ5mP.jpg",
+      "voteAverage": 6.5,
+      "trailerKey": "jZUwjXJTRFA"
+    }
+  },
+  {
     "id": "letterboxd-review-1515065681",
     "slug": "prisoners-2026-09-28",
     "title": "Prisoners",
