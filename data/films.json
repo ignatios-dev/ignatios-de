@@ -1,5 +1,47 @@
 [
   {
+    "id": "letterboxd-watch-1537029850",
+    "slug": "lost-in-translation-2026-10-13",
+    "title": "Lost in Translation",
+    "year": 2003,
+    "watchedDate": "2026-10-13",
+    "rating": 5,
+    "rewatch": false,
+    "liked": true,
+    "reviewHtml": null,
+    "containsSpoilers": false,
+    "letterboxdUrl": "https://letterboxd.com/grenzdebil/film/lost-in-translation/",
+    "letterboxdPoster": "https://a.ltrbxd.com/resized/sm/upload/th/b5/6c/gl/5T8VvuFTdaawKLJk34i69Utaw7o-0-600-0-900-crop.jpg?v=ce6ae8e1b4",
+    "tmdbId": 153,
+    "tmdb": {
+      "title": "Lost in Translation",
+      "originalTitle": "Lost in Translation",
+      "overview": "Bob Harris und Charlotte sind zwei ziellose Amerikaner in Tokio. Bob, ein Schauspieler, der gerade in der Stadt einen Werbespot für Whiskey dreht und Charlotte, eine junge, frisch verheiratete Frau, die ihren Mann, einen vielbeschäftigten Fotografen, begleitet. In einer schlaflosen Nacht lernen sich Bob und Charlotte an der Bar eines Luxushotels kennen. Was als eine zufällige Begegnung beginnt, entwickelt sich überraschend schnell zu einer ungewöhnlichen Freundschaft. Ihre gemeinsamen Streifzüge durch die fremde Metropole führen sie nicht nur in amüsant bizarre Situationen, sondern eröffnen den beiden ungeahnte Perspektiven und einen überraschenden Blick auf ein Leben, das sie bisher nicht kannten.",
+      "tagline": "Zwischen den Welten",
+      "runtime": 105,
+      "genres": [
+        "Drama",
+        "Komödie",
+        "Liebesfilm"
+      ],
+      "directors": [
+        "Sofia Coppola"
+      ],
+      "cast": [
+        "Bill Murray",
+        "Scarlett Johansson",
+        "Giovanni Ribisi",
+        "Anna Faris",
+        "Akiko Takeshita",
+        "Kazuyoshi Minamimagoe"
+      ],
+      "posterPath": "/r1v1W6yxdkan87xN0AoRjn5B3s4.jpg",
+      "backdropPath": "/6ITVHoipvxAS8luzKtHTbPaHLtT.jpg",
+      "voteAverage": 7.377,
+      "trailerKey": "rLCYwJDTOPk"
+    }
+  },
+  {
     "id": "letterboxd-review-1529692449",
     "slug": "eddington-2026-10-09",
     "title": "Eddington",
