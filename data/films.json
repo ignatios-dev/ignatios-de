@@ -1,5 +1,46 @@
 [
   {
+    "id": "letterboxd-review-1554363345",
+    "slug": "full-metal-jacket-2026-10-25",
+    "title": "Full Metal Jacket",
+    "year": 1987,
+    "watchedDate": "2026-10-25",
+    "rating": 4.5,
+    "rewatch": true,
+    "liked": true,
+    "reviewHtml": "<p>Me love you long time ❤️💕</p>",
+    "containsSpoilers": false,
+    "letterboxdUrl": "https://letterboxd.com/grenzdebil/film/full-metal-jacket/",
+    "letterboxdPoster": "https://a.ltrbxd.com/resized/sm/upload/l0/l4/6c/7v/29veIwD38rVL2qY74emXQw4y25H-0-600-0-900-crop.jpg?v=6e44829670",
+    "tmdbId": 600,
+    "tmdb": {
+      "title": "Full Metal Jacket",
+      "originalTitle": "Full Metal Jacket",
+      "overview": "South Carolina 1967. Im Camp von Parris Island werden Joker und seine Kameraden auf traditionell-brutale Art zu Marines gedrillt. Der Ausbilder bezahlt seine Profiarbeit mit dem Leben: Leonard, sein Lieblingsopfer, erschießt den Schinder, bevor er sich selbst tötet. An der Dschungelfront in Vietnam, nach der Tet-Offensive, geraten Joker – der inzwischen als Journalist Heldenberichte für die Soldatenzeitung „Stars and Stripes“ schreibt – und seine Kameraden in den Hinterhalt eines Heckenschützen. Die scheinbar einfache Wiedereroberung Huếs gerät zum verlustreichen Desaster. Der Scharfschütze, ein Vietcong-Mädchen, wird von den Soldaten getötet. Und der Wahnsinn geht weiter …",
+      "tagline": "Eine epische Geschichte des Vietnam-Krieges",
+      "runtime": 116,
+      "genres": [
+        "Drama",
+        "Kriegsfilm"
+      ],
+      "directors": [
+        "Stanley Kubrick"
+      ],
+      "cast": [
+        "Matthew Modine",
+        "Adam Baldwin",
+        "Vincent D'Onofrio",
+        "R. Lee Ermey",
+        "Dorian Harewood",
+        "Kevyn Major Howard"
+      ],
+      "posterPath": "/hi9TcrQZ6HjFoNMhgnxTM7wF4Gy.jpg",
+      "backdropPath": "/3k2TRmqMjgt7tcwkYwZQdctnty3.jpg",
+      "voteAverage": 8.119,
+      "trailerKey": "SDXBu6uXU6E"
+    }
+  },
+  {
     "id": "letterboxd-watch-1537029850",
     "slug": "lost-in-translation-2026-10-13",
     "title": "Lost in Translation",
