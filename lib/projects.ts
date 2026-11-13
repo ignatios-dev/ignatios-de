@@ -11,6 +11,8 @@ export interface Project {
   cta: string;
   large?: boolean;
   imagePosition?: "top" | "center";
+  /** Nur auf der Software-Seite zeigen, nicht auf der Startseite */
+  softwareOnly?: boolean;
 }
 
 export const projects: Project[] = [
@@ -43,6 +45,19 @@ export const projects: Project[] = [
     large: true,
   },
   {
+    slug: "kneipensimulator",
+    href: "/blog/kneipensimulator/",
+    image: "/images/kneipensimulator.svg",
+    imageAlt: "Kneipensimulator",
+    category: "Browserspiel — In Entwicklung",
+    title: "Kneipensimulator",
+    description:
+      "Eckkneipe einrichten, Schichten planen und das Schichtprotokoll lesen – ein gemütliches Browserspiel mit Wochenliga gegen Freunde.",
+    tags: ["TypeScript", "React", "PixiJS", "Fastify"],
+    cta: "Mehr lesen →",
+    softwareOnly: true,
+  },
+  {
     slug: "uther-party",
     href: "https://uther-party-production.up.railway.app/",
     external: true,
@@ -56,6 +71,58 @@ export const projects: Project[] = [
     cta: "Ausprobieren →",
   },
   {
+    slug: "mixmaid",
+    href: "/blog/mixmaid/",
+    image: "/images/mixmaid.svg",
+    imageAlt: "MixMaid",
+    category: "Terminal-Tool",
+    title: "MixMaid",
+    description:
+      "Räumt die Musiksammlung auf: Qualitätscheck inkl. Fake-FLAC-Erkennung, Duplikate per Fingerabdruck, saubere Tags von MusicBrainz.",
+    tags: ["Rust", "TUI", "ffmpeg", "MusicBrainz"],
+    cta: "Mehr lesen →",
+    softwareOnly: true,
+  },
+  {
+    slug: "archivar",
+    href: "/blog/archivar/",
+    image: "/images/archivar.svg",
+    imageAlt: "archivar",
+    category: "Desktop-Tool — Alpha",
+    title: "archivar",
+    description:
+      "Sortiert Fotos, Videos, Musik und Dokumente, erkennt Dubletten und bereitet GoPro-Material als Kdenlive-Projekt vor.",
+    tags: ["Python", "KDE", "Claude", "EXIF/XMP"],
+    cta: "Mehr lesen →",
+    softwareOnly: true,
+  },
+  {
+    slug: "crew",
+    href: "/blog/crew/",
+    image: "/images/crew.svg",
+    imageAlt: "crew",
+    category: "Entwickler-Werkzeug",
+    title: "crew",
+    description:
+      "Ein lokales Software-Team aus KI-Agenten: Product Manager, Engineer und Reviewer – ich bin nur noch der Stakeholder.",
+    tags: ["Bash", "Claude Code", "Git", "Agents"],
+    cta: "Mehr lesen →",
+    softwareOnly: true,
+  },
+  {
+    slug: "das-nichts",
+    href: "/blog/das-nichts/",
+    image: "/images/das-nichts.svg",
+    imageAlt: "Das Nichts",
+    category: "KI-Experiment",
+    title: "Das Nichts",
+    description:
+      "Drei KI-Wesen bauen Geschichten und Homepages, ich küre den Sieger – und sie versuchen, mich in der nächsten Runde zu überzeugen.",
+    tags: ["Python", "Claude", "Ollama", "Sandbox"],
+    cta: "Mehr lesen →",
+    softwareOnly: true,
+  },
+  {
     slug: "vokabeltrainer",
     href: "/vocab/",
     image: "/images/vokabeltrainer-screenshot.png",
@@ -65,6 +132,32 @@ export const projects: Project[] = [
     description:
       "Lerne die wichtigsten griechischen Vokabeln mit Aussprache — direkt im Browser.",
     cta: "Ansehen →",
+  },
+  {
+    slug: "hoodini",
+    href: "/blog/hoodini/",
+    image: "/images/hoodini.svg",
+    imageAlt: "HOODINI",
+    category: "Web-App — Prototyp",
+    title: "HOODINI",
+    description:
+      "Geo-Marker-Karte für Freundeskreise mit XP-System – und eine Community-Lobby, um rechtsextreme Symbole im Stadtbild zu dokumentieren.",
+    tags: ["Flutter", "Supabase", "OpenStreetMap"],
+    cta: "Mehr lesen →",
+    softwareOnly: true,
+  },
+  {
+    slug: "akolyth",
+    href: "/blog/akolyth/",
+    image: "/images/akolyth.svg",
+    imageAlt: "Akolyth",
+    category: "KI-Experiment",
+    title: "Akolyth",
+    description:
+      "Terminal-Assistent, der sein Wissen in einer lokalen SQLite-Datenbank speichert – mit frischem Kontext bei jeder Anfrage.",
+    tags: ["Python", "SQLite FTS5", "Claude"],
+    cta: "Mehr lesen →",
+    softwareOnly: true,
   },
   {
     slug: "oleander",

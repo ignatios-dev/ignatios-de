@@ -4,6 +4,7 @@ import { ObfuscatedEmail } from "@/components/ObfuscatedEmail";
 import { ProjectCard } from "@/components/ProjectCard";
 import { SectionLabel } from "@/components/SectionLabel";
 import { projects } from "@/lib/projects";
+import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -41,6 +42,22 @@ export default function Software() {
               </div>
             ))}
           </div>
+
+          {/* Poikilia Beta-Hinweis */}
+          <Link
+            href="/poikilia/#beta"
+            className="group mt-8 flex flex-col md:flex-row md:items-center gap-3 md:gap-5 bg-accent text-white nb-border nb-shadow nb-press rounded-2xl p-5 md:p-6 no-underline hover:text-white"
+          >
+            <span className="self-start md:self-auto inline-block bg-white text-accent nb-border rounded-full font-mono text-[12px] font-bold uppercase tracking-[0.06em] px-3 py-1">
+              Beta-Tester gesucht
+            </span>
+            <span className="flex-1 text-[16px] md:text-[17px] leading-[1.5]">
+              <strong>Poikilia</strong> — iss vielfältiger, ohne Kalorienzählen. Teste meine Android-App zwei Wochen lang im Play Store.
+            </span>
+            <span className="font-bold whitespace-nowrap">
+              Mitmachen <span className="inline-block transition-transform duration-200 group-hover:translate-x-1.5">→</span>
+            </span>
+          </Link>
         </div>
       </header>
 
