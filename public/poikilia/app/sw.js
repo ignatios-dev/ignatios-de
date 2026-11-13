@@ -1,8 +1,7 @@
 /*
  * Service Worker der Web-App: alles offline (CLAUDE.md „Offline-first ohne Ausnahme“).
- * Vorlage – beim Build (:webApp:pwaDistribution) werden d73b3ce937197766 und [
+ * Vorlage – beim Build (:webApp:pwaDistribution) werden 371d34e273005f9a und [
   "./",
-  "564f7488b293a0b194b4.wasm",
   "658820f72b4617efb380.wasm",
   "composeResources/de.ignatios.foodcoach.ui.generated/drawable/lucide_alarm_clock.xml",
   "composeResources/de.ignatios.foodcoach.ui.generated/drawable/lucide_beef.xml",
@@ -154,6 +153,7 @@
   "composeResources/de.ignatios.foodcoach.ui.generated/font/dm_sans_bold.ttf",
   "composeResources/de.ignatios.foodcoach.ui.generated/font/dm_sans_medium.ttf",
   "composeResources/de.ignatios.foodcoach.ui.generated/font/dm_sans_regular.ttf",
+  "f305aa6d99ea2c11299b.wasm",
   "icons/apple-touch-icon.png",
   "icons/icon-192.png",
   "icons/icon-512.png",
@@ -173,10 +173,9 @@
  * Daten (Rezepte, Liste) liegen in IndexedDB und sind davon nicht betroffen.
  */
 const PREFIX = 'foodcoach-';
-const CACHE = PREFIX + 'd73b3ce937197766';
+const CACHE = PREFIX + '371d34e273005f9a';
 const FILES = [
   "./",
-  "564f7488b293a0b194b4.wasm",
   "658820f72b4617efb380.wasm",
   "composeResources/de.ignatios.foodcoach.ui.generated/drawable/lucide_alarm_clock.xml",
   "composeResources/de.ignatios.foodcoach.ui.generated/drawable/lucide_beef.xml",
@@ -328,6 +327,7 @@ const FILES = [
   "composeResources/de.ignatios.foodcoach.ui.generated/font/dm_sans_bold.ttf",
   "composeResources/de.ignatios.foodcoach.ui.generated/font/dm_sans_medium.ttf",
   "composeResources/de.ignatios.foodcoach.ui.generated/font/dm_sans_regular.ttf",
+  "f305aa6d99ea2c11299b.wasm",
   "icons/apple-touch-icon.png",
   "icons/icon-192.png",
   "icons/icon-512.png",
