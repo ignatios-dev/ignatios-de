@@ -39,8 +39,7 @@ export default function Home() {
           </p>
           <div className="flex gap-4 flex-wrap">
             <Link
-              href="/software/"
-              data-glauki-hover="Na los, klick schon! Ich hab gehört, der Typ antwortet echt schnell."
+              href="/software/" 
               className="group bg-accent text-white nb-border nb-shadow nb-press rounded-xl px-7 py-4 font-bold text-[15px] no-underline hover:text-white"
             >
               Projekt anfragen <span className="inline-block transition-transform duration-200 group-hover:translate-x-1.5">→</span>
@@ -68,8 +67,7 @@ export default function Home() {
           </div>
           <a
             href="/apartments/index.html"
-            data-reveal
-            data-glauki-hover="Oliven, Meer, Sonne. Ich würde da ja hinfliegen. Moment … ich KANN fliegen!"
+            data-reveal 
             className="bg-accent text-white nb-border nb-shadow nb-press rounded-2xl p-6 flex items-center gap-[14px] no-underline hover:text-white"
           >
             <div className="flex items-center">

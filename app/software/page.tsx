@@ -88,8 +88,7 @@ export default function Software() {
           <h2 className="relative text-[24px] md:text-[30px] font-bold mb-3 md:mb-[14px]">Ihr habt ein Projekt im Kopf?</h2>
           <p className="relative text-[oklch(0.8_0.01_255)] mb-8">Schreibt mir — ich melde mich innerhalb von zwei Werktagen.</p>
           <span
-            className="relative inline-block"
-            data-glauki-hover="Trau dich! Er antwortet wirklich. Meistens sogar freundlich."
+            className="relative inline-block" 
           >
             <ObfuscatedEmail className="inline-block bg-accent text-white border-[3px] border-white rounded-xl shadow-[6px_6px_0_0_white] px-8 py-4 font-bold no-underline transition-[transform,box-shadow] duration-150 hover:text-white hover:-translate-x-[3px] hover:-translate-y-[3px] hover:shadow-[9px_9px_0_0_white] active:translate-x-1 active:translate-y-1 active:shadow-none" />
           </span>

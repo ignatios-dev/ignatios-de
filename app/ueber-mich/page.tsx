@@ -20,8 +20,7 @@ export default function UeberMich() {
           {/* Portrait + Bio */}
           <div className="grid grid-cols-1 md:grid-cols-[280px_1fr] gap-10 md:gap-14 mb-14 md:mb-20 items-start">
             <div
-              className="nb-wiggle w-full h-[240px] md:h-[300px] overflow-hidden bg-light-blue nb-border nb-shadow rounded-3xl -rotate-2"
-              data-glauki-hover="Ja, das ist er. In echt ist er etwas größer. Ich bin kleiner."
+              className="nb-wiggle w-full h-[240px] md:h-[300px] overflow-hidden bg-light-blue nb-border nb-shadow rounded-3xl -rotate-2" 
             >
               <img src="/images/portrait-ignatios.jpg" alt="Ignatios Waffenschmidt" className="w-full h-full object-cover object-top" />
             </div>
@@ -52,7 +51,7 @@ export default function UeberMich() {
             className="bg-light-blue nb-border nb-shadow rounded-2xl p-7 md:p-10 flex flex-col items-start gap-5 md:flex-row md:justify-between md:items-center md:gap-6 md:flex-wrap"
           >
             <div className="text-[18px] font-bold">Fragen, Projektideen oder einfach Hallo sagen?</div>
-            <span data-glauki-hover="Einfach Hallo sagen ist völlig okay. Ich mach das auch ständig.">
+            <span>
               <ObfuscatedEmail className="inline-block font-bold text-[15px] bg-accent text-white nb-border nb-shadow-sm nb-press rounded-xl px-[26px] py-[14px] no-underline hover:text-white" />
             </span>
           </div>

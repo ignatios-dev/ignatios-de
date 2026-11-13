@@ -15,6 +15,20 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    slug: "poikilia",
+    href: "/poikilia/#beta",
+    image: "/images/poikilia-feature.png",
+    imageAlt: "Poikilia – Vielfalt-Tagebuch für Android",
+    category: "Android-App — Beta-Tester gesucht",
+    title: "Poikilia",
+    description:
+      "Iss vielfältiger – ohne Kalorienzählen. Ernährungstagebuch mit Vielfalt-Score, Rezepten und Kochmodus. Ich suche Beta-Tester für zwei Wochen im Play Store.",
+    tags: ["Kotlin", "Compose Multiplatform", "Offline", "Android"],
+    cta: "Beta-Tester werden →",
+    large: true,
+    imagePosition: "center",
+  },
+  {
     slug: "agora",
     href: "https://agora-production-aae4.up.railway.app/",
     external: true,

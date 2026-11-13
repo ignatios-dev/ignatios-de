@@ -13,13 +13,20 @@ function getEmail(): string {
 interface Props {
   className?: string;
   children?: React.ReactNode;
+  /** Vorbefüllter Betreff bzw. Text der Mail (optional). */
+  subject?: string;
+  body?: string;
 }
 
-export function ObfuscatedEmail({ className, children }: Props) {
+export function ObfuscatedEmail({ className, children, subject, body }: Props) {
   const handleClick = useCallback((e: React.MouseEvent) => {
     e.preventDefault();
-    window.location.href = 'mailto:' + getEmail();
-  }, []);
+    const params = [
+      subject ? 'subject=' + encodeURIComponent(subject) : '',
+      body ? 'body=' + encodeURIComponent(body) : '',
+    ].filter(Boolean).join('&');
+    window.location.href = 'mailto:' + getEmail() + (params ? '?' + params : '');
+  }, [subject, body]);
 
   return (
     <a href="#kontakt" onClick={handleClick} className={className}>
