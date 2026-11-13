@@ -87,12 +87,26 @@ export default function Software() {
           </div>
         </div>
 
-        {/* Projekte */}
+        {/* Aktive Projekte */}
         <div className="mb-14 md:mb-20">
-          <SectionLabel>Projekte</SectionLabel>
-          <h2 className="text-[28px] md:text-[38px] font-bold tracking-[-0.02em] mb-8">Aus der Werkstatt</h2>
+          <SectionLabel>Aktive Projekte</SectionLabel>
+          <h2 className="text-[28px] md:text-[38px] font-bold tracking-[-0.02em] mb-8">Gerade auf der Werkbank</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-9">
-            {projects.map((project) => (
+            {projects.filter((p) => p.active).map((project) => (
+              <ProjectCard key={project.slug} project={project} />
+            ))}
+          </div>
+        </div>
+
+        {/* Ältere Projekte */}
+        <div className="mb-14 md:mb-20">
+          <SectionLabel>Ältere Projekte</SectionLabel>
+          <h2 className="text-[28px] md:text-[38px] font-bold tracking-[-0.02em] mb-3">Aus der Werkstatt</h2>
+          <p className="text-[16px] text-secondary leading-[1.6] max-w-[680px] mb-8">
+            Projekte, die gerade schlummern — fertig genug zum Anschauen, aber nicht in aktiver Entwicklung.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-9">
+            {projects.filter((p) => !p.active).map((project) => (
               <ProjectCard key={project.slug} project={project} />
             ))}
           </div>

@@ -90,7 +90,7 @@ export default function Home() {
           Dinge, an denen ich arbeite
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-9">
-          {projects.filter((p) => !p.softwareOnly).map((project) => (
+          {[...projects.filter((p) => p.active), ...projects.filter((p) => !p.active && !p.softwareOnly)].map((project) => (
             <ProjectCard key={project.slug} project={project} />
           ))}
         </div>

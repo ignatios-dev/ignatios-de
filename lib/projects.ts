@@ -13,6 +13,8 @@ export interface Project {
   imagePosition?: "top" | "center";
   /** Nur auf der Software-Seite zeigen, nicht auf der Startseite */
   softwareOnly?: boolean;
+  /** Wird gerade aktiv entwickelt – sonst unter „Ältere Projekte“ */
+  active?: boolean;
 }
 
 export const projects: Project[] = [
@@ -28,6 +30,7 @@ export const projects: Project[] = [
     tags: ["Kotlin", "Compose Multiplatform", "Offline", "Android"],
     cta: "Beta-Tester werden →",
     large: true,
+    active: true,
     imagePosition: "center",
   },
   {
@@ -42,20 +45,20 @@ export const projects: Project[] = [
       "Multi-Kanal Marketing für Kleinstunternehmen — Kundenliste importieren, personalisierte Kampagnen per E-Mail oder WhatsApp versenden. Ohne Umwege, ohne CRM-Zwang.",
     tags: ["Laravel", "CSV-Import", "Serienbriefe", "DSGVO"],
     cta: "Demo ansehen →",
-    large: true,
   },
   {
     slug: "kneipensimulator",
     href: "/blog/kneipensimulator/",
     image: "/images/kneipensimulator.svg",
     imageAlt: "Kneipensimulator",
-    category: "Browserspiel — In Entwicklung",
+    category: "Browserspiel — Aktiv in Entwicklung",
     title: "Kneipensimulator",
     description:
       "Eckkneipe einrichten, Schichten planen und das Schichtprotokoll lesen – ein gemütliches Browserspiel mit Wochenliga gegen Freunde.",
     tags: ["TypeScript", "React", "PixiJS", "Fastify"],
     cta: "Mehr lesen →",
-    softwareOnly: true,
+    large: true,
+    active: true,
   },
   {
     slug: "uther-party",
