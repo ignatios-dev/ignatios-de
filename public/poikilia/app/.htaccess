@@ -1,0 +1,6 @@
+# Poikilia-PWA: richtiger MIME-Typ für WebAssembly, Service Worker und Manifest nie lange cachen.
+AddType application/wasm .wasm
+AddType application/manifest+json .webmanifest
+<FilesMatch "^(sw\.js|index\.html|manifest\.webmanifest)$">
+  Header set Cache-Control "no-cache"
+</FilesMatch>

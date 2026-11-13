@@ -1,0 +1,220 @@
+[
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Cremiger Hummus",
+    "base_servings": 6,
+    "tags": ["snack", "vegan", "orientalisch"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Kichererbsen", "amount": 1, "unit": "can", "category": "canned" },
+      { "id": "02", "name": "Tahini", "amount": 3, "unit": "tbsp", "category": "other" },
+      { "id": "03", "name": "Zitrone", "amount": 1, "category": "produce" },
+      { "id": "04", "name": "Knoblauch", "amount": 1, "unit": "clove", "category": "produce" },
+      { "id": "05", "name": "Kreuzkümmel, gemahlen", "amount": 0.5, "unit": "tsp", "category": "spices" },
+      { "id": "06", "name": "Olivenöl", "amount": 2, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "07", "name": "Eiswasser", "amount": 3, "unit": "tbsp", "category": "other" },
+      { "id": "08", "name": "Paprikapulver, edelsüß", "amount": 1, "unit": "pinch", "category": "spices" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Kichererbsen", "content": "{01} abspülen und in Wasser aufkochen, damit sie besonders weich werden. Abgießen.", "timer_seconds": 600 },
+      { "id": "s2", "title": "Pürieren", "content": "{02}, Saft von {03}, {04} und {05} im Mixer cremig aufschlagen. Kichererbsen dazugeben und pürieren, dabei {07} löffelweise zugeben, bis der Hummus sehr glatt ist." },
+      { "id": "s3", "title": "Anrichten", "content": "In eine Schale streichen, mit {06} beträufeln und mit {08} bestäuben." }
+    ],
+    "notes": "Hält sich 4 Tage im Kühlschrank."
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Erdnuss-Protein-Balls",
+    "description": "Ohne Backen, für 12 Kugeln.",
+    "base_servings": 12,
+    "tags": ["snack", "vegetarisch", "high-protein", "meal-prep"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "zarte Haferflocken", "amount": 100, "unit": "g", "category": "dry_goods" },
+      { "id": "02", "name": "Erdnussbutter", "amount": 80, "unit": "g", "category": "dry_goods" },
+      { "id": "03", "name": "Honig", "amount": 2, "unit": "tbsp", "category": "other" },
+      { "id": "04", "name": "Proteinpulver Vanille", "amount": 30, "unit": "g", "category": "other" },
+      { "id": "05", "name": "Zartbitter-Schokodrops", "amount": 30, "unit": "g", "category": "dry_goods" },
+      { "id": "06", "name": "Milch", "amount": 2, "unit": "tbsp", "category": "dairy" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Verkneten", "content": "{01}, {02}, {03}, {04} und {06} zu einer formbaren Masse verkneten. {05} unterheben." },
+      { "id": "s2", "title": "Formen", "content": "12 Kugeln formen und kalt stellen, bis sie fest sind.", "timer_seconds": 1800 }
+    ],
+    "notes": "Im Kühlschrank eine Woche haltbar."
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Bananenbrot ohne Zucker",
+    "base_servings": 12,
+    "tags": ["backen", "vegetarisch", "snack"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "sehr reife Bananen", "amount": 3, "category": "fruit" },
+      { "id": "02", "name": "Eier", "amount": 2, "category": "dairy" },
+      { "id": "03", "name": "Dinkelvollkornmehl", "amount": 200, "unit": "g", "category": "dry_goods" },
+      { "id": "04", "name": "zarte Haferflocken", "amount": 50, "unit": "g", "category": "dry_goods" },
+      { "id": "05", "name": "Backpulver", "amount": 2, "unit": "tsp", "category": "dry_goods" },
+      { "id": "06", "name": "Zimt", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "07", "name": "Walnüsse", "amount": 50, "unit": "g", "category": "dry_goods" },
+      { "id": "08", "name": "Rapsöl", "amount": 3, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "09", "name": "Milch", "amount": 50, "unit": "ml", "category": "dairy" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Nass", "content": "Ofen auf 175 °C vorheizen. {01} mit einer Gabel zerdrücken und mit {02}, {08} und {09} verrühren." },
+      { "id": "s2", "title": "Trocken", "content": "{03}, {04}, {05} und {06} mischen, kurz unter die Bananenmasse rühren. {07} hacken und unterheben." },
+      { "id": "s3", "title": "Backen", "content": "In eine mit Backpapier ausgelegte Kastenform füllen und backen, bis ein Holzstäbchen sauber herauskommt.", "timer_seconds": 3000 },
+      { "id": "s4", "title": "Abkühlen", "content": "In der Form 10 Minuten abkühlen lassen, dann stürzen.", "timer_seconds": 600 }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Quarkcreme mit Beeren und Mandeln",
+    "base_servings": 2,
+    "tags": ["dessert", "vegetarisch", "high-protein", "schnell"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Magerquark", "amount": 250, "unit": "g", "category": "dairy" },
+      { "id": "02", "name": "Naturjoghurt", "amount": 100, "unit": "g", "category": "dairy" },
+      { "id": "03", "name": "Vanilleextrakt", "amount": 1, "unit": "tsp", "category": "other" },
+      { "id": "04", "name": "Honig", "amount": 2, "unit": "tsp", "category": "other" },
+      { "id": "05", "name": "Beerenmischung (TK)", "amount": 200, "unit": "g", "category": "frozen" },
+      { "id": "06", "name": "Mandelblättchen", "amount": 15, "unit": "g", "category": "dry_goods" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Beeren", "content": "{05} in einem kleinen Topf kurz erwärmen, bis sie Saft ziehen.", "timer_seconds": 180 },
+      { "id": "s2", "title": "Creme", "content": "{01}, {02}, {03} und {04} cremig rühren." },
+      { "id": "s3", "title": "Anrichten", "content": "Creme und Beeren schichten. {06} in einer trockenen Pfanne rösten und darüberstreuen.", "timer_seconds": 120 }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Apfel-Zimt-Crumble",
+    "base_servings": 4,
+    "tags": ["dessert", "vegetarisch", "ofen", "backen"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Äpfel", "amount": 4, "category": "fruit" },
+      { "id": "02", "name": "Zitrone", "amount": 0.5, "category": "produce" },
+      { "id": "03", "name": "Zimt", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "04", "name": "kernige Haferflocken", "amount": 80, "unit": "g", "category": "dry_goods" },
+      { "id": "05", "name": "Dinkelmehl", "amount": 40, "unit": "g", "category": "dry_goods" },
+      { "id": "06", "name": "kalte Butter", "amount": 50, "unit": "g", "category": "dairy" },
+      { "id": "07", "name": "brauner Zucker", "amount": 30, "unit": "g", "category": "dry_goods" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Äpfel", "content": "Ofen auf 190 °C vorheizen. {01} entkernen, würfeln und mit dem Saft von {02} und {03} in einer Auflaufform mischen." },
+      { "id": "s2", "title": "Streusel", "content": "{04}, {05}, {06} (in Stücken) und {07} mit den Fingern zu groben Streuseln reiben und über die Äpfel streuen." },
+      { "id": "s3", "title": "Backen", "content": "Backen, bis die Streusel goldbraun sind und die Äpfel blubbern.", "timer_seconds": 1800 }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Edamame mit Chili und Limette",
+    "base_servings": 2,
+    "tags": ["snack", "vegan", "asiatisch", "schnell"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Edamame in der Schote (TK)", "amount": 300, "unit": "g", "category": "frozen" },
+      { "id": "02", "name": "Meersalz", "amount": 0.5, "unit": "tsp", "category": "spices" },
+      { "id": "03", "name": "Chiliflocken", "amount": 1, "unit": "pinch", "category": "spices" },
+      { "id": "04", "name": "Sesamöl", "amount": 1, "unit": "tsp", "category": "asian" },
+      { "id": "05", "name": "Limette", "amount": 1, "category": "produce" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Garen", "content": "{01} in kochendem Wasser garen und abgießen.", "timer_seconds": 240 },
+      { "id": "s2", "title": "Würzen", "content": "Noch heiß mit {04}, {02}, {03} und dem Saft von {05} schwenken." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Knusprige Ofen-Kichererbsen",
+    "base_servings": 4,
+    "tags": ["snack", "vegan", "ofen"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Kichererbsen", "amount": 1, "unit": "can", "category": "canned" },
+      { "id": "02", "name": "Olivenöl", "amount": 1, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "03", "name": "Paprikapulver, geräuchert", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "04", "name": "Knoblauchpulver", "amount": 0.5, "unit": "tsp", "category": "spices" },
+      { "id": "05", "name": "Salz", "amount": 1, "unit": "pinch", "category": "spices" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Trocknen", "content": "Ofen auf 200 °C vorheizen. {01} abspülen und mit einem Küchentuch sehr gründlich trocken reiben, lose Häutchen entfernen." },
+      { "id": "s2", "title": "Würzen", "content": "Mit {02}, {03}, {04} und {05} mischen und auf einem Blech verteilen." },
+      { "id": "s3", "title": "Rösten", "content": "Knusprig rösten, zwischendurch einmal rütteln.", "timer_seconds": 1800 },
+      { "id": "s4", "title": "Abkühlen", "content": "Auf dem Blech abkühlen lassen – erst dann werden sie richtig knusprig.", "timer_seconds": 600 }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Schoko-Avocado-Mousse mit Himbeeren",
+    "base_servings": 2,
+    "tags": ["dessert", "vegan", "schnell"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "reife Avocado", "amount": 1, "category": "produce" },
+      { "id": "02", "name": "reife Banane", "amount": 1, "category": "fruit" },
+      { "id": "03", "name": "Backkakao", "amount": 2, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "04", "name": "Ahornsirup", "amount": 1, "unit": "tbsp", "category": "other" },
+      { "id": "05", "name": "Haferdrink", "amount": 3, "unit": "tbsp", "category": "dairy" },
+      { "id": "06", "name": "Himbeeren", "amount": 100, "unit": "g", "category": "fruit" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Pürieren", "content": "{01}, {02}, {03}, {04} und {05} sehr fein pürieren." },
+      { "id": "s2", "title": "Kühlen", "content": "In Gläser füllen und kalt stellen.", "timer_seconds": 1800 },
+      { "id": "s3", "title": "Servieren", "content": "Mit {06} toppen." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Tzatziki",
+    "base_servings": 4,
+    "tags": ["snack", "griechisch", "vegetarisch"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "griechischer Joghurt", "amount": 300, "unit": "g", "category": "dairy" },
+      { "id": "02", "name": "Gurke", "amount": 0.5, "category": "produce" },
+      { "id": "03", "name": "Knoblauch", "amount": 2, "unit": "clove", "category": "produce" },
+      { "id": "04", "name": "Olivenöl", "amount": 1, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "05", "name": "Dill", "amount": 0.5, "unit": "bunch", "category": "produce" },
+      { "id": "06", "name": "Zitrone", "amount": 0.5, "category": "produce" },
+      { "id": "07", "name": "Salz", "amount": 1, "unit": "pinch", "category": "spices" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Gurke", "content": "{02} grob raspeln, mit {07} mischen und Wasser ziehen lassen. Dann kräftig ausdrücken.", "timer_seconds": 600 },
+      { "id": "s2", "title": "Verrühren", "content": "Gurke mit {01}, {03} (fein gerieben), {04}, dem Saft von {06} und {05} (gehackt) verrühren." },
+      { "id": "s3", "title": "Durchziehen", "content": "Abgedeckt im Kühlschrank durchziehen lassen.", "timer_seconds": 1800 }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Frozen-Joghurt-Bruch mit Beeren und Pistazien",
+    "base_servings": 6,
+    "tags": ["dessert", "vegetarisch", "high-protein", "meal-prep"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "griechischer Joghurt", "amount": 400, "unit": "g", "category": "dairy" },
+      { "id": "02", "name": "Honig", "amount": 2, "unit": "tbsp", "category": "other" },
+      { "id": "03", "name": "frische Beeren", "amount": 150, "unit": "g", "category": "fruit" },
+      { "id": "04", "name": "Pistazien", "amount": 20, "unit": "g", "category": "dry_goods" },
+      { "id": "05", "name": "Zartbitterschokolade", "amount": 30, "unit": "g", "category": "dry_goods" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Verstreichen", "content": "{01} mit {02} verrühren und etwa 1 cm dick auf ein mit Backpapier belegtes Brett oder Blech streichen." },
+      { "id": "s2", "title": "Toppen", "content": "{03} darauf verteilen, {04} hacken und darüberstreuen. {05} hacken oder schmelzen und darübergeben." },
+      { "id": "s3", "title": "Gefrieren", "content": "Mindestens 3 Stunden einfrieren, dann in Stücke brechen." }
+    ],
+    "notes": "Gefroren in einer Dose bis zu einem Monat haltbar."
+  }
+]

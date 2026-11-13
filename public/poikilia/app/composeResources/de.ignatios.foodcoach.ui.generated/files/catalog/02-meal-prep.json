@@ -1,0 +1,278 @@
+[
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Teriyaki-Hähnchen-Bowl mit Brokkoli",
+    "description": "Drei Boxen für drei Tage.",
+    "base_servings": 3,
+    "tags": ["meal-prep", "asiatisch", "hähnchen", "high-protein"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Basmatireis", "amount": 240, "unit": "g", "category": "dry_goods" },
+      { "id": "02", "name": "Hähnchenbrust", "amount": 500, "unit": "g", "category": "meat_fish" },
+      { "id": "03", "name": "Brokkoli", "amount": 1, "category": "produce" },
+      { "id": "04", "name": "Sojasauce", "amount": 4, "unit": "tbsp", "category": "asian" },
+      { "id": "05", "name": "Honig", "amount": 1, "unit": "tbsp", "category": "other" },
+      { "id": "06", "name": "Reisessig", "amount": 1, "unit": "tbsp", "category": "asian" },
+      { "id": "07", "name": "Ingwer", "amount": 10, "unit": "g", "category": "produce" },
+      { "id": "08", "name": "Knoblauch", "amount": 2, "unit": "clove", "category": "produce" },
+      { "id": "09", "name": "Speisestärke", "amount": 1, "unit": "tsp", "category": "dry_goods" },
+      { "id": "10", "name": "Sesam", "amount": 1, "unit": "tbsp", "category": "asian" },
+      { "id": "11", "name": "Rapsöl", "amount": 1, "unit": "tbsp", "category": "dry_goods" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Reis", "content": "{01} nach Packungsanleitung garen.", "timer_seconds": 900 },
+      { "id": "s2", "title": "Brokkoli", "content": "{03} in Röschen teilen und über Dampf bissfest garen.", "timer_seconds": 240 },
+      { "id": "s3", "title": "Sauce", "content": "{04}, {05}, {06}, {07} (gerieben), {08} (gepresst) und {09} mit 4 EL Wasser verrühren." },
+      { "id": "s4", "title": "Hähnchen", "content": "{02} würfeln und in {11} rundherum anbraten.", "timer_seconds": 360 },
+      { "id": "s5", "title": "Glasieren", "content": "Sauce dazugießen und einkochen lassen, bis sie glänzt.", "timer_seconds": 120 },
+      { "id": "s6", "title": "Abfüllen", "content": "Reis, Brokkoli und Hähnchen auf 3 Boxen verteilen und mit {10} bestreuen." }
+    ],
+    "notes": "Im Kühlschrank 3 Tage haltbar. Reis vor dem Verschließen offen abkühlen lassen."
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Chili sin Carne",
+    "description": "Vegan, ballaststoffreich und ideal zum Vorkochen.",
+    "base_servings": 4,
+    "tags": ["meal-prep", "vegan", "mexikanisch", "one-pot"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Olivenöl", "amount": 1, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "02", "name": "Zwiebeln", "amount": 2, "category": "produce" },
+      { "id": "03", "name": "Knoblauch", "amount": 3, "unit": "clove", "category": "produce" },
+      { "id": "04", "name": "Paprika", "amount": 2, "category": "produce" },
+      { "id": "05", "name": "Kidneybohnen", "amount": 2, "unit": "can", "category": "canned" },
+      { "id": "06", "name": "Mais", "amount": 1, "unit": "can", "category": "canned" },
+      { "id": "07", "name": "gehackte Tomaten", "amount": 2, "unit": "can", "category": "canned" },
+      { "id": "08", "name": "Tomatenmark", "amount": 2, "unit": "tbsp", "category": "canned" },
+      { "id": "09", "name": "Kreuzkümmel, gemahlen", "amount": 2, "unit": "tsp", "category": "spices" },
+      { "id": "10", "name": "Chilipulver", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "11", "name": "Paprikapulver, geräuchert", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "12", "name": "Salz", "category": "spices", "raw_text": "Salz nach Geschmack" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Anbraten", "content": "{02} und {04} würfeln, {03} hacken. Alles in {01} anbraten.", "timer_seconds": 300 },
+      { "id": "s2", "title": "Rösten", "content": "{08}, {09}, {10} und {11} unterrühren und kurz mitrösten.", "timer_seconds": 60 },
+      { "id": "s3", "title": "Köcheln", "content": "{05} und {06} abspülen, mit {07} dazugeben und offen köcheln lassen.", "timer_seconds": 1500 },
+      { "id": "s4", "title": "Abfüllen", "content": "Mit {12} abschmecken und auf 4 Boxen verteilen." }
+    ],
+    "notes": "Lässt sich portionsweise einfrieren."
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Puten-Süßkartoffel-Bowl mit Joghurtsauce",
+    "base_servings": 3,
+    "tags": ["meal-prep", "high-protein", "pute", "ofen"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Süßkartoffeln", "amount": 600, "unit": "g", "category": "produce" },
+      { "id": "02", "name": "Putenbrust", "amount": 450, "unit": "g", "category": "meat_fish" },
+      { "id": "03", "name": "grüne Bohnen (TK)", "amount": 300, "unit": "g", "category": "frozen" },
+      { "id": "04", "name": "Olivenöl", "amount": 2, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "05", "name": "Paprikapulver, edelsüß", "amount": 2, "unit": "tsp", "category": "spices" },
+      { "id": "06", "name": "Knoblauchpulver", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "07", "name": "Salz", "amount": 1, "unit": "pinch", "category": "spices" },
+      { "id": "08", "name": "Naturjoghurt", "amount": 150, "unit": "g", "category": "dairy" },
+      { "id": "09", "name": "Zitrone", "amount": 1, "category": "produce" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Würzöl", "content": "Ofen auf 200 °C Umluft vorheizen. {04} mit {05}, {06} und {07} verrühren." },
+      { "id": "s2", "title": "Süßkartoffeln", "content": "{01} würfeln, mit der Hälfte des Würzöls mischen und auf einem Blech rösten.", "timer_seconds": 1500 },
+      { "id": "s3", "title": "Pute", "content": "{02} in Streifen schneiden, im restlichen Würzöl wenden und in der Pfanne durchbraten.", "timer_seconds": 360 },
+      { "id": "s4", "title": "Bohnen", "content": "{03} in Salzwasser garen.", "timer_seconds": 300 },
+      { "id": "s5", "title": "Sauce und Abfüllen", "content": "{08} mit dem Saft von {09} verrühren. Alles auf 3 Boxen verteilen, Sauce separat abfüllen." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Lachs-Quinoa-Bowl mit Edamame",
+    "base_servings": 2,
+    "tags": ["meal-prep", "fisch", "asiatisch", "high-protein"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Quinoa", "amount": 150, "unit": "g", "category": "dry_goods" },
+      { "id": "02", "name": "Lachsfilet", "amount": 300, "unit": "g", "category": "meat_fish" },
+      { "id": "03", "name": "Edamame, geschält (TK)", "amount": 150, "unit": "g", "category": "frozen" },
+      { "id": "04", "name": "Gurke", "amount": 1, "category": "produce" },
+      { "id": "05", "name": "Avocado", "amount": 1, "category": "produce" },
+      { "id": "06", "name": "Sojasauce", "amount": 2, "unit": "tbsp", "category": "asian" },
+      { "id": "07", "name": "Limette", "amount": 1, "category": "produce" },
+      { "id": "08", "name": "Sesam", "amount": 1, "unit": "tsp", "category": "asian" },
+      { "id": "09", "name": "Sriracha", "amount": 1, "unit": "tsp", "category": "asian" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Quinoa", "content": "{01} heiß abspülen und in der doppelten Menge Wasser garen.", "timer_seconds": 900 },
+      { "id": "s2", "title": "Lachs", "content": "Ofen auf 200 °C vorheizen. {02} mit der Hälfte von {06} beträufeln und im Ofen garen.", "timer_seconds": 720 },
+      { "id": "s3", "title": "Edamame", "content": "{03} in kochendem Wasser garen und abgießen.", "timer_seconds": 240 },
+      { "id": "s4", "title": "Dressing", "content": "{04} und {05} in Scheiben schneiden. Restliche Sojasauce mit dem Saft von {07} und {09} verrühren." },
+      { "id": "s5", "title": "Anrichten", "content": "Alles in Schalen anrichten, Lachs zerpflücken, Dressing darübergeben und mit {08} bestreuen." }
+    ],
+    "notes": "Avocado erst am Esstag aufschneiden."
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Burrito-Bowl mit Rinderhack",
+    "base_servings": 4,
+    "tags": ["meal-prep", "mexikanisch", "rind", "high-protein"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Rinderhack, mager", "amount": 500, "unit": "g", "category": "meat_fish" },
+      { "id": "02", "name": "Langkornreis", "amount": 250, "unit": "g", "category": "dry_goods" },
+      { "id": "03", "name": "schwarze Bohnen", "amount": 1, "unit": "can", "category": "canned" },
+      { "id": "04", "name": "Mais", "amount": 1, "unit": "can", "category": "canned" },
+      { "id": "05", "name": "Paprika", "amount": 2, "category": "produce" },
+      { "id": "06", "name": "Zwiebel", "amount": 1, "category": "produce" },
+      { "id": "07", "name": "Taco-Gewürz", "amount": 2, "unit": "tbsp", "category": "spices" },
+      { "id": "08", "name": "Limette", "amount": 1, "category": "produce" },
+      { "id": "09", "name": "Koriander", "amount": 0.5, "unit": "bunch", "category": "produce" },
+      { "id": "10", "name": "Salsa", "amount": 8, "unit": "tbsp", "category": "canned" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Reis", "content": "{02} nach Packungsanleitung garen.", "timer_seconds": 900 },
+      { "id": "s2", "title": "Hack", "content": "{06} und {05} würfeln. {01} krümelig anbraten, Gemüse dazugeben und mitbraten.", "timer_seconds": 300 },
+      { "id": "s3", "title": "Würzen", "content": "{07} und 100 ml Wasser einrühren und einkochen lassen.", "timer_seconds": 180 },
+      { "id": "s4", "title": "Bohnen", "content": "{03} und {04} abspülen und kurz in einem Topf erwärmen." },
+      { "id": "s5", "title": "Abfüllen", "content": "{09} hacken und mit dem Saft von {08} unter den Reis mischen. Alles auf 4 Boxen verteilen, {10} separat dazugeben." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Rotes Linsen-Curry mit Spinat",
+    "base_servings": 4,
+    "tags": ["meal-prep", "vegan", "indisch", "one-pot"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "rote Linsen", "amount": 300, "unit": "g", "category": "dry_goods" },
+      { "id": "02", "name": "Kokosmilch", "amount": 1, "unit": "can", "category": "canned" },
+      { "id": "03", "name": "gehackte Tomaten", "amount": 1, "unit": "can", "category": "canned" },
+      { "id": "04", "name": "Zwiebel", "amount": 1, "category": "produce" },
+      { "id": "05", "name": "Knoblauch", "amount": 2, "unit": "clove", "category": "produce" },
+      { "id": "06", "name": "Ingwer", "amount": 15, "unit": "g", "category": "produce" },
+      { "id": "07", "name": "Currypulver", "amount": 2, "unit": "tbsp", "category": "spices" },
+      { "id": "08", "name": "Kurkuma", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "09", "name": "Babyspinat", "amount": 150, "unit": "g", "category": "produce" },
+      { "id": "10", "name": "Rapsöl", "amount": 1, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "11", "name": "Gemüsebrühe", "amount": 500, "unit": "ml", "category": "dry_goods" },
+      { "id": "12", "name": "Basmatireis", "amount": 250, "unit": "g", "category": "dry_goods" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Reis", "content": "{12} nach Packungsanleitung garen.", "timer_seconds": 900 },
+      { "id": "s2", "title": "Anschwitzen", "content": "{04}, {05} und {06} fein hacken und in {10} anschwitzen.", "timer_seconds": 180 },
+      { "id": "s3", "title": "Köcheln", "content": "{07} und {08} kurz mitrösten. {01}, {02}, {03} und {11} dazugeben und köcheln, bis die Linsen weich sind.", "timer_seconds": 900 },
+      { "id": "s4", "title": "Spinat", "content": "{09} unterheben, bis er zusammenfällt. Mit dem Reis auf 4 Boxen verteilen." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Hähnchen-Gemüse vom Blech",
+    "description": "Ein Blech, kaum Abwasch.",
+    "base_servings": 3,
+    "tags": ["meal-prep", "hähnchen", "ofen", "high-protein"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Hähnchenschenkel ohne Haut und Knochen", "amount": 600, "unit": "g", "category": "meat_fish" },
+      { "id": "02", "name": "Drillinge (kleine Kartoffeln)", "amount": 600, "unit": "g", "category": "produce" },
+      { "id": "03", "name": "Zucchini", "amount": 1, "category": "produce" },
+      { "id": "04", "name": "Paprika", "amount": 2, "category": "produce" },
+      { "id": "05", "name": "rote Zwiebel", "amount": 1, "category": "produce" },
+      { "id": "06", "name": "Olivenöl", "amount": 2, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "07", "name": "Rosmarin, getrocknet", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "08", "name": "Oregano, getrocknet", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "09", "name": "Knoblauch", "amount": 3, "unit": "clove", "category": "produce" },
+      { "id": "10", "name": "Salz", "amount": 2, "unit": "pinch", "category": "spices" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Schneiden", "content": "Ofen auf 220 °C vorheizen. {02} halbieren, {03}, {04} und {05} in grobe Stücke schneiden." },
+      { "id": "s2", "title": "Marinieren", "content": "{06} mit {07}, {08}, {09} (gepresst) und {10} verrühren und mit {01} und dem Gemüse mischen." },
+      { "id": "s3", "title": "Rösten", "content": "Alles auf einem Blech verteilen und rösten, nach der Hälfte der Zeit einmal wenden.", "timer_seconds": 2100 },
+      { "id": "s4", "title": "Abfüllen", "content": "Auf 3 Boxen verteilen." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Hackbällchen in Tomatensauce mit Vollkornnudeln",
+    "base_servings": 4,
+    "tags": ["meal-prep", "italienisch", "rind"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Rinderhack", "amount": 500, "unit": "g", "category": "meat_fish" },
+      { "id": "02", "name": "Ei", "amount": 1, "category": "dairy" },
+      { "id": "03", "name": "zarte Haferflocken", "amount": 40, "unit": "g", "category": "dry_goods" },
+      { "id": "04", "name": "Zwiebel", "amount": 1, "category": "produce" },
+      { "id": "05", "name": "passierte Tomaten", "amount": 700, "unit": "ml", "category": "canned" },
+      { "id": "06", "name": "Knoblauch", "amount": 2, "unit": "clove", "category": "produce" },
+      { "id": "07", "name": "italienische Kräuter, getrocknet", "amount": 2, "unit": "tsp", "category": "spices" },
+      { "id": "08", "name": "Vollkornnudeln", "amount": 320, "unit": "g", "category": "dry_goods" },
+      { "id": "09", "name": "Parmesan", "amount": 40, "unit": "g", "category": "dairy" },
+      { "id": "10", "name": "Olivenöl", "amount": 1, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "11", "name": "Salz", "amount": 2, "unit": "pinch", "category": "spices" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Bällchen formen", "content": "{04} fein würfeln. {01} mit {02}, {03}, der Hälfte der Zwiebel und {11} verkneten und 16 Bällchen formen." },
+      { "id": "s2", "title": "Anbraten", "content": "{10} erhitzen und die Bällchen rundherum anbraten.", "timer_seconds": 360 },
+      { "id": "s3", "title": "Sauce", "content": "Restliche Zwiebel und {06} (gehackt) kurz mitbraten, {05} und {07} dazugeben und köcheln lassen.", "timer_seconds": 900 },
+      { "id": "s4", "title": "Nudeln", "content": "{08} nach Packungsanleitung kochen.", "timer_seconds": 600 },
+      { "id": "s5", "title": "Abfüllen", "content": "Nudeln und Bällchen mit Sauce auf 4 Boxen verteilen und {09} darüberreiben." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Knusper-Tofu-Bowl mit Erdnusssauce",
+    "base_servings": 3,
+    "tags": ["meal-prep", "vegan", "asiatisch"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Tofu, natur", "amount": 400, "unit": "g", "category": "other" },
+      { "id": "02", "name": "Jasminreis", "amount": 210, "unit": "g", "category": "dry_goods" },
+      { "id": "03", "name": "Brokkoli", "amount": 1, "category": "produce" },
+      { "id": "04", "name": "Karotten", "amount": 2, "category": "produce" },
+      { "id": "05", "name": "Erdnussbutter", "amount": 3, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "06", "name": "Sojasauce", "amount": 3, "unit": "tbsp", "category": "asian" },
+      { "id": "07", "name": "Limette", "amount": 1, "category": "produce" },
+      { "id": "08", "name": "Ahornsirup", "amount": 1, "unit": "tbsp", "category": "other" },
+      { "id": "09", "name": "Speisestärke", "amount": 1, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "10", "name": "Rapsöl", "amount": 2, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "11", "name": "geröstete Erdnüsse", "amount": 30, "unit": "g", "category": "dry_goods" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Reis", "content": "{02} nach Packungsanleitung garen.", "timer_seconds": 900 },
+      { "id": "s2", "title": "Tofu", "content": "{01} gut trocken tupfen, würfeln und in {09} wenden. In {10} von allen Seiten knusprig braten.", "timer_seconds": 480 },
+      { "id": "s3", "title": "Gemüse", "content": "{03} in Röschen teilen, {04} in Scheiben schneiden und beides dämpfen.", "timer_seconds": 300 },
+      { "id": "s4", "title": "Sauce", "content": "{05}, {06}, den Saft von {07}, {08} und 4 EL warmes Wasser glatt rühren." },
+      { "id": "s5", "title": "Abfüllen", "content": "Alles auf 3 Boxen verteilen, Sauce darübergeben. {11} hacken und darüberstreuen." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Ofen-Gnocchi mit Feta und Kirschtomaten",
+    "base_servings": 3,
+    "tags": ["meal-prep", "vegetarisch", "ofen", "mediterran"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Gnocchi (Kühlregal)", "amount": 800, "unit": "g", "category": "other" },
+      { "id": "02", "name": "Kirschtomaten", "amount": 400, "unit": "g", "category": "produce" },
+      { "id": "03", "name": "Feta", "amount": 200, "unit": "g", "category": "dairy" },
+      { "id": "04", "name": "Zucchini", "amount": 1, "category": "produce" },
+      { "id": "05", "name": "Olivenöl", "amount": 2, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "06", "name": "Knoblauch", "amount": 2, "unit": "clove", "category": "produce" },
+      { "id": "07", "name": "Basilikum", "amount": 1, "unit": "bunch", "category": "produce" },
+      { "id": "08", "name": "Oregano, getrocknet", "amount": 1, "unit": "tsp", "category": "spices" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Vorbereiten", "content": "Ofen auf 200 °C vorheizen. {04} würfeln, {06} in Scheiben schneiden." },
+      { "id": "s2", "title": "Form füllen", "content": "{01}, {02}, Zucchini und Knoblauch mit {05} und {08} in einer Auflaufform mischen. {03} als Block in die Mitte legen." },
+      { "id": "s3", "title": "Backen", "content": "Backen, bis die Tomaten aufplatzen und die Gnocchi goldbraun sind.", "timer_seconds": 1500 },
+      { "id": "s4", "title": "Servieren", "content": "Feta grob zerdrücken, alles vermengen und {07} darüberzupfen." }
+    ]
+  }
+]

@@ -1,0 +1,246 @@
+[
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Griechischer Bauernsalat",
+    "base_servings": 2,
+    "tags": ["salat", "griechisch", "vegetarisch", "schnell"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Tomaten", "amount": 3, "category": "produce" },
+      { "id": "02", "name": "Gurke", "amount": 1, "category": "produce" },
+      { "id": "03", "name": "grüne Paprika", "amount": 1, "category": "produce" },
+      { "id": "04", "name": "rote Zwiebel", "amount": 1, "category": "produce" },
+      { "id": "05", "name": "Kalamata-Oliven", "amount": 60, "unit": "g", "category": "canned" },
+      { "id": "06", "name": "Feta", "amount": 150, "unit": "g", "category": "dairy" },
+      { "id": "07", "name": "Olivenöl", "amount": 3, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "08", "name": "Rotweinessig", "amount": 1, "unit": "tbsp", "category": "other" },
+      { "id": "09", "name": "Oregano, getrocknet", "amount": 1, "unit": "tsp", "category": "spices" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Schneiden", "content": "{01} in Spalten, {02} in dicke Halbmonde, {03} und {04} in Ringe schneiden." },
+      { "id": "s2", "title": "Anrichten", "content": "Gemüse mit {05} in eine Schüssel geben, {06} als Block darauflegen." },
+      { "id": "s3", "title": "Dressing", "content": "Mit {07} und {08} beträufeln und mit {09} bestreuen." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Thunfisch-Bohnen-Salat",
+    "base_servings": 2,
+    "tags": ["salat", "fisch", "schnell", "high-protein"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Thunfisch im eigenen Saft", "amount": 1, "unit": "can", "category": "canned" },
+      { "id": "02", "name": "weiße Bohnen", "amount": 1, "unit": "can", "category": "canned" },
+      { "id": "03", "name": "rote Zwiebel", "amount": 0.5, "category": "produce" },
+      { "id": "04", "name": "Kirschtomaten", "amount": 200, "unit": "g", "category": "produce" },
+      { "id": "05", "name": "Rucola", "amount": 50, "unit": "g", "category": "produce" },
+      { "id": "06", "name": "Zitrone", "amount": 1, "category": "produce" },
+      { "id": "07", "name": "Olivenöl", "amount": 2, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "08", "name": "Petersilie", "amount": 0.5, "unit": "bunch", "category": "produce" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Vorbereiten", "content": "{02} abspülen und abtropfen lassen. {03} in feine Ringe schneiden, {04} halbieren." },
+      { "id": "s2", "title": "Dressing", "content": "Saft von {06} mit {07} und {08} (gehackt) verrühren." },
+      { "id": "s3", "title": "Mischen", "content": "Bohnen, Zwiebel, Tomaten und {01} (abgetropft) mit dem Dressing mischen und auf {05} anrichten." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Caesar Salad mit Hähnchen und Joghurt-Dressing",
+    "base_servings": 2,
+    "tags": ["salat", "hähnchen", "high-protein"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Hähnchenbrust", "amount": 300, "unit": "g", "category": "meat_fish" },
+      { "id": "02", "name": "Römersalat", "amount": 2, "category": "produce" },
+      { "id": "03", "name": "Parmesan", "amount": 30, "unit": "g", "category": "dairy" },
+      { "id": "04", "name": "Vollkornbrot", "amount": 80, "unit": "g", "category": "bakery" },
+      { "id": "05", "name": "Naturjoghurt", "amount": 100, "unit": "g", "category": "dairy" },
+      { "id": "06", "name": "Senf, mittelscharf", "amount": 1, "unit": "tsp", "category": "canned" },
+      { "id": "07", "name": "Zitrone", "amount": 1, "category": "produce" },
+      { "id": "08", "name": "Knoblauch", "amount": 1, "unit": "clove", "category": "produce" },
+      { "id": "09", "name": "Olivenöl", "amount": 1, "unit": "tbsp", "category": "dry_goods" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Hähnchen", "content": "{01} in {09} von beiden Seiten braten, ruhen lassen und in Scheiben schneiden.", "timer_seconds": 600 },
+      { "id": "s2", "title": "Croûtons", "content": "{04} würfeln und in derselben Pfanne knusprig rösten.", "timer_seconds": 240 },
+      { "id": "s3", "title": "Dressing", "content": "{05}, {06}, Saft von {07}, {08} (gepresst) und die Hälfte von {03} (fein gerieben) verrühren." },
+      { "id": "s4", "title": "Anrichten", "content": "{02} in Stücke zupfen, mit Dressing mischen und mit Hähnchen, Croûtons und restlichem Parmesan belegen." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Quinoa-Salat mit Kichererbsen und Minze",
+    "base_servings": 3,
+    "tags": ["salat", "vegetarisch", "meal-prep"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Quinoa", "amount": 150, "unit": "g", "category": "dry_goods" },
+      { "id": "02", "name": "Kichererbsen", "amount": 1, "unit": "can", "category": "canned" },
+      { "id": "03", "name": "Gurke", "amount": 1, "category": "produce" },
+      { "id": "04", "name": "Paprika", "amount": 1, "category": "produce" },
+      { "id": "05", "name": "Kirschtomaten", "amount": 200, "unit": "g", "category": "produce" },
+      { "id": "06", "name": "Minze", "amount": 0.5, "unit": "bunch", "category": "produce" },
+      { "id": "07", "name": "Zitrone", "amount": 1, "category": "produce" },
+      { "id": "08", "name": "Olivenöl", "amount": 3, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "09", "name": "Feta", "amount": 100, "unit": "g", "category": "dairy" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Quinoa", "content": "{01} heiß abspülen, in der doppelten Menge Wasser garen und abkühlen lassen.", "timer_seconds": 900 },
+      { "id": "s2", "title": "Gemüse", "content": "{03} und {04} würfeln, {05} halbieren, {02} abspülen." },
+      { "id": "s3", "title": "Mischen", "content": "Alles mit Saft von {07}, {08} und {06} (gehackt) mischen. {09} darüberbröseln." }
+    ],
+    "notes": "Hält sich 3 Tage im Kühlschrank; Feta erst am Esstag dazugeben."
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Linsensalat mit Roter Bete und Ziegenkäse",
+    "base_servings": 3,
+    "tags": ["salat", "vegetarisch", "meal-prep"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Belugalinsen", "amount": 200, "unit": "g", "category": "dry_goods" },
+      { "id": "02", "name": "Rote Bete, vorgegart", "amount": 250, "unit": "g", "category": "produce" },
+      { "id": "03", "name": "Ziegenfrischkäse", "amount": 100, "unit": "g", "category": "dairy" },
+      { "id": "04", "name": "Rucola", "amount": 60, "unit": "g", "category": "produce" },
+      { "id": "05", "name": "Walnüsse", "amount": 30, "unit": "g", "category": "dry_goods" },
+      { "id": "06", "name": "Balsamico", "amount": 2, "unit": "tbsp", "category": "other" },
+      { "id": "07", "name": "Olivenöl", "amount": 2, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "08", "name": "Senf, mittelscharf", "amount": 1, "unit": "tsp", "category": "canned" },
+      { "id": "09", "name": "Honig", "amount": 1, "unit": "tsp", "category": "other" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Linsen", "content": "{01} in reichlich Wasser bissfest garen, abgießen und abkühlen lassen.", "timer_seconds": 1200 },
+      { "id": "s2", "title": "Dressing", "content": "{06}, {07}, {08} und {09} verrühren und unter die Linsen mischen." },
+      { "id": "s3", "title": "Anrichten", "content": "{02} würfeln, {05} grob hacken. Linsen mit {04}, Roter Bete und Walnüssen anrichten und {03} darüberbröseln." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Glasnudelsalat mit Hähnchen",
+    "base_servings": 2,
+    "tags": ["salat", "asiatisch", "vietnamesisch", "hähnchen"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Glasnudeln", "amount": 100, "unit": "g", "category": "asian" },
+      { "id": "02", "name": "Hähnchenbrust", "amount": 250, "unit": "g", "category": "meat_fish" },
+      { "id": "03", "name": "Gurke", "amount": 1, "category": "produce" },
+      { "id": "04", "name": "Karotte", "amount": 1, "category": "produce" },
+      { "id": "05", "name": "Rotkohl", "amount": 100, "unit": "g", "category": "produce" },
+      { "id": "06", "name": "Koriander", "amount": 0.5, "unit": "bunch", "category": "produce" },
+      { "id": "07", "name": "Limette", "amount": 1, "category": "produce" },
+      { "id": "08", "name": "Sojasauce", "amount": 2, "unit": "tbsp", "category": "asian" },
+      { "id": "09", "name": "Fischsauce", "amount": 1, "unit": "tbsp", "category": "asian" },
+      { "id": "10", "name": "Sesamöl", "amount": 1, "unit": "tsp", "category": "asian" },
+      { "id": "11", "name": "geröstete Erdnüsse", "amount": 20, "unit": "g", "category": "dry_goods" },
+      { "id": "12", "name": "Rapsöl", "amount": 1, "unit": "tsp", "category": "dry_goods" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Nudeln", "content": "{01} mit kochendem Wasser übergießen, ziehen lassen, kalt abspülen und mit der Schere kürzen.", "timer_seconds": 300 },
+      { "id": "s2", "title": "Hähnchen", "content": "{02} in Streifen schneiden und in {12} durchbraten.", "timer_seconds": 360 },
+      { "id": "s3", "title": "Gemüse", "content": "{03} und {04} in feine Streifen, {05} in sehr feine Streifen schneiden." },
+      { "id": "s4", "title": "Dressing und Mischen", "content": "Saft von {07}, {08}, {09} und {10} verrühren. Alles mischen, {06} (gezupft) und {11} (gehackt) darüberstreuen." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Taboulé",
+    "description": "Libanesischer Petersiliensalat – mehr Kräuter als Bulgur.",
+    "base_servings": 3,
+    "tags": ["salat", "vegan", "libanesisch"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "feiner Bulgur", "amount": 100, "unit": "g", "category": "dry_goods" },
+      { "id": "02", "name": "glatte Petersilie", "amount": 2, "unit": "bunch", "category": "produce" },
+      { "id": "03", "name": "Minze", "amount": 0.5, "unit": "bunch", "category": "produce" },
+      { "id": "04", "name": "Tomaten", "amount": 3, "category": "produce" },
+      { "id": "05", "name": "Frühlingszwiebeln", "amount": 3, "category": "produce" },
+      { "id": "06", "name": "Zitronen", "amount": 2, "category": "produce" },
+      { "id": "07", "name": "Olivenöl", "amount": 4, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "08", "name": "Salz", "amount": 2, "unit": "pinch", "category": "spices" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Bulgur", "content": "{01} mit 150 ml kochendem Wasser übergießen und abgedeckt quellen lassen.", "timer_seconds": 900 },
+      { "id": "s2", "title": "Kräuter", "content": "{02} und {03} sehr fein hacken, {04} fein würfeln, {05} in feine Ringe schneiden." },
+      { "id": "s3", "title": "Mischen", "content": "Alles mit dem Saft von {06}, {07} und {08} mischen und kurz durchziehen lassen.", "timer_seconds": 600 }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Schwäbischer Kartoffelsalat",
+    "base_servings": 4,
+    "tags": ["salat", "vegetarisch", "deutsch"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "festkochende Kartoffeln", "amount": 1, "unit": "kg", "category": "produce" },
+      { "id": "02", "name": "Zwiebel", "amount": 1, "category": "produce" },
+      { "id": "03", "name": "Gemüsebrühe", "amount": 200, "unit": "ml", "category": "dry_goods" },
+      { "id": "04", "name": "Weißweinessig", "amount": 3, "unit": "tbsp", "category": "other" },
+      { "id": "05", "name": "Rapsöl", "amount": 3, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "06", "name": "Senf, mittelscharf", "amount": 1, "unit": "tsp", "category": "canned" },
+      { "id": "07", "name": "Schnittlauch", "amount": 1, "unit": "bunch", "category": "produce" },
+      { "id": "08", "name": "Gurke", "amount": 0.5, "category": "produce" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Kartoffeln", "content": "{01} mit Schale in Salzwasser garen, pellen und noch warm in dünne Scheiben schneiden.", "timer_seconds": 1500 },
+      { "id": "s2", "title": "Marinade", "content": "{02} fein würfeln und in {03} aufkochen. Mit {04} und {06} verrühren und heiß über die Kartoffeln gießen." },
+      { "id": "s3", "title": "Ziehen lassen", "content": "Vorsichtig mischen und ziehen lassen, bis die Brühe aufgesogen ist.", "timer_seconds": 1800 },
+      { "id": "s4", "title": "Finish", "content": "{05} unterheben, {08} in dünne Scheiben hobeln und mit {07} (in Röllchen) unterheben." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Couscous-Salat mit Halloumi und Granatapfel",
+    "base_servings": 2,
+    "tags": ["salat", "vegetarisch", "orientalisch"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Couscous", "amount": 120, "unit": "g", "category": "dry_goods" },
+      { "id": "02", "name": "Halloumi", "amount": 200, "unit": "g", "category": "dairy" },
+      { "id": "03", "name": "Gurke", "amount": 0.5, "category": "produce" },
+      { "id": "04", "name": "Kirschtomaten", "amount": 150, "unit": "g", "category": "produce" },
+      { "id": "05", "name": "Granatapfelkerne", "amount": 80, "unit": "g", "category": "fruit" },
+      { "id": "06", "name": "Minze", "amount": 0.5, "unit": "bunch", "category": "produce" },
+      { "id": "07", "name": "Zitrone", "amount": 1, "category": "produce" },
+      { "id": "08", "name": "Olivenöl", "amount": 2, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "09", "name": "Gemüsebrühe", "amount": 150, "unit": "ml", "category": "dry_goods" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Couscous", "content": "{09} aufkochen, über {01} gießen und abgedeckt quellen lassen.", "timer_seconds": 300 },
+      { "id": "s2", "title": "Halloumi", "content": "{02} in Scheiben schneiden und in einer trockenen Pfanne goldbraun braten.", "timer_seconds": 240 },
+      { "id": "s3", "title": "Mischen", "content": "{03} würfeln, {04} halbieren. Mit Couscous, Saft von {07}, {08} und {06} (gehackt) mischen." },
+      { "id": "s4", "title": "Anrichten", "content": "Halloumi darauflegen und {05} darüberstreuen." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Rucola-Birnen-Salat mit Walnüssen",
+    "base_servings": 2,
+    "tags": ["salat", "vegetarisch", "schnell"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Rucola", "amount": 100, "unit": "g", "category": "produce" },
+      { "id": "02", "name": "Birne", "amount": 1, "category": "fruit" },
+      { "id": "03", "name": "Walnüsse", "amount": 30, "unit": "g", "category": "dry_goods" },
+      { "id": "04", "name": "Parmesan", "amount": 30, "unit": "g", "category": "dairy" },
+      { "id": "05", "name": "Balsamico", "amount": 1, "unit": "tbsp", "category": "other" },
+      { "id": "06", "name": "Olivenöl", "amount": 2, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "07", "name": "Honig", "amount": 1, "unit": "tsp", "category": "other" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Walnüsse", "content": "{03} grob hacken und in einer trockenen Pfanne rösten.", "timer_seconds": 180 },
+      { "id": "s2", "title": "Dressing", "content": "{05}, {06} und {07} verrühren." },
+      { "id": "s3", "title": "Anrichten", "content": "{02} in dünne Spalten schneiden, mit {01} und Dressing mischen. Walnüsse darüberstreuen und {04} darüberhobeln." }
+    ]
+  }
+]

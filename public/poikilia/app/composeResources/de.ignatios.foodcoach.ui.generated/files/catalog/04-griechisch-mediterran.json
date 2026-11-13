@@ -1,0 +1,270 @@
+[
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Gyros-Bowl mit Tzatziki",
+    "base_servings": 3,
+    "tags": ["griechisch", "meal-prep", "hähnchen", "high-protein"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Hähnchenbrust", "amount": 450, "unit": "g", "category": "meat_fish" },
+      { "id": "02", "name": "Gyros-Gewürz", "amount": 2, "unit": "tbsp", "category": "spices" },
+      { "id": "03", "name": "Olivenöl", "amount": 2, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "04", "name": "griechischer Joghurt", "amount": 250, "unit": "g", "category": "dairy" },
+      { "id": "05", "name": "Gurke", "amount": 1, "category": "produce" },
+      { "id": "06", "name": "Knoblauch", "amount": 2, "unit": "clove", "category": "produce" },
+      { "id": "07", "name": "Langkornreis", "amount": 210, "unit": "g", "category": "dry_goods" },
+      { "id": "08", "name": "Tomaten", "amount": 3, "category": "produce" },
+      { "id": "09", "name": "rote Zwiebel", "amount": 1, "category": "produce" },
+      { "id": "10", "name": "Dill", "amount": 0.5, "unit": "bunch", "category": "produce" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Marinieren", "content": "{01} in dünne Streifen schneiden und mit {02} und {03} mischen." },
+      { "id": "s2", "title": "Reis", "content": "{07} nach Packungsanleitung garen.", "timer_seconds": 900 },
+      { "id": "s3", "title": "Tzatziki", "content": "Die Hälfte von {05} grob raspeln, gut ausdrücken und mit {04}, {06} (gepresst) und {10} (gehackt) verrühren." },
+      { "id": "s4", "title": "Braten", "content": "Fleisch in einer heißen Pfanne ohne weiteres Öl knusprig braten.", "timer_seconds": 480 },
+      { "id": "s5", "title": "Anrichten", "content": "{08} und restliche Gurke würfeln, {09} in Ringe schneiden. Mit Reis, Gyros und Tzatziki anrichten." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Briam – griechisches Ofengemüse",
+    "description": "Gemüse langsam in Olivenöl und Tomate geschmort.",
+    "base_servings": 4,
+    "tags": ["griechisch", "vegetarisch", "ofen"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "festkochende Kartoffeln", "amount": 500, "unit": "g", "category": "produce" },
+      { "id": "02", "name": "Zucchini", "amount": 2, "category": "produce" },
+      { "id": "03", "name": "Aubergine", "amount": 1, "category": "produce" },
+      { "id": "04", "name": "rote Zwiebeln", "amount": 2, "category": "produce" },
+      { "id": "05", "name": "Tomaten", "amount": 4, "category": "produce" },
+      { "id": "06", "name": "Knoblauch", "amount": 3, "unit": "clove", "category": "produce" },
+      { "id": "07", "name": "Olivenöl", "amount": 5, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "08", "name": "Oregano, getrocknet", "amount": 2, "unit": "tsp", "category": "spices" },
+      { "id": "09", "name": "Petersilie", "amount": 1, "unit": "bunch", "category": "produce" },
+      { "id": "10", "name": "Feta", "amount": 150, "unit": "g", "category": "dairy" },
+      { "id": "11", "name": "Salz", "amount": 2, "unit": "pinch", "category": "spices" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Schneiden", "content": "Ofen auf 190 °C vorheizen. {01}, {02} und {03} in 1 cm dicke Scheiben, {04} in Spalten schneiden." },
+      { "id": "s2", "title": "Tomatenbasis", "content": "{05} grob reiben, mit {06} (gehackt), {07}, {08}, {11} und der Hälfte von {09} (gehackt) verrühren." },
+      { "id": "s3", "title": "Schmoren", "content": "Gemüse in einer Auflaufform mit der Tomatenmischung vermengen und mit 100 ml Wasser zugedeckt garen.", "timer_seconds": 2700 },
+      { "id": "s4", "title": "Bräunen", "content": "Abdecken und offen weitergaren, bis das Gemüse an den Rändern bräunt.", "timer_seconds": 1800 },
+      { "id": "s5", "title": "Servieren", "content": "{10} darüberbröseln und mit restlicher Petersilie bestreuen." }
+    ],
+    "notes": "Schmeckt lauwarm oder am nächsten Tag am besten."
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Fasolada – griechische Bohnensuppe",
+    "base_servings": 4,
+    "tags": ["griechisch", "vegan", "suppe", "one-pot"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "weiße Bohnen", "amount": 2, "unit": "can", "category": "canned" },
+      { "id": "02", "name": "Zwiebel", "amount": 1, "category": "produce" },
+      { "id": "03", "name": "Karotten", "amount": 2, "category": "produce" },
+      { "id": "04", "name": "Stangen Staudensellerie", "amount": 2, "category": "produce" },
+      { "id": "05", "name": "Tomatenmark", "amount": 2, "unit": "tbsp", "category": "canned" },
+      { "id": "06", "name": "gehackte Tomaten", "amount": 1, "unit": "can", "category": "canned" },
+      { "id": "07", "name": "Olivenöl", "amount": 4, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "08", "name": "Gemüsebrühe", "amount": 1, "unit": "l", "category": "dry_goods" },
+      { "id": "09", "name": "Lorbeerblätter", "amount": 2, "category": "spices" },
+      { "id": "10", "name": "Zitrone", "amount": 1, "category": "produce" },
+      { "id": "11", "name": "Petersilie", "amount": 0.5, "unit": "bunch", "category": "produce" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Gemüse", "content": "{02}, {03} und {04} würfeln und in der Hälfte von {07} anschwitzen.", "timer_seconds": 360 },
+      { "id": "s2", "title": "Tomate", "content": "{05} einrühren und kurz mitrösten, dann {06}, {08} und {09} dazugeben.", "timer_seconds": 60 },
+      { "id": "s3", "title": "Köcheln", "content": "{01} abspülen, dazugeben und köcheln lassen, bis die Suppe sämig ist.", "timer_seconds": 1500 },
+      { "id": "s4", "title": "Servieren", "content": "Lorbeer entfernen. Mit dem Saft von {10} abschmecken, mit restlichem Olivenöl beträufeln und {11} (gehackt) darüberstreuen." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Gemista – gefüllte Paprika und Tomaten",
+    "base_servings": 4,
+    "tags": ["griechisch", "ofen", "rind"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Paprika", "amount": 4, "category": "produce" },
+      { "id": "02", "name": "große Tomaten", "amount": 4, "category": "produce" },
+      { "id": "03", "name": "Rundkornreis", "amount": 150, "unit": "g", "category": "dry_goods" },
+      { "id": "04", "name": "Zwiebel", "amount": 1, "category": "produce" },
+      { "id": "05", "name": "Rinderhack", "amount": 300, "unit": "g", "category": "meat_fish" },
+      { "id": "06", "name": "passierte Tomaten", "amount": 300, "unit": "ml", "category": "canned" },
+      { "id": "07", "name": "Minze", "amount": 0.5, "unit": "bunch", "category": "produce" },
+      { "id": "08", "name": "Petersilie", "amount": 0.5, "unit": "bunch", "category": "produce" },
+      { "id": "09", "name": "Olivenöl", "amount": 3, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "10", "name": "Salz", "amount": 2, "unit": "pinch", "category": "spices" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Aushöhlen", "content": "Ofen auf 190 °C vorheizen. Von {01} und {02} Deckel abschneiden, Paprika entkernen, Tomaten auslöffeln. Tomateninneres hacken." },
+      { "id": "s2", "title": "Füllung", "content": "{04} würfeln und in {09} anschwitzen, {05} krümelig mitbraten. {03}, Tomateninneres, die Hälfte von {06}, {07} und {08} (beides gehackt) und {10} unterrühren.", "timer_seconds": 300 },
+      { "id": "s3", "title": "Füllen", "content": "Gemüse zu drei Vierteln füllen (der Reis quillt), Deckel aufsetzen und in eine Form stellen. Restliche passierte Tomaten mit 150 ml Wasser angießen." },
+      { "id": "s4", "title": "Backen", "content": "Zugedeckt backen.", "timer_seconds": 2400 },
+      { "id": "s5", "title": "Bräunen", "content": "Offen weiterbacken, bis der Reis gar ist und die Deckel bräunen.", "timer_seconds": 1500 }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Hähnchen-Souvlaki mit Pita",
+    "base_servings": 4,
+    "tags": ["griechisch", "hähnchen", "high-protein"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Hähnchenbrust", "amount": 600, "unit": "g", "category": "meat_fish" },
+      { "id": "02", "name": "Olivenöl", "amount": 3, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "03", "name": "Zitrone", "amount": 1, "category": "produce" },
+      { "id": "04", "name": "Oregano, getrocknet", "amount": 2, "unit": "tsp", "category": "spices" },
+      { "id": "05", "name": "Knoblauch", "amount": 2, "unit": "clove", "category": "produce" },
+      { "id": "06", "name": "Pitabrote", "amount": 4, "category": "bakery" },
+      { "id": "07", "name": "Naturjoghurt", "amount": 200, "unit": "g", "category": "dairy" },
+      { "id": "08", "name": "Gurke", "amount": 0.5, "category": "produce" },
+      { "id": "09", "name": "Tomaten", "amount": 2, "category": "produce" },
+      { "id": "10", "name": "rote Zwiebel", "amount": 1, "category": "produce" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Marinade", "content": "{01} in 3 cm große Würfel schneiden. Mit {02}, Saft und Schale von {03}, {04} und {05} (gepresst) mischen und ziehen lassen.", "timer_seconds": 1800 },
+      { "id": "s2", "title": "Spieße", "content": "Fleisch auf Spieße stecken und in einer Grillpfanne rundherum braten.", "timer_seconds": 600 },
+      { "id": "s3", "title": "Beilagen", "content": "{08} raspeln und unter {07} rühren. {09} würfeln, {10} in feine Ringe schneiden." },
+      { "id": "s4", "title": "Servieren", "content": "{06} kurz in der Pfanne erwärmen und mit Spießen, Joghurt, Tomaten und Zwiebeln servieren." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Ofen-Kabeljau mit Zitronenkartoffeln",
+    "base_servings": 2,
+    "tags": ["mediterran", "fisch", "ofen"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Kabeljaufilet", "amount": 300, "unit": "g", "category": "meat_fish" },
+      { "id": "02", "name": "festkochende Kartoffeln", "amount": 400, "unit": "g", "category": "produce" },
+      { "id": "03", "name": "Kirschtomaten", "amount": 200, "unit": "g", "category": "produce" },
+      { "id": "04", "name": "Kalamata-Oliven", "amount": 50, "unit": "g", "category": "canned" },
+      { "id": "05", "name": "Kapern", "amount": 1, "unit": "tbsp", "category": "canned" },
+      { "id": "06", "name": "Zitrone", "amount": 1, "category": "produce" },
+      { "id": "07", "name": "Olivenöl", "amount": 2, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "08", "name": "Thymian, getrocknet", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "09", "name": "Salz", "amount": 2, "unit": "pinch", "category": "spices" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Kartoffeln", "content": "Ofen auf 210 °C vorheizen. {02} in dünne Scheiben schneiden, mit {07}, {08}, {09} und dem Saft von {06} mischen und in einer Form vorgaren.", "timer_seconds": 1200 },
+      { "id": "s2", "title": "Fisch dazu", "content": "{01} auf die Kartoffeln legen, {03}, {04} und {05} drumherum verteilen." },
+      { "id": "s3", "title": "Garen", "content": "Garen, bis der Fisch sich leicht zerpflücken lässt.", "timer_seconds": 720 }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Orzo mit Garnelen und Feta",
+    "base_servings": 3,
+    "tags": ["griechisch", "garnelen", "one-pot"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Orzo (Kritharaki)", "amount": 250, "unit": "g", "category": "dry_goods" },
+      { "id": "02", "name": "Garnelen, roh (TK)", "amount": 300, "unit": "g", "category": "frozen" },
+      { "id": "03", "name": "gehackte Tomaten", "amount": 1, "unit": "can", "category": "canned" },
+      { "id": "04", "name": "Feta", "amount": 100, "unit": "g", "category": "dairy" },
+      { "id": "05", "name": "Knoblauch", "amount": 2, "unit": "clove", "category": "produce" },
+      { "id": "06", "name": "Zwiebel", "amount": 1, "category": "produce" },
+      { "id": "07", "name": "Olivenöl", "amount": 2, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "08", "name": "Gemüsebrühe", "amount": 500, "unit": "ml", "category": "dry_goods" },
+      { "id": "09", "name": "Oregano, getrocknet", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "10", "name": "Petersilie", "amount": 0.5, "unit": "bunch", "category": "produce" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Anschwitzen", "content": "{06} und {05} hacken und in {07} anschwitzen. {01} kurz mitrösten.", "timer_seconds": 180 },
+      { "id": "s2", "title": "Köcheln", "content": "{03}, {08} und {09} dazugeben und unter gelegentlichem Rühren köcheln lassen.", "timer_seconds": 600 },
+      { "id": "s3", "title": "Garnelen", "content": "{02} unterheben und garen, bis sie rosa sind.", "timer_seconds": 240 },
+      { "id": "s4", "title": "Servieren", "content": "{04} darüberbröseln und {10} (gehackt) darüberstreuen." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Leichte Moussaka",
+    "description": "Auberginen gebacken statt frittiert, Béchamel mit Stärke statt Mehlschwitze.",
+    "base_servings": 4,
+    "tags": ["griechisch", "ofen", "rind"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Auberginen", "amount": 2, "category": "produce" },
+      { "id": "02", "name": "Rinderhack", "amount": 400, "unit": "g", "category": "meat_fish" },
+      { "id": "03", "name": "Zwiebel", "amount": 1, "category": "produce" },
+      { "id": "04", "name": "Knoblauch", "amount": 2, "unit": "clove", "category": "produce" },
+      { "id": "05", "name": "passierte Tomaten", "amount": 400, "unit": "ml", "category": "canned" },
+      { "id": "06", "name": "Zimt", "amount": 0.5, "unit": "tsp", "category": "spices" },
+      { "id": "07", "name": "Oregano, getrocknet", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "08", "name": "Milch", "amount": 400, "unit": "ml", "category": "dairy" },
+      { "id": "09", "name": "Speisestärke", "amount": 2, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "10", "name": "Parmesan", "amount": 40, "unit": "g", "category": "dairy" },
+      { "id": "11", "name": "Olivenöl", "amount": 2, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "12", "name": "Muskatnuss", "amount": 1, "unit": "pinch", "category": "spices" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Auberginen", "content": "Ofen auf 200 °C vorheizen. {01} in Scheiben schneiden, mit {11} bepinseln und auf einem Blech backen.", "timer_seconds": 1200 },
+      { "id": "s2", "title": "Hacksauce", "content": "{03} und {04} hacken, mit {02} krümelig braten. {05}, {06} und {07} dazugeben und köcheln lassen.", "timer_seconds": 900 },
+      { "id": "s3", "title": "Béchamel", "content": "{09} mit etwas von {08} anrühren. Restliche Milch aufkochen, Stärke einrühren und unter Rühren andicken. Mit {12} und der Hälfte von {10} würzen.", "timer_seconds": 180 },
+      { "id": "s4", "title": "Schichten", "content": "Auberginen und Hacksauce abwechselnd in eine Form schichten, mit Béchamel abschließen und mit restlichem Parmesan bestreuen." },
+      { "id": "s5", "title": "Backen", "content": "Goldbraun backen und vor dem Anschneiden 10 Minuten ruhen lassen.", "timer_seconds": 1800 }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Gigantes – Riesenbohnen in Tomatensauce",
+    "base_servings": 4,
+    "tags": ["griechisch", "vegetarisch", "ofen"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Butterbohnen", "amount": 2, "unit": "can", "category": "canned" },
+      { "id": "02", "name": "Zwiebel", "amount": 1, "category": "produce" },
+      { "id": "03", "name": "Knoblauch", "amount": 2, "unit": "clove", "category": "produce" },
+      { "id": "04", "name": "Karotte", "amount": 1, "category": "produce" },
+      { "id": "05", "name": "passierte Tomaten", "amount": 400, "unit": "ml", "category": "canned" },
+      { "id": "06", "name": "Olivenöl", "amount": 4, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "07", "name": "Dill", "amount": 0.5, "unit": "bunch", "category": "produce" },
+      { "id": "08", "name": "Paprikapulver, edelsüß", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "09", "name": "Feta", "amount": 100, "unit": "g", "category": "dairy" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Sauce", "content": "Ofen auf 190 °C vorheizen. {02}, {03} und {04} fein würfeln und in {06} weich dünsten. {05} und {08} einrühren.", "timer_seconds": 480 },
+      { "id": "s2", "title": "Backen", "content": "{01} abspülen, mit der Sauce und {07} (gehackt) in eine Form geben und backen, bis die Sauce eindickt.", "timer_seconds": 1800 },
+      { "id": "s3", "title": "Servieren", "content": "{09} darüberbröseln. Dazu passt Brot." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Couscous-Pfanne mit Hähnchen und Kichererbsen",
+    "base_servings": 3,
+    "tags": ["mediterran", "hähnchen", "meal-prep", "high-protein"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Couscous", "amount": 200, "unit": "g", "category": "dry_goods" },
+      { "id": "02", "name": "Hähnchenbrust", "amount": 400, "unit": "g", "category": "meat_fish" },
+      { "id": "03", "name": "Zucchini", "amount": 1, "category": "produce" },
+      { "id": "04", "name": "Paprika", "amount": 1, "category": "produce" },
+      { "id": "05", "name": "Kichererbsen", "amount": 1, "unit": "can", "category": "canned" },
+      { "id": "06", "name": "Gemüsebrühe", "amount": 250, "unit": "ml", "category": "dry_goods" },
+      { "id": "07", "name": "Zitrone", "amount": 1, "category": "produce" },
+      { "id": "08", "name": "Kreuzkümmel, gemahlen", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "09", "name": "Paprikapulver, edelsüß", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "10", "name": "Olivenöl", "amount": 2, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "11", "name": "Petersilie", "amount": 0.5, "unit": "bunch", "category": "produce" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Couscous", "content": "{06} aufkochen, über {01} gießen und abgedeckt quellen lassen.", "timer_seconds": 300 },
+      { "id": "s2", "title": "Hähnchen", "content": "{02} würfeln, mit {08} und {09} würzen und in {10} anbraten.", "timer_seconds": 360 },
+      { "id": "s3", "title": "Gemüse", "content": "{03} und {04} würfeln, mit {05} (abgespült) in die Pfanne geben und mitbraten.", "timer_seconds": 300 },
+      { "id": "s4", "title": "Mischen", "content": "Couscous auflockern und unterheben. Mit dem Saft von {07} abschmecken und {11} (gehackt) unterheben." }
+    ]
+  }
+]

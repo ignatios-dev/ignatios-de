@@ -1,0 +1,259 @@
+[
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Gemüse-Frittata",
+    "base_servings": 3,
+    "tags": ["vegetarisch", "high-protein", "meal-prep", "ofen"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Eier", "amount": 6, "category": "dairy" },
+      { "id": "02", "name": "Zucchini", "amount": 1, "category": "produce" },
+      { "id": "03", "name": "rote Paprika", "amount": 1, "category": "produce" },
+      { "id": "04", "name": "Frühlingszwiebeln", "amount": 3, "category": "produce" },
+      { "id": "05", "name": "Feta", "amount": 80, "unit": "g", "category": "dairy" },
+      { "id": "06", "name": "Milch", "amount": 50, "unit": "ml", "category": "dairy" },
+      { "id": "07", "name": "Olivenöl", "amount": 1, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "08", "name": "Salz", "amount": 2, "unit": "pinch", "category": "spices" },
+      { "id": "09", "name": "Pfeffer", "category": "spices", "raw_text": "Pfeffer nach Geschmack" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Gemüse", "content": "Ofen auf 200 °C vorheizen. {02} und {03} würfeln, {04} in Ringe schneiden und in {07} in einer ofenfesten Pfanne anbraten.", "timer_seconds": 300 },
+      { "id": "s2", "title": "Eiermasse", "content": "{01} mit {06}, {08} und {09} verquirlen, über das Gemüse gießen und {05} darüberbröseln." },
+      { "id": "s3", "title": "Stocken", "content": "Auf dem Herd bei mittlerer Hitze anstocken lassen.", "timer_seconds": 180 },
+      { "id": "s4", "title": "Backen", "content": "Im Ofen fertig backen, bis die Mitte fest ist.", "timer_seconds": 720 }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Ofen-Falafel mit Tahini-Sauce",
+    "base_servings": 4,
+    "tags": ["vegan", "orientalisch", "ofen"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Kichererbsen", "amount": 2, "unit": "can", "category": "canned" },
+      { "id": "02", "name": "Zwiebel", "amount": 1, "category": "produce" },
+      { "id": "03", "name": "Knoblauch", "amount": 2, "unit": "clove", "category": "produce" },
+      { "id": "04", "name": "Petersilie", "amount": 1, "unit": "bunch", "category": "produce" },
+      { "id": "05", "name": "Kreuzkümmel, gemahlen", "amount": 2, "unit": "tsp", "category": "spices" },
+      { "id": "06", "name": "Koriander, gemahlen", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "07", "name": "Weizenmehl", "amount": 3, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "08", "name": "Backpulver", "amount": 1, "unit": "tsp", "category": "dry_goods" },
+      { "id": "09", "name": "Olivenöl", "amount": 3, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "10", "name": "Tahini", "amount": 3, "unit": "tbsp", "category": "other" },
+      { "id": "11", "name": "Zitrone", "amount": 1, "category": "produce" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Masse", "content": "Ofen auf 200 °C vorheizen. {01} gut abtropfen und trocken tupfen. Mit {02}, {03}, {04}, {05}, {06}, {07} und {08} im Mixer grob zerkleinern – nicht zu Brei." },
+      { "id": "s2", "title": "Formen", "content": "Mit feuchten Händen 20 flache Bällchen formen, auf ein Blech setzen und mit {09} bepinseln." },
+      { "id": "s3", "title": "Backen", "content": "Backen, nach der Hälfte der Zeit wenden.", "timer_seconds": 1500 },
+      { "id": "s4", "title": "Sauce", "content": "{10} mit dem Saft von {11} und 3–4 EL Wasser cremig rühren und zu den Falafel servieren." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Gefüllte Süßkartoffeln mit schwarzen Bohnen",
+    "base_servings": 2,
+    "tags": ["vegetarisch", "mexikanisch", "ofen"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Süßkartoffeln", "amount": 2, "category": "produce" },
+      { "id": "02", "name": "schwarze Bohnen", "amount": 1, "unit": "can", "category": "canned" },
+      { "id": "03", "name": "Mais (abgetropft)", "amount": 140, "unit": "g", "category": "canned" },
+      { "id": "04", "name": "rote Zwiebel", "amount": 0.5, "category": "produce" },
+      { "id": "05", "name": "Limette", "amount": 1, "category": "produce" },
+      { "id": "06", "name": "Avocado", "amount": 1, "category": "produce" },
+      { "id": "07", "name": "Naturjoghurt", "amount": 100, "unit": "g", "category": "dairy" },
+      { "id": "08", "name": "Paprikapulver, geräuchert", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "09", "name": "Koriander", "amount": 0.5, "unit": "bunch", "category": "produce" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Backen", "content": "Ofen auf 200 °C vorheizen. {01} mehrmals mit einer Gabel einstechen und weich backen.", "timer_seconds": 2700 },
+      { "id": "s2", "title": "Füllung", "content": "{02} abspülen, mit {03}, {04} (fein gewürfelt), {08} und dem Saft von {05} mischen." },
+      { "id": "s3", "title": "Füllen", "content": "Süßkartoffeln längs aufschneiden, auseinanderdrücken und die Füllung hineingeben." },
+      { "id": "s4", "title": "Toppings", "content": "{06} würfeln und mit {07} und {09} (gehackt) darauf verteilen." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Blumenkohl-Steaks mit Tahini und Bulgur",
+    "base_servings": 2,
+    "tags": ["vegan", "orientalisch", "ofen"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Blumenkohl", "amount": 1, "category": "produce" },
+      { "id": "02", "name": "Olivenöl", "amount": 2, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "03", "name": "Kreuzkümmel, gemahlen", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "04", "name": "Paprikapulver, geräuchert", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "05", "name": "Tahini", "amount": 3, "unit": "tbsp", "category": "other" },
+      { "id": "06", "name": "Zitrone", "amount": 1, "category": "produce" },
+      { "id": "07", "name": "Knoblauch", "amount": 1, "unit": "clove", "category": "produce" },
+      { "id": "08", "name": "Petersilie", "amount": 0.5, "unit": "bunch", "category": "produce" },
+      { "id": "09", "name": "Granatapfelkerne", "amount": 50, "unit": "g", "category": "fruit" },
+      { "id": "10", "name": "Bulgur", "amount": 120, "unit": "g", "category": "dry_goods" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Steaks schneiden", "content": "Ofen auf 220 °C vorheizen. {01} aufrecht in 2–3 cm dicke Scheiben schneiden. {02} mit {03} und {04} verrühren und die Scheiben damit bepinseln." },
+      { "id": "s2", "title": "Rösten", "content": "Auf einem Blech goldbraun rösten, nach der Hälfte wenden.", "timer_seconds": 1500 },
+      { "id": "s3", "title": "Bulgur", "content": "{10} nach Packungsanleitung garen.", "timer_seconds": 600 },
+      { "id": "s4", "title": "Sauce", "content": "{05}, Saft von {06}, {07} (gepresst) und 3 EL Wasser verrühren." },
+      { "id": "s5", "title": "Anrichten", "content": "Steaks auf Bulgur anrichten, mit Sauce beträufeln, {08} (gehackt) und {09} darüberstreuen." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Lauch-Quiche mit Bergkäse",
+    "base_servings": 6,
+    "tags": ["vegetarisch", "ofen", "backen"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Rolle Blätterteig (Kühlregal)", "amount": 1, "category": "bakery" },
+      { "id": "02", "name": "Lauch", "amount": 2, "category": "produce" },
+      { "id": "03", "name": "Eier", "amount": 3, "category": "dairy" },
+      { "id": "04", "name": "Milch", "amount": 200, "unit": "ml", "category": "dairy" },
+      { "id": "05", "name": "saure Sahne", "amount": 150, "unit": "g", "category": "dairy" },
+      { "id": "06", "name": "Bergkäse, gerieben", "amount": 100, "unit": "g", "category": "dairy" },
+      { "id": "07", "name": "Muskatnuss", "amount": 1, "unit": "pinch", "category": "spices" },
+      { "id": "08", "name": "Rapsöl", "amount": 1, "unit": "tbsp", "category": "dry_goods" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Lauch", "content": "Ofen auf 200 °C vorheizen. {02} in Ringe schneiden, waschen und in {08} weich dünsten.", "timer_seconds": 480 },
+      { "id": "s2", "title": "Form", "content": "{01} mit dem Backpapier in eine Tarteform legen und den Rand hochdrücken." },
+      { "id": "s3", "title": "Guss", "content": "{03}, {04} und {05} verquirlen, mit {07} würzen. Lauch auf dem Teig verteilen, Guss darübergießen und {06} darüberstreuen." },
+      { "id": "s4", "title": "Backen", "content": "Goldbraun backen und vor dem Anschneiden kurz abkühlen lassen.", "timer_seconds": 2100 }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Bohnen-Burger",
+    "base_servings": 4,
+    "tags": ["vegetarisch", "burger"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Kidneybohnen", "amount": 1, "unit": "can", "category": "canned" },
+      { "id": "02", "name": "zarte Haferflocken", "amount": 60, "unit": "g", "category": "dry_goods" },
+      { "id": "03", "name": "Ei", "amount": 1, "category": "dairy" },
+      { "id": "04", "name": "Zwiebel", "amount": 1, "category": "produce" },
+      { "id": "05", "name": "Paprikapulver, geräuchert", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "06", "name": "Burgerbrötchen", "amount": 4, "category": "bakery" },
+      { "id": "07", "name": "Tomaten", "amount": 2, "category": "produce" },
+      { "id": "08", "name": "Kopfsalat", "amount": 0.5, "category": "produce" },
+      { "id": "09", "name": "Rapsöl", "amount": 2, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "10", "name": "Senf, mittelscharf", "amount": 2, "unit": "tsp", "category": "canned" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Masse", "content": "{01} abspülen, gut abtropfen und grob zerdrücken. {04} fein würfeln. Mit {02}, {03} und {05} verkneten und kurz quellen lassen.", "timer_seconds": 600 },
+      { "id": "s2", "title": "Patties", "content": "4 Patties formen und in {09} pro Seite knusprig braten.", "timer_seconds": 240 },
+      { "id": "s3", "title": "Belegen", "content": "{06} aufschneiden und kurz rösten, mit {10} bestreichen. Mit {08}, Patty und {07} (in Scheiben) belegen." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Pilz-Stroganoff mit Bandnudeln",
+    "base_servings": 3,
+    "tags": ["vegetarisch", "schnell"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Champignons", "amount": 500, "unit": "g", "category": "produce" },
+      { "id": "02", "name": "Zwiebel", "amount": 1, "category": "produce" },
+      { "id": "03", "name": "Knoblauch", "amount": 2, "unit": "clove", "category": "produce" },
+      { "id": "04", "name": "Paprikapulver, edelsüß", "amount": 2, "unit": "tsp", "category": "spices" },
+      { "id": "05", "name": "Gemüsebrühe", "amount": 200, "unit": "ml", "category": "dry_goods" },
+      { "id": "06", "name": "Schmand", "amount": 150, "unit": "g", "category": "dairy" },
+      { "id": "07", "name": "Senf, mittelscharf", "amount": 1, "unit": "tsp", "category": "canned" },
+      { "id": "08", "name": "Petersilie", "amount": 0.5, "unit": "bunch", "category": "produce" },
+      { "id": "09", "name": "Bandnudeln", "amount": 250, "unit": "g", "category": "dry_goods" },
+      { "id": "10", "name": "Rapsöl", "amount": 1, "unit": "tbsp", "category": "dry_goods" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Nudeln", "content": "{09} nach Packungsanleitung kochen.", "timer_seconds": 480 },
+      { "id": "s2", "title": "Pilze", "content": "{01} in Scheiben schneiden und in {10} bei hoher Hitze braun braten.", "timer_seconds": 420 },
+      { "id": "s3", "title": "Sauce", "content": "{02} und {03} hacken, mitbraten und mit {04} bestäuben. Mit {05} ablöschen und kurz einkochen.", "timer_seconds": 180 },
+      { "id": "s4", "title": "Fertigstellen", "content": "Hitze reduzieren, {06} und {07} einrühren, nicht mehr kochen lassen. Mit Nudeln und {08} (gehackt) servieren." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Ratatouille",
+    "base_servings": 4,
+    "tags": ["vegan", "französisch", "meal-prep", "one-pot"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Aubergine", "amount": 1, "category": "produce" },
+      { "id": "02", "name": "Zucchini", "amount": 2, "category": "produce" },
+      { "id": "03", "name": "Paprika", "amount": 2, "category": "produce" },
+      { "id": "04", "name": "Zwiebel", "amount": 1, "category": "produce" },
+      { "id": "05", "name": "Knoblauch", "amount": 3, "unit": "clove", "category": "produce" },
+      { "id": "06", "name": "gehackte Tomaten", "amount": 1, "unit": "can", "category": "canned" },
+      { "id": "07", "name": "Thymian, getrocknet", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "08", "name": "Rosmarin, getrocknet", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "09", "name": "Olivenöl", "amount": 4, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "10", "name": "Basilikum", "amount": 0.5, "unit": "bunch", "category": "produce" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Aubergine", "content": "{01} würfeln und in der Hälfte von {09} kräftig anbraten, herausnehmen.", "timer_seconds": 360 },
+      { "id": "s2", "title": "Gemüse", "content": "{04} und {05} hacken, {02} und {03} würfeln. Im restlichen Öl anbraten.", "timer_seconds": 360 },
+      { "id": "s3", "title": "Schmoren", "content": "Aubergine, {06}, {07} und {08} dazugeben und zugedeckt schmoren lassen.", "timer_seconds": 1500 },
+      { "id": "s4", "title": "Servieren", "content": "{10} darüberzupfen. Passt zu Reis, Brot oder Polenta." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Zucchini-Puffer mit Joghurt-Dip",
+    "base_servings": 3,
+    "tags": ["vegetarisch", "griechisch"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Zucchini", "amount": 2, "category": "produce" },
+      { "id": "02", "name": "mehligkochende Kartoffel", "amount": 200, "unit": "g", "category": "produce" },
+      { "id": "03", "name": "Eier", "amount": 2, "category": "dairy" },
+      { "id": "04", "name": "Weizenmehl", "amount": 4, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "05", "name": "Feta", "amount": 80, "unit": "g", "category": "dairy" },
+      { "id": "06", "name": "Dill", "amount": 0.5, "unit": "bunch", "category": "produce" },
+      { "id": "07", "name": "Naturjoghurt", "amount": 200, "unit": "g", "category": "dairy" },
+      { "id": "08", "name": "Knoblauch", "amount": 1, "unit": "clove", "category": "produce" },
+      { "id": "09", "name": "Rapsöl", "amount": 3, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "10", "name": "Salz", "amount": 2, "unit": "pinch", "category": "spices" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Raspeln", "content": "{01} und {02} grob raspeln, mit {10} mischen und Wasser ziehen lassen. Dann kräftig ausdrücken.", "timer_seconds": 600 },
+      { "id": "s2", "title": "Teig", "content": "Mit {03}, {04}, {05} (zerbröselt) und der Hälfte von {06} (gehackt) vermengen." },
+      { "id": "s3", "title": "Braten", "content": "{09} erhitzen und flache Puffer pro Seite goldbraun braten.", "timer_seconds": 240 },
+      { "id": "s4", "title": "Dip", "content": "{07} mit {08} (gepresst) und restlichem Dill verrühren und dazu servieren." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Süßkartoffel-Kichererbsen-Curry",
+    "base_servings": 4,
+    "tags": ["vegan", "indisch", "meal-prep", "one-pot"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Süßkartoffeln", "amount": 500, "unit": "g", "category": "produce" },
+      { "id": "02", "name": "Kichererbsen", "amount": 1, "unit": "can", "category": "canned" },
+      { "id": "03", "name": "Kokosmilch", "amount": 1, "unit": "can", "category": "canned" },
+      { "id": "04", "name": "rote Currypaste", "amount": 2, "unit": "tbsp", "category": "asian" },
+      { "id": "05", "name": "Babyspinat", "amount": 100, "unit": "g", "category": "produce" },
+      { "id": "06", "name": "Zwiebel", "amount": 1, "category": "produce" },
+      { "id": "07", "name": "Ingwer", "amount": 15, "unit": "g", "category": "produce" },
+      { "id": "08", "name": "Limette", "amount": 1, "category": "produce" },
+      { "id": "09", "name": "Basmatireis", "amount": 250, "unit": "g", "category": "dry_goods" },
+      { "id": "10", "name": "Rapsöl", "amount": 1, "unit": "tbsp", "category": "dry_goods" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Reis", "content": "{09} nach Packungsanleitung garen.", "timer_seconds": 900 },
+      { "id": "s2", "title": "Anschwitzen", "content": "{06} und {07} fein hacken, in {10} anschwitzen und {04} kurz mitrösten.", "timer_seconds": 180 },
+      { "id": "s3", "title": "Köcheln", "content": "{01} würfeln, mit {03} und 200 ml Wasser dazugeben und köcheln, bis die Süßkartoffeln weich sind.", "timer_seconds": 900 },
+      { "id": "s4", "title": "Fertigstellen", "content": "{02} (abgespült) und {05} unterheben, kurz erwärmen und mit dem Saft von {08} abschmecken." }
+    ]
+  }
+]

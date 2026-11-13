@@ -1,0 +1,236 @@
+[
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Overnight Oats mit Beeren und Skyr",
+    "description": "Am Vorabend in 3 Minuten vorbereitet, morgens fertig.",
+    "base_servings": 1,
+    "tags": ["frühstück", "meal-prep", "vegetarisch", "high-protein"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Haferflocken", "amount": 60, "unit": "g", "category": "dry_goods" },
+      { "id": "02", "name": "Milch", "amount": 150, "unit": "ml", "category": "dairy" },
+      { "id": "03", "name": "Skyr", "amount": 100, "unit": "g", "category": "dairy" },
+      { "id": "04", "name": "Chiasamen", "amount": 1, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "05", "name": "Beerenmischung (TK)", "amount": 100, "unit": "g", "category": "frozen" },
+      { "id": "06", "name": "Honig", "amount": 1, "unit": "tsp", "category": "other" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Anrühren", "content": "{01}, {02}, {03} und {04} in einem Schraubglas glatt verrühren." },
+      { "id": "s2", "title": "Quellen", "content": "Verschlossen über Nacht, mindestens aber 4 Stunden, im Kühlschrank quellen lassen." },
+      { "id": "s3", "title": "Toppen", "content": "Morgens {05} darübergeben (TK-Beeren tauen dabei an) und mit {06} beträufeln." }
+    ],
+    "notes": "Hält sich verschlossen 2 Tage im Kühlschrank."
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Rührei mit Spinat und Feta",
+    "description": "Proteinreiches Frühstück in 10 Minuten.",
+    "base_servings": 1,
+    "tags": ["frühstück", "schnell", "vegetarisch", "high-protein"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Eier", "amount": 3, "category": "dairy" },
+      { "id": "02", "name": "Babyspinat", "amount": 50, "unit": "g", "category": "produce" },
+      { "id": "03", "name": "Feta", "amount": 30, "unit": "g", "category": "dairy" },
+      { "id": "04", "name": "Olivenöl", "amount": 1, "unit": "tsp", "category": "dry_goods" },
+      { "id": "05", "name": "Salz", "amount": 1, "unit": "pinch", "category": "spices" },
+      { "id": "06", "name": "Pfeffer", "category": "spices", "raw_text": "Pfeffer nach Geschmack" },
+      { "id": "07", "name": "Vollkornbrot", "amount": 50, "unit": "g", "category": "bakery" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Spinat", "content": "{04} in einer Pfanne erhitzen und {02} darin zusammenfallen lassen.", "timer_seconds": 60 },
+      { "id": "s2", "title": "Eier stocken", "content": "{01} mit {05} und {06} verquirlen, in die Pfanne geben und bei mittlerer Hitze unter langsamem Rühren stocken lassen.", "timer_seconds": 180 },
+      { "id": "s3", "title": "Servieren", "content": "{03} darüberbröseln und mit {07} servieren." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Protein-Pancakes mit Heidelbeeren",
+    "description": "Ohne Mehl und ohne Zucker, aus Haferflocken, Banane und Quark.",
+    "base_servings": 2,
+    "tags": ["frühstück", "vegetarisch", "high-protein"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Haferflocken", "amount": 80, "unit": "g", "category": "dry_goods" },
+      { "id": "02", "name": "Banane", "amount": 1, "category": "fruit" },
+      { "id": "03", "name": "Eier", "amount": 2, "category": "dairy" },
+      { "id": "04", "name": "Magerquark", "amount": 150, "unit": "g", "category": "dairy" },
+      { "id": "05", "name": "Backpulver", "amount": 1, "unit": "tsp", "category": "dry_goods" },
+      { "id": "06", "name": "Zimt", "amount": 1, "unit": "pinch", "category": "spices" },
+      { "id": "07", "name": "Rapsöl", "amount": 1, "unit": "tsp", "category": "dry_goods" },
+      { "id": "08", "name": "Heidelbeeren", "amount": 100, "unit": "g", "category": "fruit" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Teig", "content": "{01} im Mixer fein mahlen. {02}, {03}, {04}, {05} und {06} dazugeben und zu einem glatten Teig pürieren." },
+      { "id": "s2", "title": "Quellen", "content": "Den Teig quellen lassen, damit die Pancakes nicht zerfallen.", "timer_seconds": 300 },
+      { "id": "s3", "title": "Backen", "content": "{07} in einer beschichteten Pfanne erhitzen. Kleine Pancakes bei mittlerer Hitze pro Seite etwa 2 Minuten backen.", "timer_seconds": 120 },
+      { "id": "s4", "title": "Servieren", "content": "Mit {08} servieren." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Shakshuka",
+    "description": "Eier in würziger Tomaten-Paprika-Sauce, aus einer Pfanne.",
+    "base_servings": 2,
+    "tags": ["frühstück", "vegetarisch", "one-pot"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Olivenöl", "amount": 1, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "02", "name": "Zwiebel", "amount": 1, "category": "produce" },
+      { "id": "03", "name": "rote Paprika", "amount": 1, "category": "produce" },
+      { "id": "04", "name": "Knoblauch", "amount": 2, "unit": "clove", "category": "produce" },
+      { "id": "05", "name": "gehackte Tomaten", "amount": 1, "unit": "can", "category": "canned" },
+      { "id": "06", "name": "Kreuzkümmel, gemahlen", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "07", "name": "Paprikapulver, edelsüß", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "08", "name": "Eier", "amount": 4, "category": "dairy" },
+      { "id": "09", "name": "Petersilie", "amount": 0.5, "unit": "bunch", "category": "produce" },
+      { "id": "10", "name": "Salz", "amount": 1, "unit": "pinch", "category": "spices" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Gemüse", "content": "{02} und {03} würfeln, {04} fein hacken. {01} erhitzen und das Gemüse darin anschwitzen.", "timer_seconds": 300 },
+      { "id": "s2", "title": "Sauce", "content": "{06} und {07} kurz mitrösten, dann {05} dazugeben und mit {10} würzen. Offen köcheln lassen.", "timer_seconds": 600 },
+      { "id": "s3", "title": "Eier", "content": "Mit einem Löffel vier Mulden formen und {08} hineinschlagen. Zugedeckt 6–8 Minuten stocken lassen.", "timer_seconds": 360 },
+      { "id": "s4", "title": "Servieren", "content": "{09} hacken und darüberstreuen." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Skyr-Bowl mit Apfel und Granola",
+    "description": "Fünf Minuten, kein Herd.",
+    "base_servings": 1,
+    "tags": ["frühstück", "schnell", "vegetarisch", "high-protein"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Skyr", "amount": 250, "unit": "g", "category": "dairy" },
+      { "id": "02", "name": "Granola", "amount": 40, "unit": "g", "category": "dry_goods" },
+      { "id": "03", "name": "Apfel", "amount": 1, "category": "fruit" },
+      { "id": "04", "name": "Walnüsse", "amount": 15, "unit": "g", "category": "dry_goods" },
+      { "id": "05", "name": "Zimt", "amount": 1, "unit": "pinch", "category": "spices" },
+      { "id": "06", "name": "Ahornsirup", "amount": 1, "unit": "tsp", "category": "other" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Schneiden", "content": "{03} entkernen und klein würfeln, {04} grob hacken." },
+      { "id": "s2", "title": "Anrichten", "content": "{01} in eine Schüssel geben, mit {02}, Apfel und Walnüssen toppen." },
+      { "id": "s3", "title": "Finish", "content": "Mit {05} bestäuben und {06} darüberträufeln." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Frühstücks-Wrap mit Ei und Bohnen",
+    "description": "Herzhaft, sättigend, gut zum Mitnehmen.",
+    "base_servings": 2,
+    "tags": ["frühstück", "vegetarisch", "high-protein", "mexikanisch"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Vollkorn-Tortillas", "amount": 2, "category": "bakery" },
+      { "id": "02", "name": "Eier", "amount": 4, "category": "dairy" },
+      { "id": "03", "name": "Kidneybohnen (abgetropft)", "amount": 100, "unit": "g", "category": "canned" },
+      { "id": "04", "name": "rote Paprika", "amount": 1, "category": "produce" },
+      { "id": "05", "name": "Cheddar, gerieben", "amount": 40, "unit": "g", "category": "dairy" },
+      { "id": "06", "name": "Salsa", "amount": 4, "unit": "tbsp", "category": "canned" },
+      { "id": "07", "name": "Rapsöl", "amount": 1, "unit": "tsp", "category": "dry_goods" },
+      { "id": "08", "name": "Salz", "amount": 1, "unit": "pinch", "category": "spices" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Paprika", "content": "{04} würfeln und in {07} anbraten.", "timer_seconds": 180 },
+      { "id": "s2", "title": "Eier", "content": "{02} mit {08} verquirlen, zur Paprika geben und stocken lassen. {03} abspülen und unterheben.", "timer_seconds": 120 },
+      { "id": "s3", "title": "Wickeln", "content": "{01} kurz in einer trockenen Pfanne erwärmen, mit der Ei-Mischung, {05} und {06} füllen und fest einrollen." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Bircher Müsli",
+    "description": "Klassiker mit frisch geriebenem Apfel.",
+    "base_servings": 2,
+    "tags": ["frühstück", "meal-prep", "vegetarisch"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Haferflocken", "amount": 100, "unit": "g", "category": "dry_goods" },
+      { "id": "02", "name": "Apfel", "amount": 1, "category": "fruit" },
+      { "id": "03", "name": "Naturjoghurt", "amount": 200, "unit": "g", "category": "dairy" },
+      { "id": "04", "name": "Milch", "amount": 100, "unit": "ml", "category": "dairy" },
+      { "id": "05", "name": "Zitronensaft", "amount": 1, "unit": "tbsp", "category": "other" },
+      { "id": "06", "name": "Haselnüsse", "amount": 20, "unit": "g", "category": "dry_goods" },
+      { "id": "07", "name": "Honig", "amount": 2, "unit": "tsp", "category": "other" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Apfel", "content": "{02} grob reiben und sofort mit {05} mischen, damit er nicht braun wird." },
+      { "id": "s2", "title": "Ziehen lassen", "content": "{01}, {03}, {04} und {07} unterrühren und ziehen lassen.", "timer_seconds": 1800 },
+      { "id": "s3", "title": "Servieren", "content": "{06} grob hacken und darüberstreuen." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Avocado-Toast mit wachsweichem Ei",
+    "base_servings": 1,
+    "tags": ["frühstück", "schnell", "vegetarisch"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Vollkornbrot", "amount": 80, "unit": "g", "category": "bakery" },
+      { "id": "02", "name": "Avocado", "amount": 1, "category": "produce" },
+      { "id": "03", "name": "Eier", "amount": 2, "category": "dairy" },
+      { "id": "04", "name": "Limettensaft", "amount": 1, "unit": "tsp", "category": "other" },
+      { "id": "05", "name": "Chiliflocken", "amount": 1, "unit": "pinch", "category": "spices" },
+      { "id": "06", "name": "Salz", "amount": 1, "unit": "pinch", "category": "spices" },
+      { "id": "07", "name": "Kirschtomaten", "amount": 4, "category": "produce" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Eier kochen", "content": "{03} in kochendes Wasser legen, wachsweich kochen und kalt abschrecken.", "timer_seconds": 420 },
+      { "id": "s2", "title": "Avocado", "content": "{01} toasten. {02} halbieren, auslöffeln und mit {04} und {06} zerdrücken." },
+      { "id": "s3", "title": "Anrichten", "content": "Avocado auf das Brot streichen. Eier pellen, halbieren und darauflegen. {07} halbieren, dazulegen und alles mit {05} bestreuen." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Herzhafte Hafer-Bowl mit Pilzen und Spiegelei",
+    "description": "Porridge mal salzig – überraschend gut.",
+    "base_servings": 1,
+    "tags": ["frühstück", "vegetarisch"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Haferflocken", "amount": 50, "unit": "g", "category": "dry_goods" },
+      { "id": "02", "name": "Gemüsebrühe", "amount": 200, "unit": "ml", "category": "dry_goods" },
+      { "id": "03", "name": "Champignons", "amount": 100, "unit": "g", "category": "produce" },
+      { "id": "04", "name": "Frühlingszwiebel", "amount": 1, "category": "produce" },
+      { "id": "05", "name": "Ei", "amount": 1, "category": "dairy" },
+      { "id": "06", "name": "Olivenöl", "amount": 1, "unit": "tsp", "category": "dry_goods" },
+      { "id": "07", "name": "Sojasauce", "amount": 1, "unit": "tsp", "category": "asian" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Porridge", "content": "{01} mit {02} aufkochen und bei kleiner Hitze quellen lassen.", "timer_seconds": 300 },
+      { "id": "s2", "title": "Pilze", "content": "{03} in Scheiben schneiden und in {06} goldbraun braten.", "timer_seconds": 240 },
+      { "id": "s3", "title": "Spiegelei", "content": "{05} in derselben Pfanne als Spiegelei braten.", "timer_seconds": 180 },
+      { "id": "s4", "title": "Anrichten", "content": "Porridge mit Pilzen und Ei anrichten, mit {07} beträufeln. {04} in feine Ringe schneiden und darüberstreuen." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Chia-Pudding mit Mango und Kokos",
+    "base_servings": 2,
+    "tags": ["frühstück", "meal-prep", "vegetarisch"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Chiasamen", "amount": 50, "unit": "g", "category": "dry_goods" },
+      { "id": "02", "name": "Kokosmilch, light", "amount": 250, "unit": "ml", "category": "canned" },
+      { "id": "03", "name": "Milch", "amount": 150, "unit": "ml", "category": "dairy" },
+      { "id": "04", "name": "Ahornsirup", "amount": 2, "unit": "tsp", "category": "other" },
+      { "id": "05", "name": "Mango", "amount": 1, "category": "fruit" },
+      { "id": "06", "name": "Bio-Limette", "amount": 1, "category": "produce" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Anrühren", "content": "{01}, {02}, {03} und {04} verrühren. Nach 10 Minuten noch einmal umrühren, damit sich keine Klümpchen bilden.", "timer_seconds": 600 },
+      { "id": "s2", "title": "Kühlen", "content": "Mindestens 4 Stunden oder über Nacht kalt stellen." },
+      { "id": "s3", "title": "Anrichten", "content": "{05} schälen und würfeln. Pudding mit Mango anrichten und die Schale von {06} darüberreiben." }
+    ]
+  }
+]

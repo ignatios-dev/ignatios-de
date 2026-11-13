@@ -1,0 +1,265 @@
+[
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Kürbissuppe mit Ingwer und Kokos",
+    "base_servings": 4,
+    "tags": ["suppe", "vegan", "meal-prep"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Hokkaido-Kürbis", "amount": 1, "unit": "kg", "category": "produce" },
+      { "id": "02", "name": "Zwiebel", "amount": 1, "category": "produce" },
+      { "id": "03", "name": "Ingwer", "amount": 20, "unit": "g", "category": "produce" },
+      { "id": "04", "name": "Kokosmilch", "amount": 1, "unit": "can", "category": "canned" },
+      { "id": "05", "name": "Gemüsebrühe", "amount": 800, "unit": "ml", "category": "dry_goods" },
+      { "id": "06", "name": "Rapsöl", "amount": 1, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "07", "name": "Kürbiskerne", "amount": 30, "unit": "g", "category": "dry_goods" },
+      { "id": "08", "name": "Salz", "category": "spices", "raw_text": "Salz nach Geschmack" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Schneiden", "content": "{01} entkernen und mit Schale würfeln. {02} und {03} fein hacken." },
+      { "id": "s2", "title": "Anschwitzen", "content": "Zwiebel und Ingwer in {06} anschwitzen, Kürbis kurz mitbraten.", "timer_seconds": 240 },
+      { "id": "s3", "title": "Köcheln", "content": "{05} angießen und köcheln, bis der Kürbis weich ist.", "timer_seconds": 1200 },
+      { "id": "s4", "title": "Pürieren", "content": "{04} dazugeben, fein pürieren und mit {08} abschmecken." },
+      { "id": "s5", "title": "Servieren", "content": "{07} in einer trockenen Pfanne rösten und darüberstreuen.", "timer_seconds": 120 }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Klassische Hühnersuppe",
+    "base_servings": 4,
+    "tags": ["suppe", "hähnchen", "meal-prep"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Hähnchenschenkel mit Knochen", "amount": 800, "unit": "g", "category": "meat_fish" },
+      { "id": "02", "name": "Karotten", "amount": 3, "category": "produce" },
+      { "id": "03", "name": "Stangen Staudensellerie", "amount": 2, "category": "produce" },
+      { "id": "04", "name": "Lauch", "amount": 1, "category": "produce" },
+      { "id": "05", "name": "Zwiebel", "amount": 1, "category": "produce" },
+      { "id": "06", "name": "Lorbeerblätter", "amount": 2, "category": "spices" },
+      { "id": "07", "name": "Pfefferkörner", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "08", "name": "Suppennudeln", "amount": 120, "unit": "g", "category": "dry_goods" },
+      { "id": "09", "name": "Petersilie", "amount": 1, "unit": "bunch", "category": "produce" },
+      { "id": "10", "name": "Salz", "amount": 2, "unit": "tsp", "category": "spices" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Brühe ansetzen", "content": "{01}, {05} (halbiert), {06}, {07} und {10} mit 2 l kaltem Wasser aufsetzen, aufkochen und Schaum abschöpfen." },
+      { "id": "s2", "title": "Simmern", "content": "Bei kleiner Hitze simmern lassen.", "timer_seconds": 3600 },
+      { "id": "s3", "title": "Gemüse", "content": "Fleisch herausnehmen. {02}, {03} und {04} in Scheiben schneiden und in der Brühe garen.", "timer_seconds": 600 },
+      { "id": "s4", "title": "Nudeln", "content": "{08} in der Suppe garen. Fleisch von den Knochen lösen und zurück in den Topf geben.", "timer_seconds": 480 },
+      { "id": "s5", "title": "Servieren", "content": "{09} hacken und darüberstreuen." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Linseneintopf",
+    "base_servings": 4,
+    "tags": ["eintopf", "vegan", "meal-prep", "one-pot"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Tellerlinsen", "amount": 250, "unit": "g", "category": "dry_goods" },
+      { "id": "02", "name": "festkochende Kartoffeln", "amount": 400, "unit": "g", "category": "produce" },
+      { "id": "03", "name": "Karotten", "amount": 2, "category": "produce" },
+      { "id": "04", "name": "Lauch", "amount": 1, "category": "produce" },
+      { "id": "05", "name": "Zwiebel", "amount": 1, "category": "produce" },
+      { "id": "06", "name": "Gemüsebrühe", "amount": 1.2, "unit": "l", "category": "dry_goods" },
+      { "id": "07", "name": "Tomatenmark", "amount": 1, "unit": "tbsp", "category": "canned" },
+      { "id": "08", "name": "Rotweinessig", "amount": 2, "unit": "tbsp", "category": "other" },
+      { "id": "09", "name": "Majoran, getrocknet", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "10", "name": "Rapsöl", "amount": 1, "unit": "tbsp", "category": "dry_goods" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Anschwitzen", "content": "{05} würfeln und in {10} anschwitzen. {07} kurz mitrösten.", "timer_seconds": 180 },
+      { "id": "s2", "title": "Linsen", "content": "{01} und {06} dazugeben und köcheln lassen.", "timer_seconds": 900 },
+      { "id": "s3", "title": "Gemüse", "content": "{02} und {03} würfeln, {04} in Ringe schneiden. Alles mit {09} in den Topf geben und weich köcheln.", "timer_seconds": 1200 },
+      { "id": "s4", "title": "Abschmecken", "content": "Mit {08} säuerlich abschmecken." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Minestrone",
+    "base_servings": 4,
+    "tags": ["suppe", "italienisch", "vegetarisch", "one-pot"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Zucchini", "amount": 1, "category": "produce" },
+      { "id": "02", "name": "Karotten", "amount": 2, "category": "produce" },
+      { "id": "03", "name": "Stangen Staudensellerie", "amount": 2, "category": "produce" },
+      { "id": "04", "name": "festkochende Kartoffeln", "amount": 200, "unit": "g", "category": "produce" },
+      { "id": "05", "name": "weiße Bohnen", "amount": 1, "unit": "can", "category": "canned" },
+      { "id": "06", "name": "gehackte Tomaten", "amount": 1, "unit": "can", "category": "canned" },
+      { "id": "07", "name": "Gemüsebrühe", "amount": 1.2, "unit": "l", "category": "dry_goods" },
+      { "id": "08", "name": "kleine Suppennudeln", "amount": 80, "unit": "g", "category": "dry_goods" },
+      { "id": "09", "name": "Zwiebel", "amount": 1, "category": "produce" },
+      { "id": "10", "name": "Olivenöl", "amount": 2, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "11", "name": "Parmesan", "amount": 30, "unit": "g", "category": "dairy" },
+      { "id": "12", "name": "Basilikum", "amount": 0.5, "unit": "bunch", "category": "produce" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Anschwitzen", "content": "{09}, {02} und {03} würfeln und in {10} anschwitzen.", "timer_seconds": 300 },
+      { "id": "s2", "title": "Köcheln", "content": "{04} würfeln, mit {06} und {07} dazugeben und köcheln lassen.", "timer_seconds": 900 },
+      { "id": "s3", "title": "Zucchini und Nudeln", "content": "{01} würfeln, mit {05} (abgespült) und {08} in die Suppe geben und garen.", "timer_seconds": 480 },
+      { "id": "s4", "title": "Servieren", "content": "Mit {11} (gerieben) und {12} (gezupft) servieren." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Tom Kha Gai",
+    "description": "Thailändische Kokossuppe mit Hähnchen.",
+    "base_servings": 3,
+    "tags": ["suppe", "thailändisch", "asiatisch", "hähnchen"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Hähnchenbrust", "amount": 350, "unit": "g", "category": "meat_fish" },
+      { "id": "02", "name": "Kokosmilch", "amount": 1, "unit": "can", "category": "canned" },
+      { "id": "03", "name": "Hühnerbrühe", "amount": 500, "unit": "ml", "category": "dry_goods" },
+      { "id": "04", "name": "Champignons", "amount": 200, "unit": "g", "category": "produce" },
+      { "id": "05", "name": "Stängel Zitronengras", "amount": 2, "category": "asian" },
+      { "id": "06", "name": "Ingwer oder Galgant", "amount": 20, "unit": "g", "category": "produce" },
+      { "id": "07", "name": "Limetten", "amount": 2, "category": "produce" },
+      { "id": "08", "name": "Fischsauce", "amount": 2, "unit": "tbsp", "category": "asian" },
+      { "id": "09", "name": "rote Chili", "amount": 1, "category": "produce" },
+      { "id": "10", "name": "Koriander", "amount": 0.5, "unit": "bunch", "category": "produce" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Aromen", "content": "{05} plattklopfen und in Stücke schneiden, {06} in Scheiben schneiden. Mit {03} und {02} aufkochen und ziehen lassen.", "timer_seconds": 600 },
+      { "id": "s2", "title": "Einlage", "content": "{01} in dünne Scheiben, {04} in Viertel schneiden und in der Suppe garen.", "timer_seconds": 420 },
+      { "id": "s3", "title": "Abschmecken", "content": "Mit {08} und dem Saft von {07} abschmecken. {09} in Ringe schneiden und mit {10} (gezupft) darüberstreuen." }
+    ],
+    "notes": "Zitronengras und Ingwer werden nicht mitgegessen."
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Gulaschsuppe",
+    "base_servings": 4,
+    "tags": ["suppe", "rind", "eintopf"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Rindergulasch", "amount": 500, "unit": "g", "category": "meat_fish" },
+      { "id": "02", "name": "Zwiebeln", "amount": 3, "category": "produce" },
+      { "id": "03", "name": "Paprika", "amount": 2, "category": "produce" },
+      { "id": "04", "name": "festkochende Kartoffeln", "amount": 400, "unit": "g", "category": "produce" },
+      { "id": "05", "name": "Tomatenmark", "amount": 2, "unit": "tbsp", "category": "canned" },
+      { "id": "06", "name": "Paprikapulver, edelsüß", "amount": 2, "unit": "tbsp", "category": "spices" },
+      { "id": "07", "name": "Kümmel, gemahlen", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "08", "name": "Rinderbrühe", "amount": 1.2, "unit": "l", "category": "dry_goods" },
+      { "id": "09", "name": "Rapsöl", "amount": 2, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "10", "name": "Majoran, getrocknet", "amount": 1, "unit": "tsp", "category": "spices" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Anbraten", "content": "{01} in kleine Würfel schneiden und in {09} portionsweise kräftig anbraten.", "timer_seconds": 480 },
+      { "id": "s2", "title": "Zwiebeln", "content": "{02} würfeln und mitbraten, bis sie goldbraun sind. {05}, {06} und {07} kurz mitrösten.", "timer_seconds": 480 },
+      { "id": "s3", "title": "Schmoren", "content": "{08} angießen und zugedeckt schmoren lassen.", "timer_seconds": 3600 },
+      { "id": "s4", "title": "Gemüse", "content": "{04} und {03} würfeln, mit {10} dazugeben und garen, bis die Kartoffeln weich sind.", "timer_seconds": 1200 }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Rote-Linsen-Tomatensuppe",
+    "base_servings": 4,
+    "tags": ["suppe", "vegetarisch", "schnell", "one-pot"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "rote Linsen", "amount": 200, "unit": "g", "category": "dry_goods" },
+      { "id": "02", "name": "passierte Tomaten", "amount": 500, "unit": "ml", "category": "canned" },
+      { "id": "03", "name": "Zwiebel", "amount": 1, "category": "produce" },
+      { "id": "04", "name": "Karotte", "amount": 1, "category": "produce" },
+      { "id": "05", "name": "Knoblauch", "amount": 2, "unit": "clove", "category": "produce" },
+      { "id": "06", "name": "Gemüsebrühe", "amount": 800, "unit": "ml", "category": "dry_goods" },
+      { "id": "07", "name": "Kreuzkümmel, gemahlen", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "08", "name": "Paprikapulver, edelsüß", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "09", "name": "Naturjoghurt", "amount": 100, "unit": "g", "category": "dairy" },
+      { "id": "10", "name": "Olivenöl", "amount": 1, "unit": "tbsp", "category": "dry_goods" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Anschwitzen", "content": "{03}, {04} und {05} würfeln und in {10} anschwitzen. {07} und {08} kurz mitrösten.", "timer_seconds": 240 },
+      { "id": "s2", "title": "Köcheln", "content": "{01}, {02} und {06} dazugeben und köcheln, bis die Linsen zerfallen.", "timer_seconds": 1080 },
+      { "id": "s3", "title": "Pürieren", "content": "Fein pürieren und mit einem Klecks {09} servieren." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Kartoffelsuppe",
+    "base_servings": 4,
+    "tags": ["suppe", "vegetarisch"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "mehligkochende Kartoffeln", "amount": 800, "unit": "g", "category": "produce" },
+      { "id": "02", "name": "Karotten", "amount": 2, "category": "produce" },
+      { "id": "03", "name": "Lauch", "amount": 1, "category": "produce" },
+      { "id": "04", "name": "Zwiebel", "amount": 1, "category": "produce" },
+      { "id": "05", "name": "Gemüsebrühe", "amount": 1, "unit": "l", "category": "dry_goods" },
+      { "id": "06", "name": "Majoran, getrocknet", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "07", "name": "Muskatnuss", "amount": 1, "unit": "pinch", "category": "spices" },
+      { "id": "08", "name": "saure Sahne", "amount": 100, "unit": "g", "category": "dairy" },
+      { "id": "09", "name": "Petersilie", "amount": 0.5, "unit": "bunch", "category": "produce" },
+      { "id": "10", "name": "Rapsöl", "amount": 1, "unit": "tbsp", "category": "dry_goods" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Anschwitzen", "content": "{04} würfeln, {03} in Ringe schneiden und in {10} anschwitzen.", "timer_seconds": 240 },
+      { "id": "s2", "title": "Köcheln", "content": "{01} und {02} würfeln, mit {05} und {06} dazugeben und weich köcheln.", "timer_seconds": 1200 },
+      { "id": "s3", "title": "Stampfen", "content": "Etwa die Hälfte pürieren oder grob stampfen, damit die Suppe sämig wird. {08} einrühren und mit {07} würzen." },
+      { "id": "s4", "title": "Servieren", "content": "{09} hacken und darüberstreuen." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Toskanischer Bohneneintopf mit Grünkohl",
+    "base_servings": 4,
+    "tags": ["eintopf", "italienisch", "vegetarisch", "one-pot"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "weiße Bohnen", "amount": 2, "unit": "can", "category": "canned" },
+      { "id": "02", "name": "Grünkohl, gezupft", "amount": 200, "unit": "g", "category": "produce" },
+      { "id": "03", "name": "Zwiebel", "amount": 1, "category": "produce" },
+      { "id": "04", "name": "Knoblauch", "amount": 3, "unit": "clove", "category": "produce" },
+      { "id": "05", "name": "Karotten", "amount": 2, "category": "produce" },
+      { "id": "06", "name": "gehackte Tomaten", "amount": 1, "unit": "can", "category": "canned" },
+      { "id": "07", "name": "Gemüsebrühe", "amount": 1, "unit": "l", "category": "dry_goods" },
+      { "id": "08", "name": "Rosmarin, getrocknet", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "09", "name": "Olivenöl", "amount": 2, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "10", "name": "Parmesan", "amount": 30, "unit": "g", "category": "dairy" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Anschwitzen", "content": "{03}, {04} und {05} würfeln und in {09} anschwitzen.", "timer_seconds": 300 },
+      { "id": "s2", "title": "Köcheln", "content": "{01} (abgespült), {06}, {07} und {08} dazugeben und köcheln lassen.", "timer_seconds": 900 },
+      { "id": "s3", "title": "Grünkohl", "content": "{02} grob hacken, dazugeben und weich garen.", "timer_seconds": 600 },
+      { "id": "s4", "title": "Servieren", "content": "Mit {10} (gerieben) servieren." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Chili con Carne",
+    "base_servings": 4,
+    "tags": ["eintopf", "mexikanisch", "rind", "meal-prep", "high-protein"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Rinderhack", "amount": 500, "unit": "g", "category": "meat_fish" },
+      { "id": "02", "name": "Kidneybohnen", "amount": 2, "unit": "can", "category": "canned" },
+      { "id": "03", "name": "gehackte Tomaten", "amount": 2, "unit": "can", "category": "canned" },
+      { "id": "04", "name": "Zwiebeln", "amount": 2, "category": "produce" },
+      { "id": "05", "name": "Knoblauch", "amount": 2, "unit": "clove", "category": "produce" },
+      { "id": "06", "name": "Paprika", "amount": 1, "category": "produce" },
+      { "id": "07", "name": "Tomatenmark", "amount": 2, "unit": "tbsp", "category": "canned" },
+      { "id": "08", "name": "Chilipulver", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "09", "name": "Kreuzkümmel, gemahlen", "amount": 2, "unit": "tsp", "category": "spices" },
+      { "id": "10", "name": "Backkakao", "amount": 1, "unit": "tsp", "category": "dry_goods" },
+      { "id": "11", "name": "Rapsöl", "amount": 1, "unit": "tbsp", "category": "dry_goods" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Anbraten", "content": "{04}, {05} und {06} würfeln und in {11} anbraten. {01} dazugeben und krümelig braten.", "timer_seconds": 480 },
+      { "id": "s2", "title": "Würzen", "content": "{07}, {08}, {09} und {10} einrühren und kurz mitrösten.", "timer_seconds": 60 },
+      { "id": "s3", "title": "Schmoren", "content": "{03} und {02} (abgespült) dazugeben und offen schmoren lassen.", "timer_seconds": 2400 }
+    ],
+    "notes": "Am zweiten Tag noch besser. Lässt sich gut einfrieren."
+  }
+]

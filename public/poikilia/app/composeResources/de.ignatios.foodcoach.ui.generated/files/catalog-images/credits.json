@@ -1,0 +1,717 @@
+{
+ "v": 1,
+ "images": [
+  {
+   "title": "Apfel-Zimt-Crumble",
+   "author": "Andy Li",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AApple_Crumble_%26_Custard.jpg",
+   "file": "apfel-zimt-crumble.webp"
+  },
+  {
+   "title": "Avocado-Toast mit wachsweichem Ei",
+   "author": "Andy Li",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3ASmashed_Avocado_On_Toast_%28with_one_poached_egg%29_-_Jonny%27s_2026-01-06.jpg",
+   "file": "avocado-toast-mit-wachsweichem-ei.webp"
+  },
+  {
+   "title": "Bananenbrot ohne Zucker",
+   "author": "Carolien Dekeersmaeker",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3ABanana_Chocolate_Chip_Bread%2C_March_2009.jpg",
+   "file": "bananenbrot-ohne-zucker.webp"
+  },
+  {
+   "title": "Bibimbap mit Rinderhack",
+   "author": "Andy Li",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AHot_stone_pot_bibimbap_with_beef_%28Bulgogi_dolsot_bibimbap%29_-_Kogi_2023-10-16.jpg",
+   "file": "bibimbap-mit-rinderhack.webp"
+  },
+  {
+   "title": "Bircher Müsli",
+   "author": "Mx. Granger",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3ADorset_Cereals_muesli.jpg",
+   "file": "bircher-muesli.webp"
+  },
+  {
+   "title": "Bohnen-Burger",
+   "author": "Simon Speed",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AFryingBeanBurgers.JPG",
+   "file": "bohnen-burger.webp"
+  },
+  {
+   "title": "Briam – griechisches Ofengemüse",
+   "author": "Christin568",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AGreek_Briam_%E2%80%93_Traditional_Oven-Roasted_Vegetables.jpg",
+   "file": "briam-griechisches-ofengemuese.webp"
+  },
+  {
+   "title": "Burrito-Bowl mit Rinderhack",
+   "author": "Missvain",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3ASteak_burrito_bowl_at_La_Casa_Restaurant_in_Sonoma%2C_California_-_Sarah_Stierch_03.jpg",
+   "file": "burrito-bowl-mit-rinderhack.webp"
+  },
+  {
+   "title": "Caesar Salad mit Hähnchen und Joghurt-Dressing",
+   "author": "Andy Li",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AChicken_Caesar_Salad_-_Amo_2026-04-11.jpg",
+   "file": "caesar-salad-mit-haehnchen-und-joghurt-dressing.webp"
+  },
+  {
+   "title": "Chana Masala",
+   "author": "Andy Li",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AChana_Masala_-_Mohammed_-_Spice_Of_Life_2024-05-27.jpg",
+   "file": "chana-masala.webp"
+  },
+  {
+   "title": "Chia-Pudding mit Mango und Kokos",
+   "author": "Gogerr",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AChia_Pudding.jpg",
+   "file": "chia-pudding-mit-mango-und-kokos.webp"
+  },
+  {
+   "title": "Chili con Carne",
+   "author": "Aerith",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AChili_con_carne_cuisson.jpg",
+   "file": "chili-con-carne.webp"
+  },
+  {
+   "title": "Chili sin Carne",
+   "author": "Daderot",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AChili_with_textured_vegetable_protein_and_black_pepper_-_Massachusetts.jpg",
+   "file": "chili-sin-carne.webp"
+  },
+  {
+   "title": "Couscous-Pfanne mit Hähnchen und Kichererbsen",
+   "author": "Meriemou",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AChickenCouscous.jpg",
+   "file": "couscous-pfanne-mit-haehnchen-und-kichererbsen.webp"
+  },
+  {
+   "title": "Couscous-Salat mit Halloumi und Granatapfel",
+   "author": "Andy Li",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3ATomato_%26_Couscous_Salad_-_The_Canopy_2025-08-03.jpg",
+   "file": "couscous-salat-mit-halloumi-und-granatapfel.webp"
+  },
+  {
+   "title": "Cremiger Hummus",
+   "author": "Dumarest",
+   "license": "CC BY-SA 3.0",
+   "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AHummusLebanese.jpg",
+   "file": "cremiger-hummus.webp"
+  },
+  {
+   "title": "Edamame mit Chili und Limette",
+   "author": "Daderot",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AEdamame_-_Massachusetts.jpg",
+   "file": "edamame-mit-chili-und-limette.webp"
+  },
+  {
+   "title": "Erdnuss-Protein-Balls",
+   "author": "Viktorija N. Ivanov",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3A%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D0%B8_%D1%87%D0%BE%D0%BA%D0%BE_%D1%82%D0%BE%D0%BF%D1%87%D0%B8%D1%9A%D0%B0.jpg",
+   "file": "erdnuss-protein-balls.webp"
+  },
+  {
+   "title": "Fasolada – griechische Bohnensuppe",
+   "author": "Florificapis",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AFasolada_Xenophontos_trapeza.jpg",
+   "file": "fasolada-griechische-bohnensuppe.webp"
+  },
+  {
+   "title": "Frozen-Joghurt-Bruch mit Beeren und Pistazien",
+   "author": "USDAgov",
+   "license": "Public domain",
+   "license_url": null,
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AMyPlate_gov_Cultural_Food_%2820241025-USDA-FNS-UNK-0076%29.jpg",
+   "file": "frozen-joghurt-bruch-mit-beeren-und-pistazien.webp"
+  },
+  {
+   "title": "Frühstücks-Wrap mit Ei und Bohnen",
+   "author": "Daderot",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3ABreakfast_burrito_and_toast_-_Bakersfield%2C_CA.jpg",
+   "file": "fruehstuecks-wrap-mit-ei-und-bohnen.webp"
+  },
+  {
+   "title": "Gebratener Reis mit Ei und Gemüse",
+   "author": "Andy Li",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3ARed_curry_with_tofu%2C_egg_fried_rice_-_Little_Thai_2024-07-21.jpg",
+   "file": "gebratener-reis-mit-ei-und-gemuese.webp"
+  },
+  {
+   "title": "Gefüllte Süßkartoffeln mit schwarzen Bohnen",
+   "author": "© O'Dea at Wikimedia Commons, CC BY-SA 4.0",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3ABaked_potato%2C_baked_sweet_potato%2C_and_steamed_kale.jpg",
+   "file": "gefuellte-suesskartoffeln-mit-schwarzen-bohnen.webp"
+  },
+  {
+   "title": "Gemista – gefüllte Paprika und Tomaten",
+   "author": "I, Badseed",
+   "license": "CC BY-SA 3.0",
+   "license_url": "http://www.gnu.org/copyleft/fdl.html",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AGemista.jpg",
+   "file": "gemista-gefuellte-paprika-und-tomaten.webp"
+  },
+  {
+   "title": "Gemüse-Frittata",
+   "author": "Andy Li",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AFrittata_-_Bam%27s_Kitchen_2024-04-02.jpg",
+   "file": "gemuese-frittata.webp"
+  },
+  {
+   "title": "Gemüselasagne mit Ricotta",
+   "author": "Wheeler Cowperthwaite",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AEggplant_Lasagna_%28Vegitarian%29_%281_of_6%29.jpg",
+   "file": "gemueselasagne-mit-ricotta.webp"
+  },
+  {
+   "title": "Gigantes – Riesenbohnen in Tomatensauce",
+   "author": "Andy Li",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3ABeans_on_toast_-_Vios_2024-01-09.jpg",
+   "file": "gigantes-riesenbohnen-in-tomatensauce.webp"
+  },
+  {
+   "title": "Glasnudelsalat mit Hähnchen",
+   "author": "Vis M",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3ASeafood_glass_noodles_salad_02.jpg",
+   "file": "glasnudelsalat-mit-haehnchen.webp"
+  },
+  {
+   "title": "Griechischer Bauernsalat",
+   "author": "https://www.flickr.com/photos/zone41/",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AGreek_Salad_Choriatiki.jpg",
+   "file": "griechischer-bauernsalat.webp"
+  },
+  {
+   "title": "Grünes Thai-Curry mit Hähnchen",
+   "author": "Andy Li",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AYellow_curry_and_green_curry_-_Nok_Nok_Kitchen_at_The_Cow_2025-09-30.jpg",
+   "file": "gruenes-thai-curry-mit-haehnchen.webp"
+  },
+  {
+   "title": "Gulaschsuppe",
+   "author": "Silar",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3A02021_1020_%282%29_Goulash_soup_of_Poland.jpg",
+   "file": "gulaschsuppe.webp"
+  },
+  {
+   "title": "Gyros-Bowl mit Tzatziki",
+   "author": "DoubleG at German Wikipedia",
+   "license": "CC BY-SA 3.0",
+   "license_url": "http://www.gnu.org/copyleft/fdl.html",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3ATaxiteller.jpg",
+   "file": "gyros-bowl-mit-tzatziki.webp"
+  },
+  {
+   "title": "Hack-Paprika-Pfanne mit Bulgur und Feta",
+   "author": "Harald the Bard",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AGrilled_wings_with_sauce%2C_served_with_bulgur_pilaf%2C_spicy_appetizer_%28middle%29%2C_and_turnip_juice_%28left%29%29.jpg",
+   "file": "hack-paprika-pfanne-mit-bulgur-und-feta.webp"
+  },
+  {
+   "title": "Hackbällchen in Tomatensauce mit Vollkornnudeln",
+   "author": "Andy Li",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AJacket_potato_with_meatballs_tomato_sauce_and_cheese_and_butter_-_Potatoast_2026-05-02.jpg",
+   "file": "hackbaellchen-in-tomatensauce-mit-vollkornnudeln.webp"
+  },
+  {
+   "title": "Herzhafte Hafer-Bowl mit Pilzen und Spiegelei",
+   "author": "Gerda Arendt",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AMixed_mushrooms_with_fried_egg%2C_Madrid.jpg",
+   "file": "herzhafte-hafer-bowl-mit-pilzen-und-spiegelei.webp"
+  },
+  {
+   "title": "Hähnchen-Fajitas",
+   "author": "Missvain",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AChicken_fajitas_-_La_Hacienda_-_Sarah_Stierch.jpg",
+   "file": "haehnchen-fajitas.webp"
+  },
+  {
+   "title": "Hähnchen-Gemüse vom Blech",
+   "author": "USDAgov",
+   "license": "Public domain",
+   "license_url": null,
+   "source_url": "https://commons.wikimedia.org/wiki/File%3A2016_USDA_Farmers_Market_%2820160923-AMS-LSC-0090%29.jpg",
+   "file": "haehnchen-gemuese-vom-blech.webp"
+  },
+  {
+   "title": "Hähnchen-Hummus-Wraps",
+   "author": "Andy Li",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AHandmade_Chicken_Shawarma_Wrap_-_Lavash.jpg",
+   "file": "haehnchen-hummus-wraps.webp"
+  },
+  {
+   "title": "Hähnchen-Satay mit Gurkensalat",
+   "author": "Daderot",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AChicken_satay_-_Napier%2C_New_Zealand.jpg",
+   "file": "haehnchen-satay-mit-gurkensalat.webp"
+  },
+  {
+   "title": "Hähnchen-Souvlaki mit Pita",
+   "author": "Leeturtle",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AGreek_chicken_souvlaki_merida.jpg",
+   "file": "haehnchen-souvlaki-mit-pita.webp"
+  },
+  {
+   "title": "Hüftsteak mit Rosmarinkartoffeln und grünen Bohnen",
+   "author": "Daderot",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AHanger_steak%2C_pureed_potato%2C_green_beans%2C_crispy_shallots_-_Cambridge%2C_MA.jpg",
+   "file": "hueftsteak-mit-rosmarinkartoffeln-und-gruenen-bohnen.webp"
+  },
+  {
+   "title": "Kartoffelsuppe",
+   "author": "Gerda Arendt",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3APotato_soup%2C_Aachen.jpg",
+   "file": "kartoffelsuppe.webp"
+  },
+  {
+   "title": "Klassische Hühnersuppe",
+   "author": "Saimmx",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3A20260903_132152_Chicken_soup_noodle.jpg",
+   "file": "klassische-huehnersuppe.webp"
+  },
+  {
+   "title": "Knoblauch-Garnelen mit Zucchini-Nudeln",
+   "author": "Debbie Tingzon",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3A%E2%80%A2Seared_Ribeye_and_Garlic_Shrimp%E2%80%A2_Applebee%27s_12_oz_Ribeye_steak_cooked_medium_well_and_topped_with_Garlic_Shrimps_and_saut%C3%A9ed_vegetables.jpg",
+   "file": "knoblauch-garnelen-mit-zucchini-nudeln.webp"
+  },
+  {
+   "title": "Knusper-Tofu-Bowl mit Erdnusssauce",
+   "author": "Simmer + Sauce",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3ASmokey_Millet_Super_Grain_Bowl_With_Crispy_Tofu.jpg",
+   "file": "knusper-tofu-bowl-mit-erdnusssauce.webp"
+  },
+  {
+   "title": "Knusprige Ofen-Kichererbsen",
+   "author": "Fumikas Sagisavas",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3ARoasted_chickpeas.jpg",
+   "file": "knusprige-ofen-kichererbsen.webp"
+  },
+  {
+   "title": "Kürbissuppe mit Ingwer und Kokos",
+   "author": "P1898",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3ACream_of_pumpkin_soup.jpg",
+   "file": "kuerbissuppe-mit-ingwer-und-kokos.webp"
+  },
+  {
+   "title": "Lachs-Quinoa-Bowl mit Edamame",
+   "author": "Benreis",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3ALachs_Bowl_Karches.jpg",
+   "file": "lachs-quinoa-bowl-mit-edamame.webp"
+  },
+  {
+   "title": "Lauch-Quiche mit Bergkäse",
+   "author": "Jessica from Hove, United Kingdom",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AMushroom_and_leek_quiche.jpg",
+   "file": "lauch-quiche-mit-bergkaese.webp"
+  },
+  {
+   "title": "Leichte Moussaka",
+   "author": "Original: Cuklev",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3A%D0%9C%D1%83%D1%81%D0%B0%D0%BA%D0%B0_%D0%BE%D0%B4_%D0%BA%D0%BE%D0%BC%D0%BF%D0%B8%D1%80%D0%B8.jpg",
+   "file": "leichte-moussaka.webp"
+  },
+  {
+   "title": "Linseneintopf",
+   "author": "Justin Smith",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AChicken_Brunswick_Stew%2C_Corn_%26_Lentil_Loaf_%288855144810%29.jpg",
+   "file": "linseneintopf.webp"
+  },
+  {
+   "title": "Linsensalat mit Roter Bete und Ziegenkäse",
+   "author": "Chris Olszewski",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3ABeetroot%2C_spinach%2C_rocket%2C_goat_cheese_and_pumpkin_seeds_salad.jpg",
+   "file": "linsensalat-mit-roter-bete-und-ziegenkaese.webp"
+  },
+  {
+   "title": "Mac and Cheese mit Brokkoli",
+   "author": "Elizabeth from Lansing, MI, USA",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AFive_cheese_%E2%80%9Cmac_%26_cheese%E2%80%9D_%285749379054%29.jpg",
+   "file": "mac-and-cheese-mit-brokkoli.webp"
+  },
+  {
+   "title": "Mapo Tofu",
+   "author": "NeoBatfreak",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AMapo_Tofu_with_rice.jpg",
+   "file": "mapo-tofu.webp"
+  },
+  {
+   "title": "Minestrone",
+   "author": "El Nuevo Doge",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AMinestrone_y_sopa_de_tomate%2C_Mazatl%C3%A1n%2C_15_de_noviembre_de_2022_02.jpg",
+   "file": "minestrone.webp"
+  },
+  {
+   "title": "Ofen-Gnocchi mit Feta und Kirschtomaten",
+   "author": "Gerda Arendt",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3ASteinpilz-Gnocchi%2C_Martinsthal.jpg",
+   "file": "ofen-gnocchi-mit-feta-und-kirschtomaten.webp"
+  },
+  {
+   "title": "Ofen-Kabeljau mit Zitronenkartoffeln",
+   "author": "Prayitno / Thank you for (12 millions +) view from Los Angeles, USA",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3ALing_Cod_with_Baked_Potato_%2815988408872%29.jpg",
+   "file": "ofen-kabeljau-mit-zitronenkartoffeln.webp"
+  },
+  {
+   "title": "Orzo mit Garnelen und Feta",
+   "author": "Deodora333",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3A%D0%9E%D1%80%D0%B7%D0%BE_%D1%81%D0%BE_%D1%80%D0%B0%D0%BA%D1%87%D0%B8%D1%9A%D0%B0_%2801%29.jpg",
+   "file": "orzo-mit-garnelen-und-feta.webp"
+  },
+  {
+   "title": "Overnight Oats mit Beeren und Skyr",
+   "author": "USDAgov",
+   "license": "Public domain",
+   "license_url": null,
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AChild_Care_Recipes_%28Team_Nutiriton%29_%2820230123-FNS-UNK-018%29.jpg",
+   "file": "overnight-oats-mit-beeren-und-skyr.webp"
+  },
+  {
+   "title": "Pad Thai mit Garnelen",
+   "author": "P1898",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AShrimp_Pad_Thai_2026-09-11_classic_01.jpg",
+   "file": "pad-thai-mit-garnelen.webp"
+  },
+  {
+   "title": "Paella mit Hähnchen und Erbsen",
+   "author": "Kunokuno",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AChicken_Paella_in_Hot_Pan.jpg",
+   "file": "paella-mit-haehnchen-und-erbsen.webp"
+  },
+  {
+   "title": "Pasta e Ceci",
+   "author": "Rollopack",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3APasta_e_ceci_con_maltagliati_di_pasta_all%E2%80%99uovo.jpg",
+   "file": "pasta-e-ceci.webp"
+  },
+  {
+   "title": "Pilz-Stroganoff mit Bandnudeln",
+   "author": "Kolforn (Kolforn) I'd appreciate if you could mail me (Kolforn@gmail.com) if you want to use this picture out of the Wik",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3A-2020-09-14_Beef_stroganoff%2C_Trimingham.JPG",
+   "file": "pilz-stroganoff-mit-bandnudeln.webp"
+  },
+  {
+   "title": "Pilzrisotto",
+   "author": "Elfer",
+   "license": "CC BY-SA 3.0",
+   "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3ABowl_of_mushroom_and_scallion_risotto.jpg",
+   "file": "pilzrisotto.webp"
+  },
+  {
+   "title": "Protein-Pancakes mit Heidelbeeren",
+   "author": "Andy Li",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AAmerican_Pancakes_with_banana_and_blueberries_-_Jonny%27s_Goring_Bar_%26_Kitchen_2026-01-29.jpg",
+   "file": "protein-pancakes-mit-heidelbeeren.webp"
+  },
+  {
+   "title": "Putengeschnetzeltes mit Champignons",
+   "author": "avlxyz",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AKulbasti_Char-grilled_Veal_with_Mustard_Sauce_-_degustation_-_Ottoman_Cuisine.jpg",
+   "file": "putengeschnetzeltes-mit-champignons.webp"
+  },
+  {
+   "title": "Ratatouille",
+   "author": "El Nuevo Doge",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3ARatatouille%2C_Mazatl%C3%A1n%2C_21_de_junio_de_2023.jpg",
+   "file": "ratatouille.webp"
+  },
+  {
+   "title": "Rote-Linsen-Tomatensuppe",
+   "author": "Whoisjohngalt",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3ABowl_of_lentil_soup_with_green_and_red_lentils.jpg",
+   "file": "rote-linsen-tomatensuppe.webp"
+  },
+  {
+   "title": "Rotes Linsen-Curry mit Spinat",
+   "author": "\"Chef\" at Cookipedia.co.uk",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3ARed_lentil_curry_soup.jpg",
+   "file": "rotes-linsen-curry-mit-spinat.webp"
+  },
+  {
+   "title": "Rucola-Birnen-Salat mit Walnüssen",
+   "author": "Gerda Arendt",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3ASalad_from_friend%27s_kitchen%2C_Cortlandt_Manor.jpg",
+   "file": "rucola-birnen-salat-mit-walnuessen.webp"
+  },
+  {
+   "title": "Rührei mit Spinat und Feta",
+   "author": "HaJunkiyada",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3ALiat_Portal_for_Foodie_Disorder_-_Scrambled_eggs_with_spinach.jpg",
+   "file": "ruehrei-mit-spinat-und-feta.webp"
+  },
+  {
+   "title": "Schnelle Miso-Ramen",
+   "author": "Andy Li",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3ASoy_Milk_Ramen_and_Tonkotsu_Miso_Ramen_by_Goemon_Ramen_Bar.jpg",
+   "file": "schnelle-miso-ramen.webp"
+  },
+  {
+   "title": "Schoko-Avocado-Mousse mit Himbeeren",
+   "author": "Ruth Hartnup from Vancouver, Canada",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AChocolate_mousse_%2816013444604%29.jpg",
+   "file": "schoko-avocado-mousse-mit-himbeeren.webp"
+  },
+  {
+   "title": "Schweinefilet mit Honig-Senf-Kruste und Möhren",
+   "author": "FBenjr123",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3APork_tenderloin_tips_with_cabbage%2C_carrots_and_green_onions_01.jpg",
+   "file": "schweinefilet-mit-honig-senf-kruste-und-moehren.webp"
+  },
+  {
+   "title": "Shakshuka",
+   "author": "Yaron Koren",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AGreen_shakshuka_from_Oren%27s_Hummus.jpg",
+   "file": "shakshuka.webp"
+  },
+  {
+   "title": "Skyr-Bowl mit Apfel und Granola",
+   "author": "Bambiwa",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AGranola_and_Yogurt.jpg",
+   "file": "skyr-bowl-mit-apfel-und-granola.webp"
+  },
+  {
+   "title": "Sommerrollen mit Garnelen und Erdnuss-Dip",
+   "author": "Junyu-K",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AVietnam_Foods_on_the_dining_table_at_a_vietnamese_restaurant_202208.jpg",
+   "file": "sommerrollen-mit-garnelen-und-erdnuss-dip.webp"
+  },
+  {
+   "title": "Spaghetti Bolognese mit Linsen",
+   "author": "hozinja",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3ASpaghetti_bolognese_%28hozinja%29.jpg",
+   "file": "spaghetti-bolognese-mit-linsen.webp"
+  },
+  {
+   "title": "Spaghetti mit Thunfisch und Kirschtomaten",
+   "author": "Andy Li",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3ASpaghetti_Brighton_-_Napoli_Restaurant_2024-10-31.jpg",
+   "file": "spaghetti-mit-thunfisch-und-kirschtomaten.webp"
+  },
+  {
+   "title": "Taboulé",
+   "author": "Daderot",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3ABaba_ghannouj%2C_mujadara%2C_hoummos%2C_and_tabbouleh_-_Cambridge%2C_MA.jpg",
+   "file": "taboul.webp"
+  },
+  {
+   "title": "Tagliatelle mit Lachs und Spinat",
+   "author": "Andy Li",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3ASmoked_salmon_pasta_-_Figaros%2C_Brighton_2024-04-19.jpg",
+   "file": "tagliatelle-mit-lachs-und-spinat.webp"
+  },
+  {
+   "title": "Teriyaki-Hähnchen-Bowl mit Brokkoli",
+   "author": "TechnoKittyCat",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3ADonburi_Rice_bowl_of_Chicken_Teriyaki_with_Tomato.jpg",
+   "file": "teriyaki-haehnchen-bowl-mit-brokkoli.webp"
+  },
+  {
+   "title": "Teriyaki-Lachs mit Pak Choi",
+   "author": "Andy Li",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3ATERIYAKI_SALMON_SALAD_-_Jonny%27s_2025-05-27.jpg",
+   "file": "teriyaki-lachs-mit-pak-choi.webp"
+  },
+  {
+   "title": "Thai-Basilikum-Hähnchen mit Spiegelei",
+   "author": "Gaztarrotz",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3APad_kra_pao_Tailandiarra.jpg",
+   "file": "thai-basilikum-haehnchen-mit-spiegelei.webp"
+  },
+  {
+   "title": "Thunfisch-Bohnen-Salat",
+   "author": "Adesolive",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3ATuna_Salad_with_sweet_corn.jpg",
+   "file": "thunfisch-bohnen-salat.webp"
+  },
+  {
+   "title": "Tom Kha Gai",
+   "author": "TeamTeam2002",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3ATom_Kha_Gai_-_Thai_Food.jpg",
+   "file": "tom-kha-gai.webp"
+  },
+  {
+   "title": "Toskanischer Bohneneintopf mit Grünkohl",
+   "author": "Original uploader was LupoCapra at it.wikipedia",
+   "license": "CC BY-SA 3.0",
+   "license_url": "http://www.gnu.org/copyleft/fdl.html",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AMinestra_di_pane.jpg",
+   "file": "toskanischer-bohneneintopf-mit-gruenkohl.webp"
+  },
+  {
+   "title": "Udon-Pfanne mit Rindfleisch",
+   "author": "jeffreyw",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AUdon_%284680697819%29.jpg",
+   "file": "udon-pfanne-mit-rindfleisch.webp"
+  },
+  {
+   "title": "Zucchini-Puffer mit Joghurt-Dip",
+   "author": "Christin568",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File%3AGreek_Zucchini_Fritters.jpg",
+   "file": "zucchini-puffer-mit-joghurt-dip.webp"
+  }
+ ]
+}

@@ -1,0 +1,1222 @@
+{
+ "v": 1,
+ "ingredients": {
+  "Ahornsirup": {
+   "fdc_id": "169661",
+   "overrides": {
+    "density": 1.33
+   }
+  },
+  "Apfel": {
+   "fdc_id": "168202",
+   "overrides": {
+    "piece": 180.0
+   }
+  },
+  "Äpfel": {
+   "fdc_id": "168202",
+   "overrides": {
+    "piece": 180.0
+   }
+  },
+  "Aubergine": {
+   "fdc_id": "169228",
+   "overrides": {
+    "piece": 300.0
+   }
+  },
+  "Auberginen": {
+   "fdc_id": "169228",
+   "overrides": {
+    "piece": 300.0
+   }
+  },
+  "Austernsauce": {
+   "fdc_id": "174529",
+   "overrides": {
+    "tbsp": 18.0
+   }
+  },
+  "Avocado": {
+   "fdc_id": "171705",
+   "overrides": {
+    "piece": 170.0
+   }
+  },
+  "reife Avocado": {
+   "fdc_id": "171705",
+   "overrides": {
+    "piece": 170.0
+   }
+  },
+  "Babyspinat": {
+   "fdc_id": "168462"
+  },
+  "Blattspinat": {
+   "fdc_id": "168462"
+  },
+  "Backkakao": {
+   "fdc_id": "169593",
+   "overrides": {
+    "tbsp": 5.0,
+    "tsp": 2.0
+   }
+  },
+  "Backpulver": {
+   "fdc_id": "172803",
+   "overrides": {
+    "tsp": 4.0
+   }
+  },
+  "Balsamico": {
+   "fdc_id": "172241",
+   "overrides": {
+    "tbsp": 16.0
+   }
+  },
+  "Banane": {
+   "fdc_id": "173944",
+   "overrides": {
+    "piece": 120.0
+   }
+  },
+  "reife Banane": {
+   "fdc_id": "173944",
+   "overrides": {
+    "piece": 120.0
+   }
+  },
+  "sehr reife Bananen": {
+   "fdc_id": "173944",
+   "overrides": {
+    "piece": 120.0
+   }
+  },
+  "Bandnudeln": {
+   "fdc_id": "169736"
+  },
+  "Tagliatelle": {
+   "fdc_id": "169736"
+  },
+  "Spaghetti": {
+   "fdc_id": "169736"
+  },
+  "Penne": {
+   "fdc_id": "169736"
+  },
+  "Makkaroni": {
+   "fdc_id": "169736"
+  },
+  "Lasagneplatten": {
+   "fdc_id": "169736"
+  },
+  "Ditalini (kleine Röhrennudeln)": {
+   "fdc_id": "169736"
+  },
+  "Orzo (Kritharaki)": {
+   "fdc_id": "169736"
+  },
+  "Suppennudeln": {
+   "fdc_id": "169731"
+  },
+  "kleine Suppennudeln": {
+   "fdc_id": "169731"
+  },
+  "Vollkornnudeln": {
+   "fdc_id": "169738"
+  },
+  "Vollkornspaghetti": {
+   "fdc_id": "169738"
+  },
+  "Gnocchi (Kühlregal)": {
+   "fdc_id": "170520"
+  },
+  "Basilikum": {
+   "fdc_id": "172232",
+   "overrides": {
+    "bunch": 25.0
+   }
+  },
+  "Thai-Basilikum": {
+   "fdc_id": "172232",
+   "overrides": {
+    "bunch": 25.0
+   }
+  },
+  "Basmatireis": {
+   "fdc_id": "168877"
+  },
+  "Langkornreis": {
+   "fdc_id": "168877"
+  },
+  "Jasminreis": {
+   "fdc_id": "168877"
+  },
+  "Paellareis": {
+   "fdc_id": "168879"
+  },
+  "Risottoreis": {
+   "fdc_id": "168879"
+  },
+  "Rundkornreis": {
+   "fdc_id": "168931"
+  },
+  "gekochter Jasminreis vom Vortag": {
+   "fdc_id": "168878"
+  },
+  "Beerenmischung (TK)": {
+   "fdc_id": "173950"
+  },
+  "frische Beeren": {
+   "fdc_id": "171711"
+  },
+  "Heidelbeeren": {
+   "fdc_id": "171711"
+  },
+  "Himbeeren": {
+   "fdc_id": "167755"
+  },
+  "Belugalinsen": {
+   "fdc_id": "172420"
+  },
+  "Tellerlinsen": {
+   "fdc_id": "172420"
+  },
+  "rote Linsen": {
+   "fdc_id": "174284"
+  },
+  "Bergkäse, gerieben": {
+   "fdc_id": "171251"
+  },
+  "Bio-Limette": {
+   "fdc_id": "168155",
+   "overrides": {
+    "piece": 60.0
+   }
+  },
+  "Limette": {
+   "fdc_id": "168155",
+   "overrides": {
+    "piece": 60.0
+   }
+  },
+  "Limetten": {
+   "fdc_id": "168155",
+   "overrides": {
+    "piece": 60.0
+   }
+  },
+  "Limettensaft": {
+   "fdc_id": "168156",
+   "overrides": {
+    "tsp": 5.0
+   }
+  },
+  "Birne": {
+   "fdc_id": "169118",
+   "overrides": {
+    "piece": 180.0
+   }
+  },
+  "Blumenkohl": {
+   "fdc_id": "169986",
+   "overrides": {
+    "piece": 600.0
+   }
+  },
+  "brauner Zucker": {
+   "fdc_id": "168833",
+   "overrides": {
+    "tbsp": 12.0
+   }
+  },
+  "Zucker": {
+   "fdc_id": "169655",
+   "overrides": {
+    "tsp": 4.0
+   }
+  },
+  "Brokkoli": {
+   "fdc_id": "170379",
+   "overrides": {
+    "piece": 450.0
+   }
+  },
+  "Bulgur": {
+   "fdc_id": "170688"
+  },
+  "feiner Bulgur": {
+   "fdc_id": "170688"
+  },
+  "Burgerbrötchen": {
+   "fdc_id": "172796",
+   "overrides": {
+    "piece": 55.0
+   }
+  },
+  "Butter": {
+   "fdc_id": "173430"
+  },
+  "kalte Butter": {
+   "fdc_id": "173430"
+  },
+  "Butterbohnen": {
+   "fdc_id": "175204",
+   "overrides": {
+    "can": 240.0
+   }
+  },
+  "weiße Bohnen": {
+   "fdc_id": "175204",
+   "overrides": {
+    "can": 240.0
+   }
+  },
+  "Cajun-Gewürz": {
+   "fdc_id": "171329",
+   "overrides": {
+    "tsp": 2.0
+   }
+  },
+  "Taco-Gewürz": {
+   "fdc_id": "171319",
+   "overrides": {
+    "tbsp": 8.0
+   }
+  },
+  "Gyros-Gewürz": {
+   "fdc_id": "171329",
+   "overrides": {
+    "tbsp": 7.0
+   }
+  },
+  "Champignons": {
+   "fdc_id": "169251"
+  },
+  "Cheddar, gerieben": {
+   "fdc_id": "170899"
+  },
+  "Chiasamen": {
+   "fdc_id": "170554",
+   "overrides": {
+    "tbsp": 12.0
+   }
+  },
+  "Chiliflocken": {
+   "fdc_id": "170932"
+  },
+  "Chilipulver": {
+   "fdc_id": "171319"
+  },
+  "Chorizo": {
+   "fdc_id": "173859"
+  },
+  "Ciabatta": {
+   "fdc_id": "174913"
+  },
+  "Couscous": {
+   "fdc_id": "169699"
+  },
+  "Currypulver": {
+   "fdc_id": "170924"
+  },
+  "Garam Masala": {
+   "fdc_id": "170924"
+  },
+  "Dill": {
+   "fdc_id": "172233",
+   "overrides": {
+    "bunch": 25.0
+   }
+  },
+  "Dinkelmehl": {
+   "fdc_id": "168944"
+  },
+  "Dinkelvollkornmehl": {
+   "fdc_id": "168944"
+  },
+  "Weizenmehl": {
+   "fdc_id": "168894",
+   "overrides": {
+    "tbsp": 8.0
+   }
+  },
+  "Doubanjiang (Chili-Bohnenpaste)": {
+   "fdc_id": "172442",
+   "overrides": {
+    "tbsp": 17.0
+   }
+  },
+  "helle Misopaste": {
+   "fdc_id": "172442",
+   "overrides": {
+    "tbsp": 17.0
+   }
+  },
+  "Gochujang": {
+   "fdc_id": "172442",
+   "overrides": {
+    "tbsp": 17.0
+   }
+  },
+  "Drillinge (kleine Kartoffeln)": {
+   "fdc_id": "170026"
+  },
+  "festkochende Kartoffeln": {
+   "fdc_id": "170026"
+  },
+  "mehligkochende Kartoffel": {
+   "fdc_id": "170027"
+  },
+  "mehligkochende Kartoffeln": {
+   "fdc_id": "170027"
+  },
+  "Edamame in der Schote (TK)": {
+   "fdc_id": "168410"
+  },
+  "Edamame, geschält (TK)": {
+   "fdc_id": "168410"
+  },
+  "Ei": {
+   "fdc_id": "171287",
+   "overrides": {
+    "piece": 55.0
+   }
+  },
+  "Eier": {
+   "fdc_id": "171287",
+   "overrides": {
+    "piece": 55.0
+   }
+  },
+  "Eiswasser": {
+   "fdc_id": null
+  },
+  "Erbsen (TK)": {
+   "fdc_id": "170016"
+  },
+  "Erdnussbutter": {
+   "fdc_id": "172470",
+   "overrides": {
+    "tbsp": 16.0
+   }
+  },
+  "Feta": {
+   "fdc_id": "173420"
+  },
+  "Fischsauce": {
+   "fdc_id": "174531",
+   "overrides": {
+    "tbsp": 18.0,
+    "tsp": 6.0
+   }
+  },
+  "Frischkäse, light": {
+   "fdc_id": "169079"
+  },
+  "Ziegenfrischkäse": {
+   "fdc_id": "173435"
+  },
+  "Frühlingszwiebel": {
+   "fdc_id": "170005",
+   "overrides": {
+    "piece": 15.0
+   }
+  },
+  "Frühlingszwiebeln": {
+   "fdc_id": "170005",
+   "overrides": {
+    "piece": 15.0
+   }
+  },
+  "Garnelen, gekocht": {
+   "fdc_id": "175180"
+  },
+  "Garnelen, roh (TK)": {
+   "fdc_id": "175179"
+  },
+  "gehackte Tomaten": {
+   "fdc_id": "170051",
+   "overrides": {
+    "can": 400.0
+   }
+  },
+  "passierte Tomaten": {
+   "fdc_id": "170460",
+   "overrides": {
+    "density": 1.04
+   }
+  },
+  "Tomatenmark": {
+   "fdc_id": "170459",
+   "overrides": {
+    "tbsp": 16.0
+   }
+  },
+  "Gemüsebrühe": {
+   "fdc_id": "171583",
+   "overrides": {
+    "density": 1.0
+   }
+  },
+  "Gemüsebrühe, heiß": {
+   "fdc_id": "171583",
+   "overrides": {
+    "density": 1.0
+   }
+  },
+  "Hühnerbrühe": {
+   "fdc_id": "174536",
+   "overrides": {
+    "density": 1.0
+   }
+  },
+  "Rinderbrühe": {
+   "fdc_id": "174557",
+   "overrides": {
+    "density": 1.0
+   }
+  },
+  "geröstete Erdnüsse": {
+   "fdc_id": "173806"
+  },
+  "Glasnudeln": {
+   "fdc_id": "174258"
+  },
+  "Reisbandnudeln": {
+   "fdc_id": "169742"
+  },
+  "Reisnudeln, dünn": {
+   "fdc_id": "169742"
+  },
+  "Ramen-Nudeln": {
+   "fdc_id": "168908"
+  },
+  "Udon-Nudeln, vorgegart": {
+   "fdc_id": "168909"
+  },
+  "Petersilie": {
+   "fdc_id": "170416",
+   "overrides": {
+    "bunch": 40.0
+   }
+  },
+  "glatte Petersilie": {
+   "fdc_id": "170416",
+   "overrides": {
+    "bunch": 40.0
+   }
+  },
+  "Granatapfelkerne": {
+   "fdc_id": "169134"
+  },
+  "Granola": {
+   "fdc_id": "171646"
+  },
+  "griechischer Joghurt": {
+   "fdc_id": "171304"
+  },
+  "Naturjoghurt": {
+   "fdc_id": "171284"
+  },
+  "Skyr": {
+   "fdc_id": "171312"
+  },
+  "Magerquark": {
+   "fdc_id": "172181"
+  },
+  "grobes Salz": {
+   "fdc_id": "173468",
+   "overrides": {
+    "pinch": 0.4
+   }
+  },
+  "Salz": {
+   "fdc_id": "173468",
+   "overrides": {
+    "pinch": 0.4,
+    "tsp": 6.0
+   }
+  },
+  "Meersalz": {
+   "fdc_id": "173468",
+   "overrides": {
+    "tsp": 6.0
+   }
+  },
+  "große Tomaten": {
+   "fdc_id": "170457",
+   "overrides": {
+    "piece": 180.0
+   }
+  },
+  "Tomate": {
+   "fdc_id": "170457",
+   "overrides": {
+    "piece": 120.0
+   }
+  },
+  "Tomaten": {
+   "fdc_id": "170457",
+   "overrides": {
+    "piece": 120.0
+   }
+  },
+  "Kirschtomaten": {
+   "fdc_id": "170457",
+   "overrides": {
+    "piece": 17.0
+   }
+  },
+  "grüne Bohnen": {
+   "fdc_id": "169961"
+  },
+  "grüne Bohnen (TK)": {
+   "fdc_id": "169962"
+  },
+  "grüne Currypaste": {
+   "fdc_id": null,
+   "overrides": {
+    "tbsp": 16.0
+   }
+  },
+  "rote Currypaste": {
+   "fdc_id": null,
+   "overrides": {
+    "tbsp": 16.0
+   }
+  },
+  "grüne Paprika": {
+   "fdc_id": "170427",
+   "overrides": {
+    "piece": 160.0
+   }
+  },
+  "rote Paprika": {
+   "fdc_id": "170108",
+   "overrides": {
+    "piece": 160.0
+   }
+  },
+  "Paprika": {
+   "fdc_id": "170108",
+   "overrides": {
+    "piece": 160.0
+   }
+  },
+  "Paprika, bunt": {
+   "fdc_id": "170108",
+   "overrides": {
+    "piece": 160.0
+   }
+  },
+  "Grünkohl, gezupft": {
+   "fdc_id": "168421"
+  },
+  "Gurke": {
+   "fdc_id": "168409",
+   "overrides": {
+    "piece": 400.0
+   }
+  },
+  "Haferdrink": {
+   "fdc_id": null,
+   "overrides": {
+    "density": 1.03
+   }
+  },
+  "Haferflocken": {
+   "fdc_id": "173904"
+  },
+  "kernige Haferflocken": {
+   "fdc_id": "173904"
+  },
+  "zarte Haferflocken": {
+   "fdc_id": "173904"
+  },
+  "Halloumi": {
+   "fdc_id": "170846"
+  },
+  "Haselnüsse": {
+   "fdc_id": "170581"
+  },
+  "Hoisinsauce": {
+   "fdc_id": "172886",
+   "overrides": {
+    "tbsp": 16.0
+   }
+  },
+  "Hokkaido-Kürbis": {
+   "fdc_id": "168448"
+  },
+  "Honig": {
+   "fdc_id": "169640",
+   "overrides": {
+    "tbsp": 21.0,
+    "tsp": 7.0
+   }
+  },
+  "Hummus": {
+   "fdc_id": "174289",
+   "overrides": {
+    "tbsp": 15.0
+   }
+  },
+  "Hähnchenbrust": {
+   "fdc_id": "171077"
+  },
+  "Hähnchenbrust, fein gehackt": {
+   "fdc_id": "171077"
+  },
+  "Hähnchenschenkel mit Knochen": {
+   "fdc_id": "173627"
+  },
+  "Hähnchenschenkel ohne Haut und Knochen": {
+   "fdc_id": "173627"
+  },
+  "Putenbrust": {
+   "fdc_id": "171098"
+  },
+  "Ingwer": {
+   "fdc_id": "169231"
+  },
+  "Ingwer oder Galgant": {
+   "fdc_id": "169231"
+  },
+  "italienische Kräuter, getrocknet": {
+   "fdc_id": "171328"
+  },
+  "Oregano, getrocknet": {
+   "fdc_id": "171328"
+  },
+  "Majoran, getrocknet": {
+   "fdc_id": "170928"
+  },
+  "Rosmarin, getrocknet": {
+   "fdc_id": "171333"
+  },
+  "Thymian, getrocknet": {
+   "fdc_id": "170938"
+  },
+  "Kabeljaufilet": {
+   "fdc_id": "171955"
+  },
+  "Lachsfilet": {
+   "fdc_id": "175167"
+  },
+  "Thunfisch im eigenen Saft": {
+   "fdc_id": "171986",
+   "overrides": {
+    "can": 150.0
+   }
+  },
+  "Kalamata-Oliven": {
+   "fdc_id": "169094"
+  },
+  "schwarze Oliven": {
+   "fdc_id": "169094"
+  },
+  "Kapern": {
+   "fdc_id": "172238",
+   "overrides": {
+    "tbsp": 9.0
+   }
+  },
+  "Karotte": {
+   "fdc_id": "170393",
+   "overrides": {
+    "piece": 80.0
+   }
+  },
+  "Karotten": {
+   "fdc_id": "170393",
+   "overrides": {
+    "piece": 80.0
+   }
+  },
+  "Möhren": {
+   "fdc_id": "170393"
+  },
+  "Kichererbsen": {
+   "fdc_id": "173800",
+   "overrides": {
+    "can": 240.0
+   }
+  },
+  "Kidneybohnen": {
+   "fdc_id": "174285",
+   "overrides": {
+    "can": 240.0
+   }
+  },
+  "Kidneybohnen (abgetropft)": {
+   "fdc_id": "174285"
+  },
+  "schwarze Bohnen": {
+   "fdc_id": "175188",
+   "overrides": {
+    "can": 240.0
+   }
+  },
+  "Mais": {
+   "fdc_id": "169214",
+   "overrides": {
+    "can": 285.0
+   }
+  },
+  "Mais (abgetropft)": {
+   "fdc_id": "169214"
+  },
+  "Knoblauch": {
+   "fdc_id": "169230",
+   "overrides": {
+    "clove": 3.0
+   }
+  },
+  "Knoblauchpulver": {
+   "fdc_id": "171325"
+  },
+  "Kochsahne 15 %": {
+   "fdc_id": "171255",
+   "overrides": {
+    "density": 1.01
+   }
+  },
+  "Kokosmilch": {
+   "fdc_id": "170173",
+   "overrides": {
+    "can": 400.0,
+    "density": 0.97
+   }
+  },
+  "Kokosmilch, light": {
+   "fdc_id": "170173",
+   "overrides": {
+    "density": 0.97
+   }
+  },
+  "Kopfsalat": {
+   "fdc_id": "168429",
+   "overrides": {
+    "piece": 250.0
+   }
+  },
+  "Römersalat": {
+   "fdc_id": "169247",
+   "overrides": {
+    "piece": 300.0
+   }
+  },
+  "Rucola": {
+   "fdc_id": "169387"
+  },
+  "Koriander": {
+   "fdc_id": "169997",
+   "overrides": {
+    "bunch": 25.0
+   }
+  },
+  "Koriander, gemahlen": {
+   "fdc_id": "170922"
+  },
+  "Kreuzkümmel, gemahlen": {
+   "fdc_id": "170923"
+  },
+  "Kümmel, gemahlen": {
+   "fdc_id": "170918"
+  },
+  "Kurkuma": {
+   "fdc_id": "172231"
+  },
+  "Zimt": {
+   "fdc_id": "171320",
+   "overrides": {
+    "pinch": 0.3
+   }
+  },
+  "Muskatnuss": {
+   "fdc_id": "171326",
+   "overrides": {
+    "pinch": 0.2
+   }
+  },
+  "Pfeffer": {
+   "fdc_id": "170931",
+   "overrides": {
+    "pinch": 0.2
+   }
+  },
+  "Pfefferkörner": {
+   "fdc_id": "170931"
+  },
+  "Sichuanpfeffer, gemahlen": {
+   "fdc_id": "170931"
+  },
+  "Safranfäden": {
+   "fdc_id": "170934",
+   "overrides": {
+    "pinch": 0.05
+   }
+  },
+  "Paprikapulver, edelsüß": {
+   "fdc_id": "171329"
+  },
+  "Paprikapulver, geräuchert": {
+   "fdc_id": "171329"
+  },
+  "Lorbeerblätter": {
+   "fdc_id": "170917",
+   "overrides": {
+    "piece": 0.2
+   }
+  },
+  "Kürbiskerne": {
+   "fdc_id": "170556"
+  },
+  "Lauch": {
+   "fdc_id": "169246",
+   "overrides": {
+    "piece": 200.0
+   }
+  },
+  "Mandelblättchen": {
+   "fdc_id": "170567"
+  },
+  "Walnüsse": {
+   "fdc_id": "170187"
+  },
+  "Pistazien": {
+   "fdc_id": "170184"
+  },
+  "Mango": {
+   "fdc_id": "169910",
+   "overrides": {
+    "piece": 300.0
+   }
+  },
+  "Milch": {
+   "fdc_id": "171265",
+   "overrides": {
+    "density": 1.03
+   }
+  },
+  "Minze": {
+   "fdc_id": "173475",
+   "overrides": {
+    "bunch": 25.0
+   }
+  },
+  "Mirin": {
+   "fdc_id": "167723",
+   "overrides": {
+    "tbsp": 15.0
+   }
+  },
+  "trockener Weißwein": {
+   "fdc_id": "174837",
+   "overrides": {
+    "density": 0.99
+   }
+  },
+  "Mozzarella": {
+   "fdc_id": "170845"
+  },
+  "Ricotta": {
+   "fdc_id": "170851"
+  },
+  "Parmesan": {
+   "fdc_id": "170848"
+  },
+  "saure Sahne": {
+   "fdc_id": "171257"
+  },
+  "Schmand": {
+   "fdc_id": "171257"
+  },
+  "Olivenöl": {
+   "fdc_id": "171413",
+   "overrides": {
+    "tbsp": 13.5,
+    "tsp": 4.5
+   }
+  },
+  "Rapsöl": {
+   "fdc_id": "172336",
+   "overrides": {
+    "tbsp": 14.0,
+    "tsp": 4.7
+   }
+  },
+  "Sesamöl": {
+   "fdc_id": "171016",
+   "overrides": {
+    "tsp": 4.5
+   }
+  },
+  "Pak Choi": {
+   "fdc_id": "170390",
+   "overrides": {
+    "piece": 150.0
+   }
+  },
+  "Pitabrote": {
+   "fdc_id": "174915",
+   "overrides": {
+    "piece": 60.0
+   }
+  },
+  "Weizentortillas": {
+   "fdc_id": "175037",
+   "overrides": {
+    "piece": 45.0
+   }
+  },
+  "Vollkorn-Tortillas": {
+   "fdc_id": "175037",
+   "overrides": {
+    "piece": 45.0
+   }
+  },
+  "Proteinpulver Vanille": {
+   "fdc_id": "173177"
+  },
+  "Quinoa": {
+   "fdc_id": "168874"
+  },
+  "Reisessig": {
+   "fdc_id": "173469",
+   "overrides": {
+    "tbsp": 15.0
+   }
+  },
+  "Rotweinessig": {
+   "fdc_id": "172240",
+   "overrides": {
+    "tbsp": 15.0
+   }
+  },
+  "Weißweinessig": {
+   "fdc_id": "173469",
+   "overrides": {
+    "tbsp": 15.0
+   }
+  },
+  "Reispapierblätter": {
+   "fdc_id": "169742",
+   "overrides": {
+    "piece": 8.0
+   }
+  },
+  "Rindergulasch": {
+   "fdc_id": "171206"
+  },
+  "Rinderhack": {
+   "fdc_id": "174036"
+  },
+  "Rinderhack, mager": {
+   "fdc_id": "174030"
+  },
+  "Rinderhüftsteak": {
+   "fdc_id": "174763"
+  },
+  "Rinderhüftsteaks": {
+   "fdc_id": "174763"
+  },
+  "Schweinefilet": {
+   "fdc_id": "168249"
+  },
+  "Schweinehack": {
+   "fdc_id": "167902"
+  },
+  "Rolle Blätterteig (Kühlregal)": {
+   "fdc_id": "172790",
+   "overrides": {
+    "piece": 275.0
+   }
+  },
+  "Rote Bete, vorgegart": {
+   "fdc_id": "169146"
+  },
+  "rote Chili": {
+   "fdc_id": "170106",
+   "overrides": {
+    "piece": 15.0
+   }
+  },
+  "rote Chilis": {
+   "fdc_id": "170106",
+   "overrides": {
+    "piece": 15.0
+   }
+  },
+  "rote Zwiebel": {
+   "fdc_id": "170000",
+   "overrides": {
+    "piece": 110.0
+   }
+  },
+  "rote Zwiebeln": {
+   "fdc_id": "170000",
+   "overrides": {
+    "piece": 110.0
+   }
+  },
+  "Zwiebel": {
+   "fdc_id": "170000",
+   "overrides": {
+    "piece": 110.0
+   }
+  },
+  "Zwiebeln": {
+   "fdc_id": "170000",
+   "overrides": {
+    "piece": 110.0
+   }
+  },
+  "Rotkohl": {
+   "fdc_id": "169977"
+  },
+  "Weißkohl": {
+   "fdc_id": "169975"
+  },
+  "Salsa": {
+   "fdc_id": "174524",
+   "overrides": {
+    "tbsp": 16.0
+   }
+  },
+  "Schnittlauch": {
+   "fdc_id": "169994",
+   "overrides": {
+    "bunch": 25.0
+   }
+  },
+  "Seidentofu": {
+   "fdc_id": "172449"
+  },
+  "Tofu, natur": {
+   "fdc_id": "172448"
+  },
+  "Senf, mittelscharf": {
+   "fdc_id": "172234",
+   "overrides": {
+    "tbsp": 15.0,
+    "tsp": 5.0
+   }
+  },
+  "Sesam": {
+   "fdc_id": "170150",
+   "overrides": {
+    "tbsp": 9.0,
+    "tsp": 3.0
+   }
+  },
+  "Sojasauce": {
+   "fdc_id": "174277",
+   "overrides": {
+    "tbsp": 16.0,
+    "tsp": 5.0
+   }
+  },
+  "Sojasprossen": {
+   "fdc_id": "169957"
+  },
+  "Speisestärke": {
+   "fdc_id": "169698",
+   "overrides": {
+    "tbsp": 8.0,
+    "tsp": 2.7
+   }
+  },
+  "Sriracha": {
+   "fdc_id": "171186",
+   "overrides": {
+    "tsp": 6.0
+   }
+  },
+  "Stange Staudensellerie": {
+   "fdc_id": "169988",
+   "overrides": {
+    "piece": 40.0
+   }
+  },
+  "Stangen Staudensellerie": {
+   "fdc_id": "169988",
+   "overrides": {
+    "piece": 40.0
+   }
+  },
+  "Stängel Zitronengras": {
+   "fdc_id": "168573",
+   "overrides": {
+    "piece": 20.0
+   }
+  },
+  "Süßkartoffeln": {
+   "fdc_id": "168482",
+   "overrides": {
+    "piece": 250.0
+   }
+  },
+  "Tahini": {
+   "fdc_id": "170189",
+   "overrides": {
+    "tbsp": 15.0
+   }
+  },
+  "Tamarindenpaste": {
+   "fdc_id": "167763",
+   "overrides": {
+    "tbsp": 18.0
+   }
+  },
+  "Vanilleextrakt": {
+   "fdc_id": "173471",
+   "overrides": {
+    "tsp": 4.2
+   }
+  },
+  "Vollkornbrot": {
+   "fdc_id": "172688"
+  },
+  "Zartbitter-Schokodrops": {
+   "fdc_id": "170272"
+  },
+  "Zartbitterschokolade": {
+   "fdc_id": "170272"
+  },
+  "Zitrone": {
+   "fdc_id": "167746",
+   "overrides": {
+    "piece": 60.0
+   }
+  },
+  "Zitronen": {
+   "fdc_id": "167746",
+   "overrides": {
+    "piece": 60.0
+   }
+  },
+  "Zitronensaft": {
+   "fdc_id": "167747",
+   "overrides": {
+    "tbsp": 15.0
+   }
+  },
+  "Zucchini": {
+   "fdc_id": "169291",
+   "overrides": {
+    "piece": 200.0
+   }
+  },
+  "Zuckerschoten": {
+   "fdc_id": "170010"
+  },
+  "Zweig Rosmarin": {
+   "fdc_id": "171333",
+   "overrides": {
+    "piece": 0.5
+   }
+  }
+ }
+}

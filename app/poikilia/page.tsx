@@ -66,7 +66,35 @@ export default function Poikilia() {
               Beta-Tester werden →
             </ObfuscatedEmail>
             <p className="font-mono text-[12px] text-secondary mt-4 mb-0">
-              Nur Android. Deine Adresse nutze ich nur für die Testerliste im Play Store.
+              Nur Android. Deine Adresse nutze ich nur für die Testerliste im Play Store. iPhone? <a href="#iphone">Hier entlang.</a>
+            </p>
+          </section>
+          <section
+            id="iphone"
+            data-reveal
+            className="scroll-mt-24 bg-background nb-border nb-shadow rounded-2xl p-7 md:p-10 mb-12"
+          >
+            <SectionLabel>iPhone? Kein Problem</SectionLabel>
+            <h2 className="text-[24px] md:text-[34px] font-bold tracking-[-0.02em] mb-4">Poikilia im Browser</h2>
+            <p className="text-[17px] leading-[1.7] text-body-text m-0 mb-4 max-w-[720px]">
+              Für den App Store will Apple 99 € im Jahr. Davon gehe ich ehrlich gesagt lieber essen – sehr vielfältig,
+              versteht sich. Deshalb gibt es Poikilia für iPhone erst mal als Web-App: dieselbe App, läuft im Browser
+              und auch offline.
+            </p>
+            <ol className="list-decimal pl-5 text-[16px] leading-[1.7] text-body-text mb-6 max-w-[720px]">
+              <li>In <strong>Safari</strong> öffnen (aktuelles iOS, ab 18.2).</li>
+              <li><strong>Teilen → Zum Home-Bildschirm</strong> – dann startet sie wie eine App.</li>
+              <li>Deine Daten bleiben im Browser auf deinem Gerät. Feedback gerne per Mail.</li>
+            </ol>
+            <a
+              href="/poikilia/app/"
+              className="inline-block font-bold text-[16px] bg-foreground text-background nb-border nb-shadow-sm nb-press rounded-xl px-[26px] py-[14px] no-underline hover:text-background"
+            >
+              Web-App öffnen →
+            </a>
+            <p className="font-mono text-[12px] text-secondary mt-4 mb-0">
+              Im Browser fehlen der Link-Import von Rezeptseiten und der Handy-Wecker; Rezepte per KI einfügen geht.
+              Der erste Start lädt ca. 20 MB.
             </p>
           </section>
           <div className="flex flex-wrap gap-4">

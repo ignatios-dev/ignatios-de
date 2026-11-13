@@ -1,0 +1,277 @@
+[
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Pad Thai mit Garnelen",
+    "base_servings": 2,
+    "tags": ["asiatisch", "thailändisch", "garnelen", "schnell"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Reisbandnudeln", "amount": 150, "unit": "g", "category": "asian" },
+      { "id": "02", "name": "Garnelen, roh (TK)", "amount": 200, "unit": "g", "category": "frozen" },
+      { "id": "03", "name": "Eier", "amount": 2, "category": "dairy" },
+      { "id": "04", "name": "Sojasprossen", "amount": 100, "unit": "g", "category": "produce" },
+      { "id": "05", "name": "Frühlingszwiebeln", "amount": 3, "category": "produce" },
+      { "id": "06", "name": "geröstete Erdnüsse", "amount": 30, "unit": "g", "category": "dry_goods" },
+      { "id": "07", "name": "Fischsauce", "amount": 2, "unit": "tbsp", "category": "asian" },
+      { "id": "08", "name": "Tamarindenpaste", "amount": 1, "unit": "tbsp", "category": "asian" },
+      { "id": "09", "name": "brauner Zucker", "amount": 1, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "10", "name": "Limette", "amount": 1, "category": "produce" },
+      { "id": "11", "name": "Rapsöl", "amount": 1, "unit": "tbsp", "category": "dry_goods" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Nudeln einweichen", "content": "{01} in heißem Wasser einweichen und abgießen.", "timer_seconds": 480 },
+      { "id": "s2", "title": "Sauce", "content": "{07}, {08} und {09} verrühren." },
+      { "id": "s3", "title": "Garnelen", "content": "{11} im Wok stark erhitzen, {02} darin braten und an den Rand schieben.", "timer_seconds": 120 },
+      { "id": "s4", "title": "Ei und Nudeln", "content": "{03} in den Wok schlagen und verrühren, bis sie stocken. Nudeln und Sauce dazugeben und schwenken.", "timer_seconds": 120 },
+      { "id": "s5", "title": "Finish", "content": "{04} und {05} (in Ringen) unterheben. {06} hacken, darüberstreuen und mit {10} in Spalten servieren." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Grünes Thai-Curry mit Hähnchen",
+    "base_servings": 3,
+    "tags": ["asiatisch", "thailändisch", "hähnchen"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Hähnchenbrust", "amount": 450, "unit": "g", "category": "meat_fish" },
+      { "id": "02", "name": "Kokosmilch", "amount": 1, "unit": "can", "category": "canned" },
+      { "id": "03", "name": "grüne Currypaste", "amount": 2, "unit": "tbsp", "category": "asian" },
+      { "id": "04", "name": "Zucchini", "amount": 1, "category": "produce" },
+      { "id": "05", "name": "rote Paprika", "amount": 1, "category": "produce" },
+      { "id": "06", "name": "Zuckerschoten", "amount": 150, "unit": "g", "category": "produce" },
+      { "id": "07", "name": "Fischsauce", "amount": 1, "unit": "tbsp", "category": "asian" },
+      { "id": "08", "name": "Limette", "amount": 1, "category": "produce" },
+      { "id": "09", "name": "Thai-Basilikum", "amount": 1, "unit": "bunch", "category": "asian" },
+      { "id": "10", "name": "Jasminreis", "amount": 210, "unit": "g", "category": "dry_goods" },
+      { "id": "11", "name": "Rapsöl", "amount": 1, "unit": "tbsp", "category": "dry_goods" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Reis", "content": "{10} nach Packungsanleitung garen.", "timer_seconds": 900 },
+      { "id": "s2", "title": "Paste anrösten", "content": "{03} in {11} anrösten, bis sie duftet. Dann {02} dazugießen.", "timer_seconds": 60 },
+      { "id": "s3", "title": "Hähnchen", "content": "{01} in Streifen schneiden und in der Sauce garen.", "timer_seconds": 360 },
+      { "id": "s4", "title": "Gemüse", "content": "{04} und {05} in Streifen schneiden, mit {06} dazugeben und bissfest garen.", "timer_seconds": 240 },
+      { "id": "s5", "title": "Abschmecken", "content": "Mit {07} und dem Saft von {08} abschmecken, {09} unterheben und mit Reis servieren." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Gebratener Reis mit Ei und Gemüse",
+    "description": "Resteverwertung für Reis vom Vortag.",
+    "base_servings": 2,
+    "tags": ["asiatisch", "chinesisch", "vegetarisch", "schnell"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "gekochter Jasminreis vom Vortag", "amount": 400, "unit": "g", "category": "dry_goods" },
+      { "id": "02", "name": "Eier", "amount": 3, "category": "dairy" },
+      { "id": "03", "name": "Erbsen (TK)", "amount": 150, "unit": "g", "category": "frozen" },
+      { "id": "04", "name": "Karotte", "amount": 1, "category": "produce" },
+      { "id": "05", "name": "Frühlingszwiebeln", "amount": 3, "category": "produce" },
+      { "id": "06", "name": "Sojasauce", "amount": 3, "unit": "tbsp", "category": "asian" },
+      { "id": "07", "name": "Sesamöl", "amount": 1, "unit": "tsp", "category": "asian" },
+      { "id": "08", "name": "Knoblauch", "amount": 2, "unit": "clove", "category": "produce" },
+      { "id": "09", "name": "Rapsöl", "amount": 1, "unit": "tbsp", "category": "dry_goods" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Gemüse", "content": "{04} fein würfeln, {05} in Ringe schneiden, {08} hacken. {09} im Wok erhitzen und Karotte, Knoblauch und die weißen Zwiebelringe anbraten.", "timer_seconds": 120 },
+      { "id": "s2", "title": "Ei", "content": "{02} hineinschlagen und unter Rühren stocken lassen.", "timer_seconds": 60 },
+      { "id": "s3", "title": "Reis", "content": "{01} und {03} dazugeben und bei hoher Hitze braten, bis der Reis leicht knusprig ist.", "timer_seconds": 240 },
+      { "id": "s4", "title": "Würzen", "content": "Mit {06} und {07} würzen und mit dem Grün der Frühlingszwiebeln bestreuen." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Mapo Tofu",
+    "description": "Sichuan-Klassiker, hier mit milder Schärfe.",
+    "base_servings": 2,
+    "tags": ["asiatisch", "chinesisch", "schwein"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Seidentofu", "amount": 400, "unit": "g", "category": "other" },
+      { "id": "02", "name": "Schweinehack", "amount": 150, "unit": "g", "category": "meat_fish" },
+      { "id": "03", "name": "Doubanjiang (Chili-Bohnenpaste)", "amount": 1.5, "unit": "tbsp", "category": "asian" },
+      { "id": "04", "name": "Knoblauch", "amount": 2, "unit": "clove", "category": "produce" },
+      { "id": "05", "name": "Ingwer", "amount": 10, "unit": "g", "category": "produce" },
+      { "id": "06", "name": "Hühnerbrühe", "amount": 200, "unit": "ml", "category": "dry_goods" },
+      { "id": "07", "name": "Sojasauce", "amount": 1, "unit": "tbsp", "category": "asian" },
+      { "id": "08", "name": "Speisestärke", "amount": 2, "unit": "tsp", "category": "dry_goods" },
+      { "id": "09", "name": "Frühlingszwiebeln", "amount": 2, "category": "produce" },
+      { "id": "10", "name": "Sichuanpfeffer, gemahlen", "amount": 0.5, "unit": "tsp", "category": "asian" },
+      { "id": "11", "name": "Rapsöl", "amount": 1, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "12", "name": "Jasminreis", "amount": 150, "unit": "g", "category": "dry_goods" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Reis", "content": "{12} nach Packungsanleitung garen.", "timer_seconds": 900 },
+      { "id": "s2", "title": "Tofu", "content": "{01} in 2 cm große Würfel schneiden und vorsichtig in leicht gesalzenem, siedendem Wasser ziehen lassen.", "timer_seconds": 120 },
+      { "id": "s3", "title": "Hack", "content": "{11} erhitzen, {02} krümelig braten. {03}, {04} und {05} (beides gehackt) mitbraten, bis das Öl rot wird.", "timer_seconds": 240 },
+      { "id": "s4", "title": "Schmoren", "content": "{06} und {07} dazugeben, Tofu abgießen und vorsichtig unterheben. Kurz köcheln lassen.", "timer_seconds": 180 },
+      { "id": "s5", "title": "Binden", "content": "{08} mit 2 EL Wasser anrühren, einrühren und aufkochen. Mit {10} und {09} (in Ringen) bestreuen." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Schnelle Miso-Ramen",
+    "base_servings": 2,
+    "tags": ["asiatisch", "japanisch", "suppe", "schnell"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Ramen-Nudeln", "amount": 160, "unit": "g", "category": "asian" },
+      { "id": "02", "name": "Hühnerbrühe", "amount": 1, "unit": "l", "category": "dry_goods" },
+      { "id": "03", "name": "helle Misopaste", "amount": 2, "unit": "tbsp", "category": "asian" },
+      { "id": "04", "name": "Eier", "amount": 2, "category": "dairy" },
+      { "id": "05", "name": "Pak Choi", "amount": 2, "category": "produce" },
+      { "id": "06", "name": "Champignons", "amount": 150, "unit": "g", "category": "produce" },
+      { "id": "07", "name": "Frühlingszwiebeln", "amount": 2, "category": "produce" },
+      { "id": "08", "name": "Sojasauce", "amount": 1, "unit": "tbsp", "category": "asian" },
+      { "id": "09", "name": "Sesamöl", "amount": 1, "unit": "tsp", "category": "asian" },
+      { "id": "10", "name": "Ingwer", "amount": 10, "unit": "g", "category": "produce" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Eier", "content": "{04} in kochendes Wasser legen, wachsweich kochen und abschrecken.", "timer_seconds": 390 },
+      { "id": "s2", "title": "Brühe", "content": "{02} mit {10} (in Scheiben) und {06} (in Scheiben) aufkochen und köcheln lassen.", "timer_seconds": 300 },
+      { "id": "s3", "title": "Nudeln und Pak Choi", "content": "{01} und {05} (halbiert) in die Brühe geben und garen.", "timer_seconds": 180 },
+      { "id": "s4", "title": "Würzen", "content": "Topf vom Herd nehmen. {03} mit etwas Brühe glatt rühren, mit {08} einrühren. Nicht mehr kochen lassen." },
+      { "id": "s5", "title": "Anrichten", "content": "In Schalen füllen, Eier halbieren und darauflegen. {07} in Ringe schneiden, darüberstreuen und mit {09} beträufeln." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Bibimbap mit Rinderhack",
+    "base_servings": 2,
+    "tags": ["asiatisch", "koreanisch", "rind", "high-protein"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Rundkornreis", "amount": 150, "unit": "g", "category": "dry_goods" },
+      { "id": "02", "name": "Rinderhack", "amount": 200, "unit": "g", "category": "meat_fish" },
+      { "id": "03", "name": "Blattspinat", "amount": 150, "unit": "g", "category": "produce" },
+      { "id": "04", "name": "Karotte", "amount": 1, "category": "produce" },
+      { "id": "05", "name": "Gurke", "amount": 0.5, "category": "produce" },
+      { "id": "06", "name": "Eier", "amount": 2, "category": "dairy" },
+      { "id": "07", "name": "Gochujang", "amount": 2, "unit": "tbsp", "category": "asian" },
+      { "id": "08", "name": "Sojasauce", "amount": 2, "unit": "tbsp", "category": "asian" },
+      { "id": "09", "name": "Sesamöl", "amount": 2, "unit": "tsp", "category": "asian" },
+      { "id": "10", "name": "Sesam", "amount": 1, "unit": "tsp", "category": "asian" },
+      { "id": "11", "name": "Knoblauch", "amount": 1, "unit": "clove", "category": "produce" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Reis", "content": "{01} nach Packungsanleitung garen.", "timer_seconds": 900 },
+      { "id": "s2", "title": "Hack", "content": "{02} krümelig braten, mit {08} und {11} (gepresst) würzen.", "timer_seconds": 300 },
+      { "id": "s3", "title": "Gemüse", "content": "{03} in der Pfanne zusammenfallen lassen. {04} und {05} in feine Streifen schneiden.", "timer_seconds": 60 },
+      { "id": "s4", "title": "Spiegeleier", "content": "{06} als Spiegeleier braten.", "timer_seconds": 180 },
+      { "id": "s5", "title": "Anrichten", "content": "Reis in Schalen geben, Hack und Gemüse sternförmig darauf verteilen, Ei in die Mitte setzen. {07} mit {09} verrühren, darübergeben und mit {10} bestreuen." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Teriyaki-Lachs mit Pak Choi",
+    "base_servings": 2,
+    "tags": ["asiatisch", "japanisch", "fisch", "schnell"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Lachsfilet", "amount": 300, "unit": "g", "category": "meat_fish" },
+      { "id": "02", "name": "Sojasauce", "amount": 3, "unit": "tbsp", "category": "asian" },
+      { "id": "03", "name": "Mirin", "amount": 2, "unit": "tbsp", "category": "asian" },
+      { "id": "04", "name": "Honig", "amount": 1, "unit": "tbsp", "category": "other" },
+      { "id": "05", "name": "Ingwer", "amount": 10, "unit": "g", "category": "produce" },
+      { "id": "06", "name": "Pak Choi", "amount": 2, "category": "produce" },
+      { "id": "07", "name": "Jasminreis", "amount": 150, "unit": "g", "category": "dry_goods" },
+      { "id": "08", "name": "Sesam", "amount": 1, "unit": "tsp", "category": "asian" },
+      { "id": "09", "name": "Rapsöl", "amount": 1, "unit": "tsp", "category": "dry_goods" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Reis", "content": "{07} nach Packungsanleitung garen.", "timer_seconds": 900 },
+      { "id": "s2", "title": "Sauce", "content": "{02}, {03}, {04} und {05} (gerieben) verrühren." },
+      { "id": "s3", "title": "Lachs braten", "content": "{01} in {09} auf der Hautseite braten, dann wenden.", "timer_seconds": 240 },
+      { "id": "s4", "title": "Glasieren", "content": "Sauce in die Pfanne gießen und den Lachs darin glasieren, bis die Sauce sirupartig ist.", "timer_seconds": 120 },
+      { "id": "s5", "title": "Pak Choi", "content": "{06} halbieren und in einem Topf mit wenig Wasser zugedeckt dämpfen. Alles mit Reis anrichten und mit {08} bestreuen.", "timer_seconds": 180 }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Chana Masala",
+    "description": "Kichererbsen-Curry, vegan und sehr sättigend.",
+    "base_servings": 4,
+    "tags": ["indisch", "vegan", "meal-prep", "one-pot"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Kichererbsen", "amount": 2, "unit": "can", "category": "canned" },
+      { "id": "02", "name": "Zwiebeln", "amount": 2, "category": "produce" },
+      { "id": "03", "name": "Knoblauch", "amount": 3, "unit": "clove", "category": "produce" },
+      { "id": "04", "name": "Ingwer", "amount": 20, "unit": "g", "category": "produce" },
+      { "id": "05", "name": "gehackte Tomaten", "amount": 1, "unit": "can", "category": "canned" },
+      { "id": "06", "name": "Garam Masala", "amount": 2, "unit": "tsp", "category": "spices" },
+      { "id": "07", "name": "Kreuzkümmel, gemahlen", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "08", "name": "Kurkuma", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "09", "name": "Chilipulver", "amount": 0.5, "unit": "tsp", "category": "spices" },
+      { "id": "10", "name": "Rapsöl", "amount": 2, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "11", "name": "Koriander", "amount": 0.5, "unit": "bunch", "category": "produce" },
+      { "id": "12", "name": "Zitrone", "amount": 1, "category": "produce" },
+      { "id": "13", "name": "Basmatireis", "amount": 250, "unit": "g", "category": "dry_goods" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Reis", "content": "{13} nach Packungsanleitung garen.", "timer_seconds": 900 },
+      { "id": "s2", "title": "Zwiebeln", "content": "{02} fein würfeln und in {10} goldbraun braten.", "timer_seconds": 480 },
+      { "id": "s3", "title": "Gewürze", "content": "{03} und {04} fein hacken, mit {06}, {07}, {08} und {09} dazugeben und kurz rösten.", "timer_seconds": 60 },
+      { "id": "s4", "title": "Köcheln", "content": "{05} und {01} (abgespült) mit 150 ml Wasser dazugeben und sämig einkochen.", "timer_seconds": 900 },
+      { "id": "s5", "title": "Abschmecken", "content": "Mit dem Saft von {12} abschmecken, {11} hacken und darüberstreuen. Mit Reis servieren." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Sommerrollen mit Garnelen und Erdnuss-Dip",
+    "base_servings": 2,
+    "tags": ["asiatisch", "vietnamesisch", "garnelen", "snack"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Reispapierblätter", "amount": 8, "category": "asian" },
+      { "id": "02", "name": "Reisnudeln, dünn", "amount": 50, "unit": "g", "category": "asian" },
+      { "id": "03", "name": "Garnelen, gekocht", "amount": 150, "unit": "g", "category": "meat_fish" },
+      { "id": "04", "name": "Gurke", "amount": 0.5, "category": "produce" },
+      { "id": "05", "name": "Karotte", "amount": 1, "category": "produce" },
+      { "id": "06", "name": "Minze", "amount": 0.5, "unit": "bunch", "category": "produce" },
+      { "id": "07", "name": "Koriander", "amount": 0.5, "unit": "bunch", "category": "produce" },
+      { "id": "08", "name": "Kopfsalat", "amount": 0.5, "category": "produce" },
+      { "id": "09", "name": "Hoisinsauce", "amount": 3, "unit": "tbsp", "category": "asian" },
+      { "id": "10", "name": "Erdnussbutter", "amount": 1, "unit": "tbsp", "category": "dry_goods" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Nudeln", "content": "{02} mit kochendem Wasser übergießen, ziehen lassen und abgießen.", "timer_seconds": 240 },
+      { "id": "s2", "title": "Schneiden", "content": "{04} und {05} in feine Stifte schneiden, {03} längs halbieren, Blätter von {06}, {07} und {08} abzupfen." },
+      { "id": "s3", "title": "Rollen", "content": "{01} einzeln kurz in lauwarmes Wasser tauchen, mit Salat, Nudeln, Gemüse, Kräutern und Garnelen belegen und eng aufrollen." },
+      { "id": "s4", "title": "Dip", "content": "{09} mit {10} und 2 EL warmem Wasser glatt rühren und zu den Rollen servieren." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Udon-Pfanne mit Rindfleisch",
+    "base_servings": 2,
+    "tags": ["asiatisch", "japanisch", "rind", "schnell"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Udon-Nudeln, vorgegart", "amount": 400, "unit": "g", "category": "asian" },
+      { "id": "02", "name": "Rinderhüftsteak", "amount": 250, "unit": "g", "category": "meat_fish" },
+      { "id": "03", "name": "Paprika", "amount": 1, "category": "produce" },
+      { "id": "04", "name": "Weißkohl", "amount": 150, "unit": "g", "category": "produce" },
+      { "id": "05", "name": "Frühlingszwiebeln", "amount": 2, "category": "produce" },
+      { "id": "06", "name": "Sojasauce", "amount": 2, "unit": "tbsp", "category": "asian" },
+      { "id": "07", "name": "Austernsauce", "amount": 2, "unit": "tbsp", "category": "asian" },
+      { "id": "08", "name": "Rapsöl", "amount": 1, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "09", "name": "Knoblauch", "amount": 1, "unit": "clove", "category": "produce" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Schneiden", "content": "{02} quer zur Faser in dünne Streifen schneiden. {03} und {04} in Streifen, {05} in Stücke schneiden." },
+      { "id": "s2", "title": "Fleisch", "content": "{08} im Wok stark erhitzen und das Fleisch scharf anbraten, herausnehmen.", "timer_seconds": 90 },
+      { "id": "s3", "title": "Gemüse", "content": "Gemüse und {09} (gehackt) im Wok pfannenrühren.", "timer_seconds": 180 },
+      { "id": "s4", "title": "Nudeln", "content": "{01} lockern, mit Fleisch, {06} und {07} dazugeben und alles schwenken, bis es heiß ist.", "timer_seconds": 120 }
+    ]
+  }
+]

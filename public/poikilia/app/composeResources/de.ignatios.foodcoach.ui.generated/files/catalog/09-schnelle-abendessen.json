@@ -1,0 +1,256 @@
+[
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Hähnchen-Fajitas",
+    "base_servings": 3,
+    "tags": ["mexikanisch", "hähnchen", "schnell", "high-protein"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Hähnchenbrust", "amount": 450, "unit": "g", "category": "meat_fish" },
+      { "id": "02", "name": "Paprika, bunt", "amount": 3, "category": "produce" },
+      { "id": "03", "name": "Zwiebel", "amount": 1, "category": "produce" },
+      { "id": "04", "name": "Taco-Gewürz", "amount": 2, "unit": "tbsp", "category": "spices" },
+      { "id": "05", "name": "Weizentortillas", "amount": 6, "category": "bakery" },
+      { "id": "06", "name": "Limette", "amount": 1, "category": "produce" },
+      { "id": "07", "name": "saure Sahne", "amount": 100, "unit": "g", "category": "dairy" },
+      { "id": "08", "name": "Rapsöl", "amount": 1, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "09", "name": "Avocado", "amount": 1, "category": "produce" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Schneiden", "content": "{01}, {02} und {03} in Streifen schneiden. Hähnchen mit {04} mischen." },
+      { "id": "s2", "title": "Hähnchen", "content": "{08} stark erhitzen und das Hähnchen scharf anbraten.", "timer_seconds": 300 },
+      { "id": "s3", "title": "Gemüse", "content": "Paprika und Zwiebel dazugeben und bissfest mitbraten. Mit dem Saft von {06} beträufeln.", "timer_seconds": 240 },
+      { "id": "s4", "title": "Servieren", "content": "{05} erwärmen. {09} in Scheiben schneiden. Alles mit {07} am Tisch selbst füllen." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Knoblauch-Garnelen mit Zucchini-Nudeln",
+    "description": "Low Carb in 15 Minuten.",
+    "base_servings": 2,
+    "tags": ["garnelen", "schnell", "high-protein", "low-carb"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Garnelen, roh (TK)", "amount": 300, "unit": "g", "category": "frozen" },
+      { "id": "02", "name": "Zucchini", "amount": 2, "category": "produce" },
+      { "id": "03", "name": "Knoblauch", "amount": 3, "unit": "clove", "category": "produce" },
+      { "id": "04", "name": "Chiliflocken", "amount": 1, "unit": "pinch", "category": "spices" },
+      { "id": "05", "name": "Kirschtomaten", "amount": 150, "unit": "g", "category": "produce" },
+      { "id": "06", "name": "Zitrone", "amount": 1, "category": "produce" },
+      { "id": "07", "name": "Olivenöl", "amount": 2, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "08", "name": "Petersilie", "amount": 0.5, "unit": "bunch", "category": "produce" },
+      { "id": "09", "name": "Parmesan", "amount": 20, "unit": "g", "category": "dairy" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Zoodles", "content": "{02} mit einem Spiralschneider in Nudeln schneiden." },
+      { "id": "s2", "title": "Garnelen", "content": "{07} erhitzen, {03} (in Scheiben) und {04} kurz anbraten. {01} dazugeben und braten, bis sie rosa sind.", "timer_seconds": 180 },
+      { "id": "s3", "title": "Gemüse", "content": "{05} halbieren, mit den Zucchini-Nudeln dazugeben und nur kurz schwenken, damit sie Biss behalten.", "timer_seconds": 120 },
+      { "id": "s4", "title": "Servieren", "content": "Mit Saft von {06} abschmecken, {08} (gehackt) und {09} (gehobelt) darüberstreuen." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Putengeschnetzeltes mit Champignons",
+    "base_servings": 3,
+    "tags": ["pute", "schnell", "high-protein"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Putenbrust", "amount": 450, "unit": "g", "category": "meat_fish" },
+      { "id": "02", "name": "Champignons", "amount": 250, "unit": "g", "category": "produce" },
+      { "id": "03", "name": "Zwiebel", "amount": 1, "category": "produce" },
+      { "id": "04", "name": "Kochsahne 15 %", "amount": 200, "unit": "ml", "category": "dairy" },
+      { "id": "05", "name": "Gemüsebrühe", "amount": 150, "unit": "ml", "category": "dry_goods" },
+      { "id": "06", "name": "Senf, mittelscharf", "amount": 1, "unit": "tsp", "category": "canned" },
+      { "id": "07", "name": "Petersilie", "amount": 0.5, "unit": "bunch", "category": "produce" },
+      { "id": "08", "name": "Langkornreis", "amount": 210, "unit": "g", "category": "dry_goods" },
+      { "id": "09", "name": "Rapsöl", "amount": 1, "unit": "tbsp", "category": "dry_goods" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Reis", "content": "{08} nach Packungsanleitung garen.", "timer_seconds": 900 },
+      { "id": "s2", "title": "Fleisch", "content": "{01} in Streifen schneiden und in {09} portionsweise scharf anbraten, herausnehmen.", "timer_seconds": 240 },
+      { "id": "s3", "title": "Pilze", "content": "{03} würfeln, {02} in Scheiben schneiden und beides in der Pfanne braten.", "timer_seconds": 300 },
+      { "id": "s4", "title": "Sauce", "content": "Mit {05} ablöschen, {04} und {06} einrühren und kurz einkochen. Fleisch zurück in die Sauce geben und {07} (gehackt) darüberstreuen.", "timer_seconds": 180 }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Hüftsteak mit Rosmarinkartoffeln und grünen Bohnen",
+    "base_servings": 2,
+    "tags": ["rind", "high-protein", "ofen"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Rinderhüftsteaks", "amount": 360, "unit": "g", "category": "meat_fish" },
+      { "id": "02", "name": "Drillinge (kleine Kartoffeln)", "amount": 500, "unit": "g", "category": "produce" },
+      { "id": "03", "name": "grüne Bohnen", "amount": 250, "unit": "g", "category": "produce" },
+      { "id": "04", "name": "Olivenöl", "amount": 2, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "05", "name": "Rosmarin, getrocknet", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "06", "name": "Knoblauch", "amount": 2, "unit": "clove", "category": "produce" },
+      { "id": "07", "name": "Butter", "amount": 10, "unit": "g", "category": "dairy" },
+      { "id": "08", "name": "grobes Salz", "amount": 2, "unit": "pinch", "category": "spices" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Kartoffeln", "content": "Ofen auf 220 °C vorheizen. {02} halbieren, mit der Hälfte von {04}, {05} und {08} mischen und rösten.", "timer_seconds": 1800 },
+      { "id": "s2", "title": "Bohnen", "content": "{03} putzen und in Salzwasser bissfest garen.", "timer_seconds": 420 },
+      { "id": "s3", "title": "Steak, erste Seite", "content": "{01} trocken tupfen. Restliches Öl in einer Pfanne sehr heiß werden lassen und die Steaks anbraten.", "timer_seconds": 150 },
+      { "id": "s4", "title": "Steak, zweite Seite", "content": "Wenden, {07} und {06} (angedrückt) dazugeben und die Steaks mit der Butter übergießen.", "timer_seconds": 150 },
+      { "id": "s5", "title": "Ruhen", "content": "Steaks auf einem Brett ruhen lassen, dann aufschneiden.", "timer_seconds": 300 }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Kabeljau in Tomaten-Oliven-Sauce",
+    "base_servings": 2,
+    "tags": ["fisch", "mediterran", "schnell"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Kabeljaufilet", "amount": 300, "unit": "g", "category": "meat_fish" },
+      { "id": "02", "name": "gehackte Tomaten", "amount": 1, "unit": "can", "category": "canned" },
+      { "id": "03", "name": "schwarze Oliven", "amount": 40, "unit": "g", "category": "canned" },
+      { "id": "04", "name": "Kapern", "amount": 1, "unit": "tbsp", "category": "canned" },
+      { "id": "05", "name": "Knoblauch", "amount": 2, "unit": "clove", "category": "produce" },
+      { "id": "06", "name": "Zwiebel", "amount": 1, "category": "produce" },
+      { "id": "07", "name": "Olivenöl", "amount": 1, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "08", "name": "Basilikum", "amount": 0.5, "unit": "bunch", "category": "produce" },
+      { "id": "09", "name": "Ciabatta", "amount": 100, "unit": "g", "category": "bakery" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Sauce", "content": "{06} und {05} hacken und in {07} anschwitzen. {02}, {03} und {04} dazugeben und köcheln lassen.", "timer_seconds": 480 },
+      { "id": "s2", "title": "Fisch", "content": "{01} in die Sauce legen und zugedeckt garziehen lassen.", "timer_seconds": 480 },
+      { "id": "s3", "title": "Servieren", "content": "{08} darüberzupfen und mit {09} zum Auftunken servieren." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Hähnchen-Satay mit Gurkensalat",
+    "base_servings": 3,
+    "tags": ["asiatisch", "hähnchen", "high-protein"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Hähnchenbrust", "amount": 450, "unit": "g", "category": "meat_fish" },
+      { "id": "02", "name": "Erdnussbutter", "amount": 3, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "03", "name": "Sojasauce", "amount": 2, "unit": "tbsp", "category": "asian" },
+      { "id": "04", "name": "Kokosmilch", "amount": 200, "unit": "ml", "category": "canned" },
+      { "id": "05", "name": "Currypulver", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "06", "name": "Limette", "amount": 1, "category": "produce" },
+      { "id": "07", "name": "Gurke", "amount": 1, "category": "produce" },
+      { "id": "08", "name": "Reisessig", "amount": 2, "unit": "tbsp", "category": "asian" },
+      { "id": "09", "name": "Jasminreis", "amount": 210, "unit": "g", "category": "dry_goods" },
+      { "id": "10", "name": "Rapsöl", "amount": 1, "unit": "tsp", "category": "dry_goods" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Marinieren", "content": "{01} in Streifen schneiden, mit {05}, der Hälfte von {03} und 3 EL von {04} mischen und ziehen lassen.", "timer_seconds": 900 },
+      { "id": "s2", "title": "Reis und Salat", "content": "{09} nach Packungsanleitung garen. {07} in dünne Scheiben hobeln und mit {08} mischen.", "timer_seconds": 900 },
+      { "id": "s3", "title": "Braten", "content": "Fleisch auf Spieße stecken und in {10} in einer Grillpfanne rundherum braten.", "timer_seconds": 480 },
+      { "id": "s4", "title": "Erdnusssauce", "content": "{02} mit restlicher Kokosmilch, restlicher Sojasauce und dem Saft von {06} unter Rühren erwärmen und zu den Spießen servieren.", "timer_seconds": 120 }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Schweinefilet mit Honig-Senf-Kruste und Möhren",
+    "base_servings": 3,
+    "tags": ["schwein", "ofen", "high-protein"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Schweinefilet", "amount": 500, "unit": "g", "category": "meat_fish" },
+      { "id": "02", "name": "Senf, mittelscharf", "amount": 2, "unit": "tbsp", "category": "canned" },
+      { "id": "03", "name": "Honig", "amount": 1, "unit": "tbsp", "category": "other" },
+      { "id": "04", "name": "Thymian, getrocknet", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "05", "name": "Möhren", "amount": 500, "unit": "g", "category": "produce" },
+      { "id": "06", "name": "Rapsöl", "amount": 1, "unit": "tbsp", "category": "dry_goods" },
+      { "id": "07", "name": "mehligkochende Kartoffeln", "amount": 600, "unit": "g", "category": "produce" },
+      { "id": "08", "name": "Milch", "amount": 150, "unit": "ml", "category": "dairy" },
+      { "id": "09", "name": "Butter", "amount": 15, "unit": "g", "category": "dairy" },
+      { "id": "10", "name": "Muskatnuss", "amount": 1, "unit": "pinch", "category": "spices" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Anbraten", "content": "Ofen auf 180 °C vorheizen. {01} in {06} rundherum anbraten.", "timer_seconds": 300 },
+      { "id": "s2", "title": "Kruste", "content": "{02}, {03} und {04} verrühren und das Filet damit einstreichen. {05} längs halbieren und um das Fleisch legen." },
+      { "id": "s3", "title": "Garen", "content": "Im Ofen garen, bis das Fleisch innen zartrosa ist (60 °C Kerntemperatur).", "timer_seconds": 1200 },
+      { "id": "s4", "title": "Püree", "content": "{07} schälen, in Salzwasser weich kochen und mit {08}, {09} und {10} stampfen.", "timer_seconds": 1200 },
+      { "id": "s5", "title": "Ruhen", "content": "Fleisch abgedeckt ruhen lassen, dann in Scheiben schneiden.", "timer_seconds": 300 }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Hähnchen-Hummus-Wraps",
+    "base_servings": 2,
+    "tags": ["hähnchen", "schnell", "high-protein"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Weizentortillas", "amount": 2, "category": "bakery" },
+      { "id": "02", "name": "Hähnchenbrust", "amount": 250, "unit": "g", "category": "meat_fish" },
+      { "id": "03", "name": "Hummus", "amount": 4, "unit": "tbsp", "category": "other" },
+      { "id": "04", "name": "Gurke", "amount": 0.5, "category": "produce" },
+      { "id": "05", "name": "Tomate", "amount": 1, "category": "produce" },
+      { "id": "06", "name": "Rucola", "amount": 30, "unit": "g", "category": "produce" },
+      { "id": "07", "name": "Paprikapulver, edelsüß", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "08", "name": "Olivenöl", "amount": 1, "unit": "tsp", "category": "dry_goods" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Hähnchen", "content": "{02} in Streifen schneiden, mit {07} würzen und in {08} durchbraten.", "timer_seconds": 360 },
+      { "id": "s2", "title": "Gemüse", "content": "{04} und {05} in Streifen schneiden." },
+      { "id": "s3", "title": "Wickeln", "content": "{01} mit {03} bestreichen, mit {06}, Gemüse und Hähnchen belegen und fest einrollen." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Thai-Basilikum-Hähnchen mit Spiegelei",
+    "base_servings": 2,
+    "tags": ["asiatisch", "thailändisch", "hähnchen", "schnell"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Hähnchenbrust, fein gehackt", "amount": 300, "unit": "g", "category": "meat_fish" },
+      { "id": "02", "name": "Knoblauch", "amount": 4, "unit": "clove", "category": "produce" },
+      { "id": "03", "name": "rote Chilis", "amount": 2, "category": "produce" },
+      { "id": "04", "name": "Thai-Basilikum", "amount": 1, "unit": "bunch", "category": "asian" },
+      { "id": "05", "name": "Austernsauce", "amount": 1, "unit": "tbsp", "category": "asian" },
+      { "id": "06", "name": "Sojasauce", "amount": 1, "unit": "tbsp", "category": "asian" },
+      { "id": "07", "name": "Fischsauce", "amount": 1, "unit": "tsp", "category": "asian" },
+      { "id": "08", "name": "Zucker", "amount": 1, "unit": "tsp", "category": "dry_goods" },
+      { "id": "09", "name": "Eier", "amount": 2, "category": "dairy" },
+      { "id": "10", "name": "Jasminreis", "amount": 150, "unit": "g", "category": "dry_goods" },
+      { "id": "11", "name": "Rapsöl", "amount": 2, "unit": "tbsp", "category": "dry_goods" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Reis", "content": "{10} nach Packungsanleitung garen.", "timer_seconds": 900 },
+      { "id": "s2", "title": "Spiegeleier", "content": "{09} in der Hälfte von {11} bei hoher Hitze mit knusprigem Rand braten, beiseitestellen.", "timer_seconds": 180 },
+      { "id": "s3", "title": "Aromen", "content": "{02} und {03} im Mörser zerstoßen oder fein hacken und im restlichen Öl kurz anbraten.", "timer_seconds": 30 },
+      { "id": "s4", "title": "Hähnchen", "content": "{01} dazugeben und krümelig braten. {05}, {06}, {07} und {08} einrühren.", "timer_seconds": 240 },
+      { "id": "s5", "title": "Basilikum", "content": "Vom Herd nehmen, {04} (gezupft) unterheben und mit Reis und Spiegelei servieren." }
+    ]
+  },
+  {
+    "schema": "foodcoach.recipe/v1",
+    "origin": "ai_generated",
+    "title": "Hack-Paprika-Pfanne mit Bulgur und Feta",
+    "base_servings": 3,
+    "tags": ["rind", "one-pot", "high-protein"],
+    "source": { "name": "KI-generiert (Claude)" },
+    "ingredients": [
+      { "id": "01", "name": "Rinderhack", "amount": 400, "unit": "g", "category": "meat_fish" },
+      { "id": "02", "name": "Paprika", "amount": 3, "category": "produce" },
+      { "id": "03", "name": "Zwiebel", "amount": 1, "category": "produce" },
+      { "id": "04", "name": "Zucchini", "amount": 1, "category": "produce" },
+      { "id": "05", "name": "passierte Tomaten", "amount": 300, "unit": "ml", "category": "canned" },
+      { "id": "06", "name": "Paprikapulver, edelsüß", "amount": 1, "unit": "tsp", "category": "spices" },
+      { "id": "07", "name": "Feta", "amount": 100, "unit": "g", "category": "dairy" },
+      { "id": "08", "name": "Bulgur", "amount": 150, "unit": "g", "category": "dry_goods" },
+      { "id": "09", "name": "Olivenöl", "amount": 1, "unit": "tbsp", "category": "dry_goods" }
+    ],
+    "steps": [
+      { "id": "s1", "title": "Hack", "content": "{03} würfeln und in {09} anschwitzen. {01} dazugeben und krümelig braten.", "timer_seconds": 360 },
+      { "id": "s2", "title": "Gemüse", "content": "{02} und {04} würfeln, mit {06} dazugeben und mitbraten.", "timer_seconds": 300 },
+      { "id": "s3", "title": "Bulgur", "content": "{08}, {05} und 300 ml Wasser einrühren, aufkochen und zugedeckt bei kleiner Hitze quellen lassen.", "timer_seconds": 720 },
+      { "id": "s4", "title": "Servieren", "content": "{07} darüberbröseln." }
+    ]
+  }
+]
