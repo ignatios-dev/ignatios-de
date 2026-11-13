@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { ObfuscatedEmail } from './ObfuscatedEmail';
 
 export function Footer() {
   return (
@@ -14,7 +13,7 @@ export function Footer() {
         <Link href="/software/" className="nb-underline text-secondary no-underline hover:text-foreground">Software</Link>
         <a href="/apartments/index.html" className="nb-underline text-secondary no-underline hover:text-foreground">Griechenland</a>
         <Link href="/ueber-mich/" className="nb-underline text-secondary no-underline hover:text-foreground">Über mich</Link>
-        <ObfuscatedEmail className="nb-underline text-secondary no-underline hover:text-foreground">Impressum</ObfuscatedEmail>
+        <Link href="/impressum/" className="nb-underline text-secondary no-underline hover:text-foreground">Impressum</Link>
       </div>
     </footer>
   );
